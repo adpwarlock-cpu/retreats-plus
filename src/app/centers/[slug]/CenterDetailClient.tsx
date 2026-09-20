@@ -142,8 +142,8 @@ export default function CenterDetailClient({ center }: { center: RetreatCenter }
         </div>
 
         {/* Gallery Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-          <div className="md:col-span-2 relative aspect-[16/10] rounded-3xl overflow-hidden shadow-sm bg-stone-100">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-4">
+          <div className="lg:col-span-8 relative aspect-[16/10] rounded-3xl overflow-hidden shadow-md bg-stone-100 border border-stone-200/60">
             <Image
               src={selectedImage}
               alt={center.name}
@@ -153,13 +153,15 @@ export default function CenterDetailClient({ center }: { center: RetreatCenter }
               priority
             />
           </div>
-          <div className="flex flex-row md:flex-col gap-4 overflow-x-auto">
+          <div className="lg:col-span-4 grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-2 gap-3 content-start">
             {center.gallery.map((img, idx) => (
               <button
                 key={idx}
                 onClick={() => setSelectedImage(img)}
-                className={`relative aspect-[16/10] w-full rounded-2xl overflow-hidden border-2 transition-all shrink-0 ${
-                  selectedImage === img ? "border-primary-800 ring-2 ring-primary-700/30" : "border-transparent opacity-80 hover:opacity-100"
+                className={`relative aspect-[16/10] rounded-2xl overflow-hidden border-2 transition-all ${
+                  selectedImage === img
+                    ? "border-primary-800 ring-2 ring-primary-700/30 shadow-md scale-[1.02]"
+                    : "border-transparent opacity-80 hover:opacity-100 hover:scale-[1.01]"
                 }`}
               >
                 <Image
@@ -167,7 +169,7 @@ export default function CenterDetailClient({ center }: { center: RetreatCenter }
                   alt={`${center.name} ${idx + 1}`}
                   fill
                   className="object-cover"
-                  sizes="33vw"
+                  sizes="(max-width: 1024px) 25vw, 16vw"
                 />
               </button>
             ))}
