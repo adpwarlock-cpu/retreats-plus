@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo, useEffect, Suspense } from "react";
+import { useState, useMemo, useEffect, useRef, Suspense } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import { WELLNESS_CENTERS } from "@/data/centers";
 import { filterCenters, sortCenters } from "@/lib/filterUtils";
@@ -16,9 +16,10 @@ import {
   ShieldCheck,
   MapPin,
   Check,
-  ChevronLeft,
-  ChevronRight,
   Award,
+  Loader2,
+  ArrowUp,
+  CheckCircle2,
 } from "lucide-react";
 
 function SearchContent() {
@@ -39,15 +40,17 @@ function SearchContent() {
   const [sortBy, setSortBy] = useState("featured");
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
 
-  // Pagination state: 3 advertisers + 7 standard centers per page
-  const [currentPage, setCurrentPage] = useState(1);
-  const ADVERTISERS_PER_PAGE = 3;
-  const STANDARD_PER_PAGE = 7;
-  const TOTAL_PER_PAGE = ADVERTISERS_PER_PAGE + STANDARD_PER_PAGE;
+  // Progressive scroll loading state (like recovery.com: profiles continuously load as you scroll down)
+  const INITIAL_BATCH = 8;
+  const BATCH_SIZE = 6;
+  const [visibleCount, setVisibleCount] = useState(INITIAL_BATCH);
+  const [isLoadingMore, setIsLoadingMore] = useState(false);
+  const sentinelRef = useRef<HTMLDivElement | null>(null);
 
-  // Reset to page 1 whenever any filter changes
+  // Reset visibleCount whenever any filter changes
   useEffect(() => {
-    setCurrentPage(1);
+    setVisibleCount(INITIAL_BATCH);
+    setIsLoadingMore(false);
   }, [
     query,
     goal,
@@ -92,39 +95,57 @@ function SearchContent() {
     sortBy,
   ]);
 
-  // Pool of featured centers for advertisers
+  // Pool of featured centers for premier advertisers
   const featuredPool = useMemo(() => {
     return filteredCenters.filter((c) => c.badgeTier === "featured");
   }, [filteredCenters]);
 
-  // Determine total pages
-  const totalPages = useMemo(() => {
-    return Math.max(1, Math.ceil(filteredCenters.length / TOTAL_PER_PAGE));
-  }, [filteredCenters.length, TOTAL_PER_PAGE]);
-
-  // 3 Advertisers for current page
+  // Exactly 3 Featured Advertisers at the top of the feed
+  const ADVERTISERS_COUNT = 3;
   const pageAdvertisers = useMemo(() => {
     if (featuredPool.length === 0) {
-      return filteredCenters.slice(0, Math.min(ADVERTISERS_PER_PAGE, filteredCenters.length));
+      return filteredCenters.slice(0, Math.min(ADVERTISERS_COUNT, filteredCenters.length));
     }
-    if (featuredPool.length <= ADVERTISERS_PER_PAGE) {
-      return featuredPool;
-    }
-    const startIndex = ((currentPage - 1) * ADVERTISERS_PER_PAGE) % featuredPool.length;
-    const items = [];
-    for (let i = 0; i < ADVERTISERS_PER_PAGE; i++) {
-      items.push(featuredPool[(startIndex + i) % featuredPool.length]);
-    }
-    return items;
-  }, [featuredPool, filteredCenters, currentPage, ADVERTISERS_PER_PAGE]);
+    return featuredPool.slice(0, ADVERTISERS_COUNT);
+  }, [featuredPool, filteredCenters]);
 
-  // Standard centers for current page (excluding current page advertisers)
-  const pageStandardCenters = useMemo(() => {
+  // All standard directory profiles (excluding the 3 featured advertisers)
+  const standardCenters = useMemo(() => {
     const advertiserIds = new Set(pageAdvertisers.map((c) => c.id));
-    const availableStandard = filteredCenters.filter((c) => !advertiserIds.has(c.id));
-    const startIndex = (currentPage - 1) * STANDARD_PER_PAGE;
-    return availableStandard.slice(startIndex, startIndex + STANDARD_PER_PAGE);
-  }, [filteredCenters, pageAdvertisers, currentPage, STANDARD_PER_PAGE]);
+    return filteredCenters.filter((c) => !advertiserIds.has(c.id));
+  }, [filteredCenters, pageAdvertisers]);
+
+  // Currently visible standard profiles
+  const visibleStandardCenters = useMemo(() => {
+    return standardCenters.slice(0, visibleCount);
+  }, [standardCenters, visibleCount]);
+
+  const hasMore = visibleCount < standardCenters.length;
+
+  // IntersectionObserver for seamless infinite scrolling as user scrolls down
+  useEffect(() => {
+    if (!sentinelRef.current || !hasMore) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        const first = entries[0];
+        if (first.isIntersecting && !isLoadingMore && hasMore) {
+          setIsLoadingMore(true);
+          setTimeout(() => {
+            setVisibleCount((prev) => prev + BATCH_SIZE);
+            setIsLoadingMore(false);
+          }, 300);
+        }
+      },
+      { threshold: 0.1, rootMargin: "300px" }
+    );
+
+    const currentSentinel = sentinelRef.current;
+    observer.observe(currentSentinel);
+    return () => {
+      if (currentSentinel) observer.unobserve(currentSentinel);
+    };
+  }, [isLoadingMore, hasMore, standardCenters.length]);
 
   const handleResetFilters = () => {
     setQuery("");
@@ -138,7 +159,7 @@ function SearchContent() {
     setSupervision("all");
     setVerifiedOnly(false);
     setSortBy("featured");
-    setCurrentPage(1);
+    setVisibleCount(INITIAL_BATCH);
     router.push("/search");
   };
 
@@ -165,7 +186,8 @@ function SearchContent() {
             Explore Wellness Sanctuaries
           </h1>
           <p className="text-xs sm:text-sm text-stone-500 mt-1">
-            Showing <span className="font-semibold text-stone-900">{filteredCenters.length}</span> verified retreats matching your exact criteria
+            Showing <span className="font-semibold text-stone-900">{Math.min(filteredCenters.length, pageAdvertisers.length + visibleStandardCenters.length)}</span> of{" "}
+            <span className="font-semibold text-stone-900">{filteredCenters.length}</span> verified retreats matching your exact criteria
           </p>
         </div>
 
@@ -488,7 +510,7 @@ function SearchContent() {
             </div>
           )}
 
-          {/* Results: Horizontal List Layout or Empty State */}
+          {/* Results: Continuous Feed Layout (recovery.com style) */}
           {filteredCenters.length > 0 ? (
             <div className="space-y-8">
               {/* Section 1: 3 Featured Advertisers */}
@@ -514,15 +536,15 @@ function SearchContent() {
                       <AdvertisedCenterCard
                         key={`adv-${center.id}`}
                         center={center}
-                        rank={(currentPage - 1) * ADVERTISERS_PER_PAGE + index + 1}
+                        rank={index + 1}
                       />
                     ))}
                   </div>
                 </section>
               )}
 
-              {/* Section 2: Standard Free / Verified Profiles */}
-              {pageStandardCenters.length > 0 && (
+              {/* Section 2: Standard Free / Verified Profiles Continuous Feed */}
+              {visibleStandardCenters.length > 0 && (
                 <section className="space-y-4 pt-2">
                   <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-1 pb-2 border-b border-stone-200">
                     <div className="flex items-center gap-2">
@@ -531,7 +553,7 @@ function SearchContent() {
                         All Verified Sanctuaries & Directory Profiles
                       </h2>
                       <span className="bg-sand-100 text-stone-700 text-[10px] font-bold px-2 py-0.5 rounded-full">
-                        {pageStandardCenters.length} Listings on this page
+                        {visibleStandardCenters.length} of {standardCenters.length} Loaded
                       </span>
                     </div>
                     <span className="text-[11px] text-stone-500">
@@ -540,63 +562,52 @@ function SearchContent() {
                   </div>
 
                   <div className="space-y-4">
-                    {pageStandardCenters.map((center) => (
+                    {visibleStandardCenters.map((center) => (
                       <StandardCenterCard key={`std-${center.id}`} center={center} />
                     ))}
                   </div>
                 </section>
               )}
 
-              {/* Pagination Controls */}
-              {totalPages > 1 && (
-                <div className="pt-6 border-t border-stone-200 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-                  <p className="text-xs text-stone-500">
-                    Showing Page <span className="font-semibold text-stone-900">{currentPage}</span> of{" "}
-                    <span className="font-semibold text-stone-900">{totalPages}</span> ({filteredCenters.length} total sanctuaries)
-                  </p>
-
-                  <div className="flex items-center gap-2">
-                    <button
-                      onClick={() => {
-                        setCurrentPage((p) => Math.max(1, p - 1));
-                        window.scrollTo({ top: 100, behavior: "smooth" });
-                      }}
-                      disabled={currentPage === 1}
-                      className="flex items-center gap-1 px-3.5 py-2 text-xs font-bold rounded-xl border border-stone-200 text-stone-700 bg-white hover:bg-sand-50 disabled:opacity-40 disabled:cursor-not-allowed shadow-sm transition-all"
-                    >
-                      <ChevronLeft className="w-4 h-4" />
-                      Previous
-                    </button>
-
-                    <div className="flex items-center gap-1">
-                      {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
-                        <button
-                          key={page}
-                          onClick={() => {
-                            setCurrentPage(page);
-                            window.scrollTo({ top: 100, behavior: "smooth" });
-                          }}
-                          className={`w-8 h-8 rounded-xl text-xs font-bold transition-all shadow-sm ${
-                            currentPage === page
-                              ? "bg-primary-900 text-gold border border-gold"
-                              : "bg-white text-stone-700 border border-stone-200 hover:bg-sand-50"
-                          }`}
-                        >
-                          {page}
-                        </button>
-                      ))}
+              {/* Infinite Scroll Sentinel & Load More Trigger */}
+              {hasMore && (
+                <div ref={sentinelRef} className="py-8 flex flex-col items-center justify-center gap-3">
+                  {isLoadingMore ? (
+                    <div className="flex items-center gap-2.5 px-5 py-3 rounded-full bg-white border border-stone-200 shadow-sm text-xs font-semibold text-stone-700 animate-pulse">
+                      <Loader2 className="w-4 h-4 text-primary-800 animate-spin" />
+                      Loading more verified sanctuaries...
                     </div>
-
+                  ) : (
                     <button
                       onClick={() => {
-                        setCurrentPage((p) => Math.min(totalPages, p + 1));
-                        window.scrollTo({ top: 100, behavior: "smooth" });
+                        setIsLoadingMore(true);
+                        setTimeout(() => {
+                          setVisibleCount((prev) => prev + BATCH_SIZE);
+                          setIsLoadingMore(false);
+                        }, 200);
                       }}
-                      disabled={currentPage === totalPages}
-                      className="flex items-center gap-1 px-3.5 py-2 text-xs font-bold rounded-xl border border-stone-200 text-stone-700 bg-white hover:bg-sand-50 disabled:opacity-40 disabled:cursor-not-allowed shadow-sm transition-all"
+                      className="px-6 py-2.5 rounded-full bg-white hover:bg-sand-50 border border-stone-200 text-xs font-bold text-stone-700 shadow-sm transition-all hover:scale-[1.01] cursor-pointer"
                     >
-                      Next
-                      <ChevronRight className="w-4 h-4" />
+                      Load More Sanctuaries ({standardCenters.length - visibleCount} remaining)
+                    </button>
+                  )}
+                </div>
+              )}
+
+              {/* End of results indicator */}
+              {!hasMore && standardCenters.length > 0 && (
+                <div className="py-8 text-center space-y-3 border-t border-stone-200">
+                  <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-sand-100 text-stone-700 text-xs font-semibold">
+                    <CheckCircle2 className="w-4 h-4 text-emerald-600" />
+                    You've viewed all {filteredCenters.length} verified sanctuaries
+                  </div>
+                  <div>
+                    <button
+                      onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+                      className="inline-flex items-center gap-1.5 text-xs font-bold text-primary-900 hover:text-primary-700 underline underline-offset-4 cursor-pointer"
+                    >
+                      <ArrowUp className="w-3.5 h-3.5" />
+                      Back to top
                     </button>
                   </div>
                 </div>
