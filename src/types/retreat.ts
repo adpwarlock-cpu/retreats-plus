@@ -42,6 +42,7 @@ export interface CenterReview {
   title: string;
   comment: string;
   verifiedStay: boolean;
+  source?: 'google' | 'verified_guest' | 'editorial';
 }
 
 export interface RetreatCenter {
@@ -70,6 +71,7 @@ export interface RetreatCenter {
     phone?: string;
     email?: string;
     website?: string;
+    googleReviewsUrl?: string;
   };
 }
 

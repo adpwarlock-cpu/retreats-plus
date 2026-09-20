@@ -183,7 +183,7 @@ function SearchContent() {
       <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-6 border-b border-stone-200">
         <div>
           <h1 className="font-serif text-3xl font-bold text-stone-900">
-            Explore Wellness Sanctuaries
+            Explore Wellness Retreats
           </h1>
           <p className="text-xs sm:text-sm text-stone-500 mt-1">
             Showing <span className="font-semibold text-stone-900">{Math.min(filteredCenters.length, pageAdvertisers.length + visibleStandardCenters.length)}</span> of{" "}

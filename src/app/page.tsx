@@ -2,9 +2,9 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { WELLNESS_CENTERS } from "@/data/centers";
-import CenterCard from "@/components/search/CenterCard";
 import {
   Search,
   Sparkles,
@@ -21,26 +21,169 @@ import {
   Sun,
   Activity,
   CheckCircle2,
+  MapPin,
+  Building2,
+  BookOpen,
+  FileText,
+  Clock,
+  ExternalLink,
 } from "lucide-react";
+
+const wellnessCities = [
+  {
+    city: "Ubud",
+    country: "Bali, Indonesia",
+    tag: "Spiritual Heart & Ayurvedic Healing",
+    retreatCount: "6 Sanctuaries",
+    image: "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=800&q=80",
+    query: "Ubud",
+    highlights: "COMO Shambhala, Fivelements, Svarga Loka",
+  },
+  {
+    city: "Koh Samui",
+    country: "Thailand",
+    tag: "Tropical Detox & Pilates Reformer",
+    retreatCount: "5 Sanctuaries",
+    image: "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=800&q=80",
+    query: "Koh+Samui",
+    highlights: "Kamalaya, Absolute Sanctuary, Samahita",
+  },
+  {
+    city: "Hua Hin",
+    country: "Thailand",
+    tag: "Global Pioneer in Destination Wellness",
+    retreatCount: "World Flagship",
+    image: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=800&q=80",
+    query: "Hua+Hin",
+    highlights: "Chiva-Som International Health Resort",
+  },
+  {
+    city: "Phuket",
+    country: "Thailand",
+    tag: "Integrated Medical Wellness & Sports",
+    retreatCount: "4 Sanctuaries",
+    image: "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?auto=format&fit=crop&w=800&q=80",
+    query: "Phuket",
+    highlights: "Amanpuri, Thanyapura, The LifeCo",
+  },
+  {
+    city: "Kerala & Western Ghats",
+    country: "India",
+    tag: "5,000-Year Cradle of Classical Ayurveda",
+    retreatCount: "7 Sanctuaries",
+    image: "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=800&q=80",
+    query: "Kerala",
+    highlights: "Somatheeram, Kalari Kovilakom, Kairali",
+  },
+  {
+    city: "Himalayas & Rishikesh",
+    country: "India",
+    tag: "Sacred Mountain Healing & Meditation",
+    retreatCount: "3 Sanctuaries",
+    image: "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=800&q=80",
+    query: "Himalayas",
+    highlights: "Ananda in the Himalayas, Six Senses Vana",
+  },
+  {
+    city: "Kandy & Tangalle",
+    country: "Sri Lanka",
+    tag: "Mountain Mists & Coastal Ayurvedic Wisdom",
+    retreatCount: "4 Sanctuaries",
+    image: "https://images.unsplash.com/photo-1546708973-b339540b5162?auto=format&fit=crop&w=800&q=80",
+    query: "Sri+Lanka",
+    highlights: "Santani, Ulpotha, Barberyn Reef",
+  },
+  {
+    city: "Kyoto & Ishikawa",
+    country: "Japan",
+    tag: "Zen Monastic Stillness & Thermal Onsens",
+    retreatCount: "3 Sanctuaries",
+    image: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=800&q=80",
+    query: "Japan",
+    highlights: "HOSHINOYA Kyoto, Beniya Mukayu, Amanemu",
+  },
+  {
+    city: "Da Nang & Hue",
+    country: "Vietnam",
+    tag: "Coastal Breathwork & Mineral Springs",
+    retreatCount: "3 Sanctuaries",
+    image: "https://images.unsplash.com/photo-1559592413-7cec4d0cae2b?auto=format&fit=crop&w=800&q=80",
+    query: "Vietnam",
+    highlights: "TIA Wellness Resort, Alba Wellness Valley",
+  },
+  {
+    city: "Noonu Atoll & Bodufushi",
+    country: "Maldives",
+    tag: "Ocean Thalassotherapy & Sound Discovery",
+    retreatCount: "3 Sanctuaries",
+    image: "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=800&q=80",
+    query: "Maldives",
+    highlights: "JOALI BEING, Soneva Soul, Noku Maldives",
+  },
+  {
+    city: "Paro & Phobjikha",
+    country: "Bhutan",
+    tag: "High-Altitude Longevity & Hot Stone Baths",
+    retreatCount: "3 Sanctuaries",
+    image: "https://images.unsplash.com/photo-1578637387939-43c525550085?auto=format&fit=crop&w=800&q=80",
+    query: "Bhutan",
+    highlights: "Amankora, Six Senses Bhutan, Gangtey Lodge",
+  },
+  {
+    city: "Montreux & Lake Geneva",
+    country: "Switzerland",
+    tag: "Pioneering Cellular Rejuvenation & Epigenetics",
+    retreatCount: "World Flagship",
+    image: "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=800&q=80",
+    query: "Switzerland",
+    highlights: "Clinique La Prairie Longevity Hub",
+  },
+];
+
+const contentArticles = [
+  {
+    title: "The Clinical Distinction: Ayurvedic Panchakarma vs. Modern Medical Fasting",
+    category: "Clinical Comparison",
+    readTime: "8 min read",
+    image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=600&q=80",
+    summary: "A physician-reviewed breakdown contrasting 5-action Vedic purification (Vamana, Virechana, Basti) with European Modern Mayr diagnostic gut cleansing.",
+    source: "RETREATS+ Clinical Advisory Board",
+    tag: "Evidence-Based",
+  },
+  {
+    title: "Nervous System Recalibration: Overcoming Executive Burnout in Southeast Asia",
+    category: "Neuro-Recovery",
+    readTime: "6 min read",
+    image: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=600&q=80",
+    summary: "Why vagus nerve stimulation, digital detox, and circadian light therapies achieve deeper cortisol reset than standard vacations.",
+    source: "Integrative Neuroscience Review",
+    tag: "Mental Health",
+  },
+  {
+    title: "Cellular Longevity & Epigenetic Clocks: Inside Asia's Most Advanced Medical Retreats",
+    category: "Longevity Medicine",
+    readTime: "9 min read",
+    image: "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=600&q=80",
+    summary: "How cutting-edge centers in Thailand, Japan, and Switzerland use NAD+ infusions, hyperbaric oxygen (HBOT), and biological age tracking.",
+    source: "Global Longevity Institute",
+    tag: "Biohacking",
+  },
+  {
+    title: "The Complete Guide to Authentic Ayurvedic Retreats: Kerala vs. Sri Lanka",
+    category: "Destination Guide",
+    readTime: "7 min read",
+    image: "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=600&q=80",
+    summary: "How to distinguish NABH-accredited medical hospitals from tourist day spas, pack for monsoon treatments, and navigate Sattvic diets.",
+    source: "Asian Heritage Medicine Council",
+    tag: "Travel Guide",
+  },
+];
 
 export default function HomePage() {
   const router = useRouter();
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedGoal, setSelectedGoal] = useState("all");
   const [selectedContinent, setSelectedContinent] = useState("all");
-
-  const handleSearch = (e: React.FormEvent) => {
-    e.preventDefault();
-    const params = new URLSearchParams();
-    if (searchQuery.trim()) params.set("query", searchQuery.trim());
-    if (selectedGoal !== "all") params.set("goal", selectedGoal);
-    if (selectedContinent !== "all") params.set("continent", selectedContinent);
-    router.push(`/search?${params.toString()}`);
-  };
-
-  const featuredCenters = WELLNESS_CENTERS.filter(
-    (c) => c.badgeTier === "featured" || c.badgeTier === "verified"
-  ).slice(0, 6);
 
   const categories = [
     {
@@ -79,6 +222,15 @@ export default function HomePage() {
       description: "Sacred ceremonies, sound alchemy, silent meditation, and emotional release.",
     },
   ];
+
+  const handleSearch = (e: React.FormEvent) => {
+    e.preventDefault();
+    const params = new URLSearchParams();
+    if (searchQuery.trim()) params.set("query", searchQuery.trim());
+    if (selectedGoal !== "all") params.set("goal", selectedGoal);
+    if (selectedContinent !== "all") params.set("continent", selectedContinent);
+    router.push(`/search?${params.toString()}`);
+  };
 
   return (
     <div className="space-y-20 pb-20">
@@ -253,32 +405,152 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Featured Sanctuaries */}
+      {/* Explore by City & Destination */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col sm:flex-row sm:items-end justify-between mb-8 gap-4">
           <div>
             <div className="flex items-center gap-2 mb-1">
-              <Award className="w-4 h-4 text-gold" />
+              <MapPin className="w-4 h-4 text-gold" />
               <span className="text-xs font-bold uppercase tracking-widest text-primary-800">
-                Hand-Selected Excellence
+                Curated Destination Hubs
               </span>
             </div>
             <h2 className="font-serif text-3xl font-bold text-stone-900">
-              Featured Wellness Sanctuaries
+              Explore Wellness Retreats by City & Destination
             </h2>
+            <p className="text-stone-500 text-xs sm:text-sm mt-1">
+              Browse world-renowned wellness havens across Asia and beyond, each offering distinct microclimates, healing traditions, and sanctuary clusters.
+            </p>
           </div>
           <Link
             href="/search"
-            className="text-xs font-bold text-primary-800 hover:text-primary-950 flex items-center gap-1.5"
+            className="text-xs font-bold text-primary-800 hover:text-primary-950 flex items-center gap-1.5 shrink-0"
           >
-            View all 100+ retreats
+            <span>View all destinations</span>
             <ArrowRight className="w-4 h-4" />
           </Link>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {featuredCenters.map((center) => (
-            <CenterCard key={center.id} center={center} />
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          {wellnessCities.map((dest) => (
+            <Link
+              key={dest.city}
+              href={`/search?query=${dest.query}`}
+              className="group relative bg-white rounded-3xl overflow-hidden border border-stone-200/80 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col hover:-translate-y-1"
+            >
+              {/* Destination Image */}
+              <div className="relative aspect-[16/10] w-full overflow-hidden bg-stone-100">
+                <Image
+                  src={dest.image}
+                  alt={dest.city}
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-500"
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
+                
+                {/* Retreat Count Badge */}
+                <div className="absolute top-3 right-3 bg-white/95 backdrop-blur-md px-2.5 py-1 rounded-full text-[11px] font-bold text-primary-900 shadow-sm border border-stone-200/60">
+                  {dest.retreatCount}
+                </div>
+
+                {/* City & Country on Image */}
+                <div className="absolute bottom-3 inset-x-3 text-white">
+                  <span className="text-[10px] uppercase font-bold tracking-wider text-sand-200 block">
+                    {dest.country}
+                  </span>
+                  <h3 className="font-serif text-xl font-bold tracking-tight">
+                    {dest.city}
+                  </h3>
+                </div>
+              </div>
+
+              {/* Destination Body */}
+              <div className="p-4 flex-1 flex flex-col justify-between space-y-3 bg-white">
+                <p className="text-xs font-semibold text-primary-900 leading-snug">
+                  {dest.tag}
+                </p>
+                <div className="pt-2 border-t border-stone-100 flex items-center justify-between text-[11px] text-stone-500">
+                  <span className="truncate max-w-[180px]">{dest.highlights}</span>
+                  <ArrowRight className="w-3.5 h-3.5 text-primary-800 shrink-0 group-hover:translate-x-1 transition-transform" />
+                </div>
+              </div>
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      {/* Wellness Guides, Expert Articles & Content Sources */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex flex-col sm:flex-row sm:items-end justify-between mb-8 gap-4">
+          <div>
+            <div className="flex items-center gap-2 mb-1">
+              <BookOpen className="w-4 h-4 text-gold" />
+              <span className="text-xs font-bold uppercase tracking-widest text-primary-800">
+                Authoritative Knowledge Base
+              </span>
+            </div>
+            <h2 className="font-serif text-3xl font-bold text-stone-900">
+              Wellness Guides, Expert Articles & Content Sources
+            </h2>
+            <p className="text-stone-500 text-xs sm:text-sm mt-1">
+              Physician-reviewed guides and evidence-based research on Panchakarma, biological age reversal, executive burnout recovery, and holistic medicine.
+            </p>
+          </div>
+          <Link
+            href="/search"
+            className="text-xs font-bold text-primary-800 hover:text-primary-950 flex items-center gap-1.5 shrink-0"
+          >
+            <span>Explore all resources</span>
+            <ArrowRight className="w-4 h-4" />
+          </Link>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          {contentArticles.map((article, idx) => (
+            <div
+              key={idx}
+              className="bg-white rounded-3xl overflow-hidden border border-stone-200/80 shadow-sm hover:shadow-lg transition-all flex flex-col justify-between"
+            >
+              <div>
+                <div className="relative aspect-[16/10] w-full overflow-hidden bg-stone-100">
+                  <Image
+                    src={article.image}
+                    alt={article.title}
+                    fill
+                    className="object-cover"
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
+                  />
+                  <div className="absolute top-3 left-3 bg-primary-950/80 backdrop-blur-md text-gold text-[10px] font-bold px-2.5 py-0.5 rounded-full border border-gold/30">
+                    {article.category}
+                  </div>
+                </div>
+                <div className="p-5 space-y-2.5">
+                  <div className="flex items-center gap-2 text-[11px] text-stone-400">
+                    <Clock className="w-3 h-3" />
+                    <span>{article.readTime}</span>
+                    <span>•</span>
+                    <span className="text-emerald-700 font-medium">{article.tag}</span>
+                  </div>
+                  <h3 className="font-serif text-base font-bold text-stone-900 leading-snug hover:text-primary-800 transition-colors cursor-pointer">
+                    {article.title}
+                  </h3>
+                  <p className="text-xs text-stone-600 leading-relaxed line-clamp-3">
+                    {article.summary}
+                  </p>
+                </div>
+              </div>
+
+              <div className="p-5 pt-0">
+                <div className="pt-3 border-t border-stone-100 flex items-center justify-between text-[11px] text-stone-500">
+                  <span className="font-medium truncate">{article.source}</span>
+                  <span className="text-primary-800 font-bold hover:underline cursor-pointer flex items-center gap-1">
+                    Read Guide
+                    <ArrowRight className="w-3 h-3" />
+                  </span>
+                </div>
+              </div>
+            </div>
           ))}
         </div>
       </section>
