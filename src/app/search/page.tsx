@@ -243,7 +243,8 @@ function SearchContent() {
               className="w-full text-xs bg-sand-50 border border-stone-200 rounded-xl p-2.5 focus:outline-none cursor-pointer"
             >
               <option value="all">All Regions</option>
-              <option value="Asia-Pacific">Asia-Pacific (South East Asia)</option>
+              <option value="Asia-Pacific">Asia-Pacific (East, South & SE Asia)</option>
+              <option value="Africa & Middle East">Middle East & Africa</option>
               <option value="Europe">Europe</option>
               <option value="North America">North America</option>
               <option value="Latin America">Latin America</option>
@@ -263,13 +264,20 @@ function SearchContent() {
               <option value="all">All Countries</option>
               <option value="Thailand">Thailand (Hua Hin, Koh Samui, Phuket, Bangkok)</option>
               <option value="Indonesia">Indonesia (Bali, Ubud, Nusa Dua, Mengwi)</option>
+              <option value="India">India (Bangalore, Dehradun, Himalayas)</option>
+              <option value="Japan">Japan (Mie, Ise-Shima)</option>
+              <option value="China">China (Suzhou, Yangcheng Lake)</option>
+              <option value="South Korea">South Korea (Hongcheon)</option>
+              <option value="Sri Lanka">Sri Lanka (Kandy, Knuckles)</option>
+              <option value="Bhutan">Bhutan (Paro, Punakha)</option>
+              <option value="Maldives">Maldives (Raa Atoll)</option>
+              <option value="Qatar">Qatar (Al Ruwais, Arabian Gulf)</option>
               <option value="Philippines">Philippines (Batangas, Lipa)</option>
               <option value="Malaysia">Malaysia (Ipoh, Perak)</option>
               <option value="Vietnam">Vietnam (Da Nang, Hue)</option>
               <option value="Cambodia">Cambodia (Koh Rong, Siem Reap)</option>
               <option value="Switzerland">Switzerland</option>
               <option value="Spain">Spain</option>
-              <option value="India">India</option>
               <option value="United States">United States</option>
             </select>
           </div>
