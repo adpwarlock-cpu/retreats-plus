@@ -1,10 +1,11 @@
 "use client";
 
-import { useState, useMemo, Suspense } from "react";
+import { useState, useMemo, useEffect, Suspense } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import { WELLNESS_CENTERS } from "@/data/centers";
 import { filterCenters, sortCenters } from "@/lib/filterUtils";
-import CenterCard from "@/components/search/CenterCard";
+import AdvertisedCenterCard from "@/components/search/AdvertisedCenterCard";
+import StandardCenterCard from "@/components/search/StandardCenterCard";
 import { FilterState } from "@/types/retreat";
 import {
   Search,
@@ -15,6 +16,9 @@ import {
   ShieldCheck,
   MapPin,
   Check,
+  ChevronLeft,
+  ChevronRight,
+  Award,
 } from "lucide-react";
 
 function SearchContent() {
@@ -34,6 +38,29 @@ function SearchContent() {
   const [verifiedOnly, setVerifiedOnly] = useState(searchParams.get("verified") === "true");
   const [sortBy, setSortBy] = useState("featured");
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
+
+  // Pagination state: 3 advertisers + 7 standard centers per page
+  const [currentPage, setCurrentPage] = useState(1);
+  const ADVERTISERS_PER_PAGE = 3;
+  const STANDARD_PER_PAGE = 7;
+  const TOTAL_PER_PAGE = ADVERTISERS_PER_PAGE + STANDARD_PER_PAGE;
+
+  // Reset to page 1 whenever any filter changes
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [
+    query,
+    goal,
+    continent,
+    country,
+    setting,
+    pricingTier,
+    modality,
+    dietary,
+    supervision,
+    verifiedOnly,
+    sortBy,
+  ]);
 
   // Compute filtered & sorted list
   const filteredCenters = useMemo(() => {
@@ -65,6 +92,40 @@ function SearchContent() {
     sortBy,
   ]);
 
+  // Pool of featured centers for advertisers
+  const featuredPool = useMemo(() => {
+    return filteredCenters.filter((c) => c.badgeTier === "featured");
+  }, [filteredCenters]);
+
+  // Determine total pages
+  const totalPages = useMemo(() => {
+    return Math.max(1, Math.ceil(filteredCenters.length / TOTAL_PER_PAGE));
+  }, [filteredCenters.length, TOTAL_PER_PAGE]);
+
+  // 3 Advertisers for current page
+  const pageAdvertisers = useMemo(() => {
+    if (featuredPool.length === 0) {
+      return filteredCenters.slice(0, Math.min(ADVERTISERS_PER_PAGE, filteredCenters.length));
+    }
+    if (featuredPool.length <= ADVERTISERS_PER_PAGE) {
+      return featuredPool;
+    }
+    const startIndex = ((currentPage - 1) * ADVERTISERS_PER_PAGE) % featuredPool.length;
+    const items = [];
+    for (let i = 0; i < ADVERTISERS_PER_PAGE; i++) {
+      items.push(featuredPool[(startIndex + i) % featuredPool.length]);
+    }
+    return items;
+  }, [featuredPool, filteredCenters, currentPage, ADVERTISERS_PER_PAGE]);
+
+  // Standard centers for current page (excluding current page advertisers)
+  const pageStandardCenters = useMemo(() => {
+    const advertiserIds = new Set(pageAdvertisers.map((c) => c.id));
+    const availableStandard = filteredCenters.filter((c) => !advertiserIds.has(c.id));
+    const startIndex = (currentPage - 1) * STANDARD_PER_PAGE;
+    return availableStandard.slice(startIndex, startIndex + STANDARD_PER_PAGE);
+  }, [filteredCenters, pageAdvertisers, currentPage, STANDARD_PER_PAGE]);
+
   const handleResetFilters = () => {
     setQuery("");
     setGoal("all");
@@ -77,6 +138,7 @@ function SearchContent() {
     setSupervision("all");
     setVerifiedOnly(false);
     setSortBy("featured");
+    setCurrentPage(1);
     router.push("/search");
   };
 
@@ -426,12 +488,119 @@ function SearchContent() {
             </div>
           )}
 
-          {/* Cards Grid or Empty State */}
+          {/* Results: Horizontal List Layout or Empty State */}
           {filteredCenters.length > 0 ? (
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-              {filteredCenters.map((center) => (
-                <CenterCard key={center.id} center={center} />
-              ))}
+            <div className="space-y-8">
+              {/* Section 1: 3 Featured Advertisers */}
+              {pageAdvertisers.length > 0 && (
+                <section className="space-y-4">
+                  <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-1 pb-2 border-b border-amber-200/80">
+                    <div className="flex items-center gap-2">
+                      <Sparkles className="w-4 h-4 text-amber-600 fill-amber-500 shrink-0" />
+                      <h2 className="font-serif text-lg font-bold text-stone-900">
+                        Featured Sponsors & Premier Partners
+                      </h2>
+                      <span className="bg-amber-100 text-amber-900 text-[10px] font-bold px-2 py-0.5 rounded-full border border-amber-300/60">
+                        {pageAdvertisers.length} Advertisers
+                      </span>
+                    </div>
+                    <span className="text-[11px] text-stone-500">
+                      Sponsored placements audited for medical credentials
+                    </span>
+                  </div>
+
+                  <div className="space-y-4">
+                    {pageAdvertisers.map((center, index) => (
+                      <AdvertisedCenterCard
+                        key={`adv-${center.id}`}
+                        center={center}
+                        rank={(currentPage - 1) * ADVERTISERS_PER_PAGE + index + 1}
+                      />
+                    ))}
+                  </div>
+                </section>
+              )}
+
+              {/* Section 2: Standard Free / Verified Profiles */}
+              {pageStandardCenters.length > 0 && (
+                <section className="space-y-4 pt-2">
+                  <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-1 pb-2 border-b border-stone-200">
+                    <div className="flex items-center gap-2">
+                      <ShieldCheck className="w-4 h-4 text-primary-800 shrink-0" />
+                      <h2 className="font-serif text-lg font-bold text-stone-900">
+                        All Verified Sanctuaries & Directory Profiles
+                      </h2>
+                      <span className="bg-sand-100 text-stone-700 text-[10px] font-bold px-2 py-0.5 rounded-full">
+                        {pageStandardCenters.length} Listings on this page
+                      </span>
+                    </div>
+                    <span className="text-[11px] text-stone-500">
+                      Free profile listings • Direct contact with zero markup
+                    </span>
+                  </div>
+
+                  <div className="space-y-4">
+                    {pageStandardCenters.map((center) => (
+                      <StandardCenterCard key={`std-${center.id}`} center={center} />
+                    ))}
+                  </div>
+                </section>
+              )}
+
+              {/* Pagination Controls */}
+              {totalPages > 1 && (
+                <div className="pt-6 border-t border-stone-200 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                  <p className="text-xs text-stone-500">
+                    Showing Page <span className="font-semibold text-stone-900">{currentPage}</span> of{" "}
+                    <span className="font-semibold text-stone-900">{totalPages}</span> ({filteredCenters.length} total sanctuaries)
+                  </p>
+
+                  <div className="flex items-center gap-2">
+                    <button
+                      onClick={() => {
+                        setCurrentPage((p) => Math.max(1, p - 1));
+                        window.scrollTo({ top: 100, behavior: "smooth" });
+                      }}
+                      disabled={currentPage === 1}
+                      className="flex items-center gap-1 px-3.5 py-2 text-xs font-bold rounded-xl border border-stone-200 text-stone-700 bg-white hover:bg-sand-50 disabled:opacity-40 disabled:cursor-not-allowed shadow-sm transition-all"
+                    >
+                      <ChevronLeft className="w-4 h-4" />
+                      Previous
+                    </button>
+
+                    <div className="flex items-center gap-1">
+                      {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
+                        <button
+                          key={page}
+                          onClick={() => {
+                            setCurrentPage(page);
+                            window.scrollTo({ top: 100, behavior: "smooth" });
+                          }}
+                          className={`w-8 h-8 rounded-xl text-xs font-bold transition-all shadow-sm ${
+                            currentPage === page
+                              ? "bg-primary-900 text-gold border border-gold"
+                              : "bg-white text-stone-700 border border-stone-200 hover:bg-sand-50"
+                          }`}
+                        >
+                          {page}
+                        </button>
+                      ))}
+                    </div>
+
+                    <button
+                      onClick={() => {
+                        setCurrentPage((p) => Math.min(totalPages, p + 1));
+                        window.scrollTo({ top: 100, behavior: "smooth" });
+                      }}
+                      disabled={currentPage === totalPages}
+                      className="flex items-center gap-1 px-3.5 py-2 text-xs font-bold rounded-xl border border-stone-200 text-stone-700 bg-white hover:bg-sand-50 disabled:opacity-40 disabled:cursor-not-allowed shadow-sm transition-all"
+                    >
+                      Next
+                      <ChevronRight className="w-4 h-4" />
+                    </button>
+                  </div>
+                </div>
+              )}
             </div>
           ) : (
             <div className="bg-white rounded-3xl p-12 text-center border border-stone-200 space-y-4 max-w-lg mx-auto">
