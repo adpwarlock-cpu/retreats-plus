@@ -25,6 +25,7 @@ function SearchContent() {
   const [query, setQuery] = useState(searchParams.get("query") || "");
   const [goal, setGoal] = useState(searchParams.get("goal") || "all");
   const [continent, setContinent] = useState(searchParams.get("continent") || "all");
+  const [country, setCountry] = useState(searchParams.get("country") || "all");
   const [setting, setSetting] = useState(searchParams.get("setting") || "all");
   const [pricingTier, setPricingTier] = useState(searchParams.get("pricingTier") || "all");
   const [modality, setModality] = useState(searchParams.get("modality") || "all");
@@ -40,6 +41,7 @@ function SearchContent() {
       query,
       goal,
       continent,
+      country,
       setting,
       pricingTier,
       modality,
@@ -53,6 +55,7 @@ function SearchContent() {
     query,
     goal,
     continent,
+    country,
     setting,
     pricingTier,
     modality,
@@ -66,6 +69,7 @@ function SearchContent() {
     setQuery("");
     setGoal("all");
     setContinent("all");
+    setCountry("all");
     setSetting("all");
     setPricingTier("all");
     setModality("all");
@@ -81,6 +85,7 @@ function SearchContent() {
     query.trim() !== "",
     goal !== "all",
     continent !== "all",
+    country !== "all",
     setting !== "all",
     pricingTier !== "all",
     modality !== "all",
@@ -238,10 +243,34 @@ function SearchContent() {
               className="w-full text-xs bg-sand-50 border border-stone-200 rounded-xl p-2.5 focus:outline-none cursor-pointer"
             >
               <option value="all">All Regions</option>
+              <option value="Asia-Pacific">Asia-Pacific (South East Asia)</option>
               <option value="Europe">Europe</option>
-              <option value="Asia-Pacific">Asia-Pacific</option>
               <option value="North America">North America</option>
               <option value="Latin America">Latin America</option>
+            </select>
+          </div>
+
+          {/* Country */}
+          <div className="space-y-1.5">
+            <label className="text-xs font-bold uppercase tracking-wider text-stone-600 block">
+              Country / Destination
+            </label>
+            <select
+              value={country}
+              onChange={(e) => setCountry(e.target.value)}
+              className="w-full text-xs bg-sand-50 border border-stone-200 rounded-xl p-2.5 focus:outline-none cursor-pointer"
+            >
+              <option value="all">All Countries</option>
+              <option value="Thailand">Thailand (Hua Hin, Koh Samui, Phuket, Bangkok)</option>
+              <option value="Indonesia">Indonesia (Bali, Ubud, Nusa Dua, Mengwi)</option>
+              <option value="Philippines">Philippines (Batangas, Lipa)</option>
+              <option value="Malaysia">Malaysia (Ipoh, Perak)</option>
+              <option value="Vietnam">Vietnam (Da Nang, Hue)</option>
+              <option value="Cambodia">Cambodia (Koh Rong, Siem Reap)</option>
+              <option value="Switzerland">Switzerland</option>
+              <option value="Spain">Spain</option>
+              <option value="India">India</option>
+              <option value="United States">United States</option>
             </select>
           </div>
 

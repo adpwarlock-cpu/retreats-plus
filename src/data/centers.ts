@@ -1,127 +1,729 @@
 import { RetreatCenter } from "@/types/retreat";
 
 export const WELLNESS_CENTERS: RetreatCenter[] = [
+  // ==========================================
+  // SOUTH EAST ASIA — THAILAND
+  // ==========================================
   {
-    id: "clp-switzerland",
-    slug: "clinique-la-prairie",
-    name: "Clinique La Prairie",
-    tagline: "Pioneering Medical Longevity & Cellular Rejuvenation on Lake Geneva",
-    description: "Nestled between the Swiss Alps and Lake Geneva, Clinique La Prairie combines medical excellence with luxury hospitality. Renowned for its world-famous Revitalization program and cutting-edge longevity diagnostics, the clinic unites 50 medical specialists to optimize immune health, cellular longevity, and biological age reversal.",
+    id: "chiva-som-thailand",
+    slug: "chiva-som-hua-hin",
+    name: "Chiva-Som International Health Resort",
+    tagline: "World-Renowned Pioneer in Destination Wellness & Holistic Health on the Gulf of Thailand",
+    description: "Operating since 1995 on seven beachfront acres in Hua Hin, Chiva-Som is globally celebrated as the pioneer of destination wellness. With 16 curated retreat programs and over 200 bespoke treatments, Chiva-Som seamlessly integrates Western diagnostic technology with Eastern philosophies, including physiotherapy, aesthetic beauty, genomic testing, and award-winning wellness cuisine.",
     location: {
-      city: "Montreux",
-      region: "Vaud",
-      country: "Switzerland",
-      continent: "Europe",
-      lat: 46.4312,
-      lng: 6.9107
+      city: "Hua Hin",
+      region: "Prachuap Khiri Khan",
+      country: "Thailand",
+      continent: "Asia-Pacific",
+      lat: 12.5348,
+      lng: 99.9634,
     },
     heroImage: "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1600&q=80",
     gallery: [
       "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&q=80",
     ],
     badgeTier: "featured",
-    rating: 4.96,
-    reviewCount: 142,
+    rating: 4.97,
+    reviewCount: 384,
     pricing: {
-      minPricePerNight: 2450,
-      currency: "CHF",
-      pricingTier: "ultra-luxury",
+      minPricePerNight: 519,
+      currency: "USD",
+      pricingTier: "luxury",
       packageOptions: [
         {
-          name: "Revitalization Premium (7 Days)",
-          days: 7,
-          price: 26800,
-          description: "Comprehensive DNA sequencing, cellular extract therapy, heavy metal detox, hyperbaric oxygen, and tailored longevity diet."
+          name: "Chiva-Som Signature Detox (5 Nights)",
+          days: 5,
+          price: 3600,
+          description: "Comprehensive health consultation, colon hydrotherapy, lymphatic drainage, daily fitness, and targeted cleansing cuisine.",
         },
         {
-          name: "Brain & Sleep Reset (5 Days)",
+          name: "Optimal Performance & Physiotherapy (7 Nights)",
+          days: 7,
+          price: 5200,
+          description: "Full biomechanical assessment, gait analysis, deep tissue release, re-functional training, and daily personal wellness sessions.",
+        },
+      ],
+    },
+    primaryGoals: [
+      "Detox & Weight Loss",
+      "Longevity & Anti-Aging",
+      "Burnout & Stress",
+    ],
+    modalities: [
+      "Hydrotherapy",
+      "Acupuncture",
+      "Physiotherapy",
+      "IV Therapy",
+      "Chi Nei Tsang",
+      "Cryotherapy",
+    ],
+    dietary: [
+      "Organic Farm-to-Table",
+      "Anti-Inflammatory",
+      "Gluten-Free",
+      "Plant-Based/Vegan",
+    ],
+    setting: "Coastal/Beachfront",
+    supervision: "Medical Doctor Led",
+    amenities: [
+      "Bespoke Physiotherapy Studio",
+      "Hydrotherapy Vitality Pools",
+      "Bathing Pavilion with Watsu Pool",
+      "Organic Permaculture Garden",
+      "Kinesis Fitness Pavilion",
+    ],
+    dailySchedule: [
+      { time: "07:00", activity: "Beachside Pranayama & Qi Gong" },
+      { time: "08:30", activity: "Personalized Wellness Cuisine Breakfast & Nutrient Tonic" },
+      { time: "10:00", activity: "Physiotherapy Assessment or Diagnostic Consultation" },
+      { time: "12:30", activity: "Therapeutic Organic Lunch at Taste of Siam" },
+      { time: "15:00", activity: "Hydrotherapy Flotarium & Herbal Body Purification" },
+      { time: "17:30", activity: "Sunset Sound Bath & Guided Meditation" },
+      { time: "19:30", activity: "Mindful Dinner & Wellness Lecture" },
+    ],
+    expertTeam: [
+      {
+        name: "Dr. Jason Culp, ND",
+        role: "Research & Wellness Director",
+        credentials: "Doctor of Naturopathic Medicine, 18+ Years Experience",
+        avatar: "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=400&q=80",
+      },
+      {
+        name: "Dr. Supot, MD",
+        role: "Lead Integrative Physician",
+        credentials: "Board Certified Internal Medicine & Clinical Anti-Aging",
+        avatar: "https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&w=400&q=80",
+      },
+    ],
+    reviews: [
+      {
+        id: "cs-1",
+        author: "Eleanor W.",
+        date: "February 2026",
+        rating: 5,
+        title: "The undisputed gold standard of wellness resorts",
+        comment: "Every touchpoint is orchestrated with surgical precision and warmth. The physiotherapy team solved a shoulder mobility issue I suffered from for 4 years.",
+        verifiedStay: true,
+      },
+    ],
+    contact: {
+      phone: "+66 3253 6536",
+      email: "reservations@chivasom.com",
+      website: "https://www.chivasom.com",
+    },
+  },
+
+  {
+    id: "kamalaya-koh-samui",
+    slug: "kamalaya-koh-samui",
+    name: "Kamalaya Wellness Sanctuary & Holistic Spa Resort",
+    tagline: "Sacred Hillside Healing Sanctuary Centered Around an Ancient Buddhist Monks' Cave",
+    description: "Centuries ago, Buddhist monks used the sacred granite cave at the center of Kamalaya as a place of meditation. Today, this lush hillside sanctuary overlooking the Gulf of Thailand is internationally celebrated for emotional healing, burnout recovery, stress management, and traditional Chinese & Ayurvedic therapies.",
+    location: {
+      city: "Koh Samui",
+      region: "Surat Thani",
+      country: "Thailand",
+      continent: "Asia-Pacific",
+      lat: 9.4297,
+      lng: 100.0152,
+    },
+    heroImage: "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=80",
+    ],
+    badgeTier: "featured",
+    rating: 4.95,
+    reviewCount: 312,
+    pricing: {
+      minPricePerNight: 380,
+      currency: "USD",
+      pricingTier: "moderate",
+      packageOptions: [
+        {
+          name: "Relax & Renew (5 Nights)",
           days: 5,
-          price: 18500,
-          description: "Polysomnography, neuro-feedback, stress resilience coaching, and cranial therapy."
-        }
-      ]
+          price: 2450,
+          description: "Bio-impedance analysis, traditional Thai herbal massages, Shirodhara, and essential oil steam cavern sessions.",
+        },
+        {
+          name: "Burnout & Sleep Enhancement (7 Nights)",
+          days: 7,
+          price: 3850,
+          description: "Adrenal assessment, sleep-architecture coaching, acupuncture, somatic nervous system soothing, and personalized herbs.",
+        },
+      ],
+    },
+    primaryGoals: [
+      "Burnout & Stress",
+      "Emotional & Trauma Healing",
+      "Mindfulness & Meditation",
+    ],
+    modalities: [
+      "Acupuncture",
+      "Sound Healing",
+      "Chi Nei Tsang",
+      "Forest Bathing",
+      "Ayurvedic Massage",
+      "Herbal Steam Caverns",
+    ],
+    dietary: [
+      "Plant-Based/Vegan",
+      "Organic Farm-to-Table",
+      "Anti-Inflammatory",
+      "Gluten-Free",
+    ],
+    setting: "Coastal/Beachfront",
+    supervision: "Master Holistic Healers",
+    amenities: [
+      "Sacred Monks' Meditation Cave",
+      "Granite Rock Steam Cavern",
+      "Lap Pool & Plunge Pools Overlooking Sea",
+      "Yantra Yoga Hall",
+      "Herbal Holistic Dispensary",
+    ],
+    dailySchedule: [
+      { time: "07:00", activity: "Guided Silent Meditation in the Monks' Cave" },
+      { time: "08:15", activity: "Vitality Breakfast with Fresh Turmeric Elixirs" },
+      { time: "10:30", activity: "Traditional Chinese Medicine Consultation & Acupuncture" },
+      { time: "12:30", activity: "Nourishing Herbal Lunch by the Lotus Ponds" },
+      { time: "15:00", activity: "Chi Nei Tsang Abdominal Healing & Herbal Steam" },
+      { time: "17:30", activity: "Sunset Yin Yoga Overlooking Southern Gulf" },
+      { time: "19:30", activity: "Mindful Communal Dinner" },
+    ],
+    expertTeam: [
+      {
+        name: "John Stewart",
+        role: "Co-Founder & Spiritual Guide",
+        credentials: "16 Years as a Devoted Yogi & Himalayan Monk",
+        avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80",
+      },
+      {
+        name: "Karina Stewart",
+        role: "Co-Founder & Chief Wellness Officer",
+        credentials: "Master of Traditional Chinese Medicine (MTCM), Princeton Graduate",
+        avatar: "https://images.unsplash.com/photo-1594824813593-9c8821434c76?auto=format&fit=crop&w=400&q=80",
+      },
+    ],
+    reviews: [
+      {
+        id: "km-1",
+        author: "David R.",
+        date: "January 2026",
+        rating: 5,
+        title: "The antidote to 20 years of corporate burnout",
+        comment: "Meditation in the monks' cave shifted something in me on day two. The Chi Nei Tsang massage released years of digestive tension.",
+        verifiedStay: true,
+      },
+    ],
+    contact: {
+      phone: "+66 77 429 800",
+      email: "reservations@kamalaya.com",
+      website: "https://www.kamalaya.com",
+    },
+  },
+
+  {
+    id: "rakxa-wellness-bangkok",
+    slug: "rakxa-integrative-wellness",
+    name: "RAKxa Integrative Wellness",
+    tagline: "High-Tech Medical Diagnostics Meets Ancient Healing in Bangkok's Green Lung",
+    description: "Located on the island of Bang Krachao—known as Bangkok's protected 'Green Lung'—RAKxa is a world-class medical retreat partnering with Bumrungrad International Hospital's VitalLife Scientific Wellness Clinic. It bridges advanced genomic testing, hormone mapping, and hyperbaric oxygen with traditional Thai, Ayurvedic, and Chinese medicine.",
+    location: {
+      city: "Bangkok",
+      region: "Samut Prakan",
+      country: "Thailand",
+      continent: "Asia-Pacific",
+      lat: 13.6822,
+      lng: 100.5694,
+    },
+    heroImage: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=80",
+    ],
+    badgeTier: "verified",
+    rating: 4.96,
+    reviewCount: 168,
+    pricing: {
+      minPricePerNight: 1200,
+      currency: "USD",
+      pricingTier: "luxury",
+      packageOptions: [
+        {
+          name: "Integrative Longevity & Biological Age (5 Nights)",
+          days: 5,
+          price: 7800,
+          description: "Telomere analysis, hormone mapping, hyperbaric oxygen, whole-body cryotherapy, IV micronutrients, and private lake villa.",
+        },
+        {
+          name: "Gut & Immunity Rebalance (7 Nights)",
+          days: 7,
+          price: 9800,
+          description: "Microbiome sequencing, food intolerance testing, colon hydrotherapy, and personalized anti-inflammatory culinary regimen.",
+        },
+      ],
     },
     primaryGoals: [
       "Longevity & Anti-Aging",
+      "Detox & Weight Loss",
       "Burnout & Stress",
-      "Detox & Weight Loss"
     ],
     modalities: [
       "Hyperbaric Oxygen",
       "Cryotherapy",
       "IV Therapy",
-      "Cellular Genomics",
+      "Live Blood Analysis",
       "Hydrotherapy",
-      "Acupuncture"
+      "Acupuncture",
     ],
     dietary: [
-      "Organic Farm-to-Table",
       "Anti-Inflammatory",
-      "Gluten-Free"
+      "Organic Farm-to-Table",
+      "Gluten-Free",
     ],
     setting: "Lakefront",
     supervision: "Medical Doctor Led",
     amenities: [
-      "Medical Diagnostic Lab",
-      "Thermal Hydrotherapy Pools",
-      "Cryo Chamber",
-      "Private Spa Suites",
-      "Private Helipad",
-      "Michelin-Caliber Wellness Dining"
+      "VitalLife Scientific Medical Lab",
+      "Medical Gym with Olympic Training Systems",
+      "Hydrotherapy Thermal Suites",
+      "Hyperbaric Oxygen Chambers",
+      "Cryotherapy Cabin (-110°C)",
     ],
     dailySchedule: [
-      { time: "07:30", activity: "Gentle Alpine Awakening & Breathwork by the Lake" },
-      { time: "08:30", activity: "Tailored Nutrient Breakfast & Cellular Supplement Protocol" },
-      { time: "10:00", activity: "Medical Consultations & Biomarker Diagnostics" },
-      { time: "12:30", activity: "Anti-Inflammatory Gourmet Lunch" },
-      { time: "14:30", activity: "Hyperbaric Oxygen Therapy & Contrast Hydro-Thermal Circuit" },
-      { time: "17:00", activity: "Restorative Yoga & Sound Frequency Healing" },
-      { time: "19:30", activity: "Longevity Dinner & Guided Sleep Meditation" }
+      { time: "07:30", activity: "Tai Chi & Lakefront Mindful Breathwork" },
+      { time: "08:45", activity: "Biomarker-Tailored Organic Nutrition Breakfast" },
+      { time: "10:00", activity: "VitalLife Medical Diagnostics & Genomic Blood Panels" },
+      { time: "12:30", activity: "Therapeutic Chef's Table Lunch" },
+      { time: "14:30", activity: "Hyperbaric Oxygen Therapy (90 mins) & IV Infusion" },
+      { time: "17:00", activity: "Traditional Thai Ya-Pao Herbal Thermal Therapy" },
+      { time: "19:30", activity: "Anti-Inflammatory Dinner by the Chao Phraya Lagoon" },
     ],
     expertTeam: [
       {
-        name: "Dr. Adrian Heini, MD",
-        role: "Head of Preventive Medicine",
-        credentials: "MD, Board-Certified Internal Medicine & Clinical Nutrition",
-        avatar: "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=400&q=80"
+        name: "Dr. Narinthorn Surasinthorn, MD",
+        role: "Medical Director, VitalLife at RAKxa",
+        credentials: "American Board of Anti-Aging & Regenerative Medicine (ABAARM)",
+        avatar: "https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&w=400&q=80",
       },
-      {
-        name: "Dr. Elena Rossi",
-        role: "Lead Cellular Biologist",
-        credentials: "PhD Epigenetics, University of Zurich",
-        avatar: "https://images.unsplash.com/photo-1594824813593-9c8821434c76?auto=format&fit=crop&w=400&q=80"
-      }
     ],
     reviews: [
       {
-        id: "rev-1",
-        author: "Marcus V.",
-        date: "October 2025",
+        id: "rx-1",
+        author: "Alastair H.",
+        date: "November 2025",
         rating: 5,
-        title: "Life-changing diagnostic depth and bespoke recovery",
-        comment: "The medical precision here is unmatched anywhere in the world. Within 48 hours, they identified underlying metabolic stressors that two top clinics missed. Left feeling rejuvenated at a cellular level.",
-        verifiedStay: true
+        title: "The most advanced medical diagnostics in Asia",
+        comment: "Having Bumrungrad doctors analyze your blood and telomeres while enjoying world-class spa villas makes this peerless.",
+        verifiedStay: true,
       },
-      {
-        id: "rev-2",
-        author: "Sophie de M.",
-        date: "January 2026",
-        rating: 5,
-        title: "A sanctuary of world-class peace and science",
-        comment: "The setting overlooking Lake Geneva is breath-taking, but the cellular revitalization program is what made this the best investment I've ever made in my health.",
-        verifiedStay: true
-      }
     ],
     contact: {
-      phone: "+41 21 989 33 11",
-      email: "concierge@cliniquelaprairie.com",
-      website: "https://cliniquelaprairie.com"
-    }
+      phone: "+66 2 055 3100",
+      email: "CustomerRelations@rakxawellness.com",
+      website: "https://www.rakxawellness.com",
+    },
   },
+
   {
-    id: "fivelements-bali",
+    id: "amanpuri-phuket",
+    slug: "amanpuri-holistic-wellness-centre",
+    name: "Amanpuri Holistic Wellness Centre",
+    tagline: "Exclusive Ultra-Luxury Medical & Holistic Immersion on Pansea Beach",
+    description: "Perched above a private turquoise cove in Phuket, Amanpuri is Aman's flagship sanctuary. The multi-story Holistic Wellness Centre features medical doctors from Thanyapura, Traditional Chinese Medicine physicians, and hydrotherapy pavilions. Amanpuri offers deeply individualized Wellness Immersions focusing on longevity, aesthetic rejuvenation, and mental clarity.",
+    location: {
+      city: "Phuket",
+      region: "Cherngtalay",
+      country: "Thailand",
+      continent: "Asia-Pacific",
+      lat: 7.9839,
+      lng: 98.2797,
+    },
+    heroImage: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1200&q=80",
+    ],
+    badgeTier: "featured",
+    rating: 4.98,
+    reviewCount: 146,
+    pricing: {
+      minPricePerNight: 1650,
+      currency: "USD",
+      pricingTier: "ultra-luxury",
+      packageOptions: [
+        {
+          name: "Intensive Wellness Immersion (5 Nights)",
+          days: 5,
+          price: 11500,
+          description: "Full blood chemistry panel, OligoScan heavy metal test, daily private yoga, IV infusions, and bespoke nutritionist meal plan.",
+        },
+      ],
+    },
+    primaryGoals: [
+      "Longevity & Anti-Aging",
+      "Burnout & Stress",
+      "Spiritual Awakening",
+    ],
+    modalities: [
+      "IV Therapy",
+      "Cryotherapy",
+      "Acupuncture",
+      "Hydrotherapy",
+      "Ayurvedic Massage",
+      "Muay Thai",
+    ],
+    dietary: [
+      "Organic Farm-to-Table",
+      "Plant-Based/Vegan",
+      "Gluten-Free",
+    ],
+    setting: "Coastal/Beachfront",
+    supervision: "Medical Doctor Led",
+    amenities: [
+      "Private White-Sand Pansea Beach",
+      "Hydrotherapy Suites with Cold Plunge",
+      "Rooftop Muay Thai Boxing Ring",
+      "Aman Spa Pavilion",
+      "Holistic Diagnostic Suite",
+    ],
+    dailySchedule: [
+      { time: "07:30", activity: "Rooftop Ocean-View Ashtanga Yoga" },
+      { time: "09:00", activity: "Nutritional Raw Food Breakfast & Cold Pressed Elixirs" },
+      { time: "10:30", activity: "Medical Lab Diagnostics & Heavy Metal OligoScan" },
+      { time: "13:00", activity: "Private Beachside Wellness Lunch" },
+      { time: "15:00", activity: "IV Vitamin Infusion & Traditional Herbal Body Polish" },
+      { time: "17:30", activity: "Sunset Sound Bath with Tibetan Singing Bowls" },
+      { time: "19:30", activity: "Aman Signature Detox Dinner" },
+    ],
+    expertTeam: [
+      {
+        name: "Dr. Pratima Raichur",
+        role: "Integrative Wellness Consultant",
+        credentials: "Doctor of Naturopathy & Ayurvedic Chemistry",
+        avatar: "https://images.unsplash.com/photo-1594824813593-9c8821434c76?auto=format&fit=crop&w=400&q=80",
+      },
+    ],
+    reviews: [
+      {
+        id: "ap-1",
+        author: "Lord Sterling B.",
+        date: "December 2025",
+        rating: 5,
+        title: "The pinnacle of private luxury wellness",
+        comment: "From the OligoScan heavy-metal analysis to the private white sand beach and bespoke IV therapy, Amanpuri is incomparable.",
+        verifiedStay: true,
+      },
+    ],
+    contact: {
+      phone: "+66 76 324 333",
+      email: "amanpuri@aman.com",
+      website: "https://www.aman.com/resorts/amanpuri",
+    },
+  },
+
+  {
+    id: "thanyapura-phuket",
+    slug: "thanyapura-sports-health-resort",
+    name: "Thanyapura Sports & Health Resort",
+    tagline: "Asia's Premier Active Wellness, High-Performance Sports & Preventative Medicine Resort",
+    description: "Surrounded by the serene national park in northern Phuket, Thanyapura is Asia’s only FINA-approved athletic resort combined with a preventative medical clinic. Renowned among Olympic athletes, executives, and fitness seekers, Thanyapura combines lifestyle medicine, chiropractic care, physiotherapy, and Olympic sports coaching with detox and stress recovery.",
+    location: {
+      city: "Phuket",
+      region: "Thalang",
+      country: "Thailand",
+      continent: "Asia-Pacific",
+      lat: 8.0493,
+      lng: 98.3456,
+    },
+    heroImage: "https://images.unsplash.com/photo-1518609878373-06d740f60d8b?auto=format&fit=crop&w=1600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1518609878373-06d740f60d8b?auto=format&fit=crop&w=1200&q=80",
+    ],
+    badgeTier: "verified",
+    rating: 4.88,
+    reviewCount: 220,
+    pricing: {
+      minPricePerNight: 160,
+      currency: "USD",
+      pricingTier: "accessible",
+      packageOptions: [
+        {
+          name: "Active Detox & Weight Loss (5 Nights)",
+          days: 5,
+          price: 1950,
+          description: "Doctor consultation, VO2 Max testing, Olympic swimming coaching, personal training, and organic alkaline meal plan.",
+        },
+      ],
+    },
+    primaryGoals: [
+      "Detox & Weight Loss",
+      "Burnout & Stress",
+      "Longevity & Anti-Aging",
+    ],
+    modalities: [
+      "Physiotherapy",
+      "Chiropractic",
+      "Hydrotherapy",
+      "Muay Thai",
+      "VO2 Max Testing",
+    ],
+    dietary: [
+      "Plant-Based/Vegan",
+      "Organic Farm-to-Table",
+      "Gluten-Free",
+    ],
+    setting: "Mountain Sanctuary",
+    supervision: "Medical Doctor Led",
+    amenities: [
+      "50m Olympic Pool & 25m Training Pool",
+      "6 Tennis Courts (Indoor & Outdoor)",
+      "500m Tartan Running Track",
+      "Integrative Medical Clinic",
+      "High-Performance Cardio & Weight Gym",
+    ],
+    dailySchedule: [
+      { time: "06:30", activity: "Track Run or Sunrise Swim in 50m Olympic Pool" },
+      { time: "08:00", activity: "High-Protein Alkaline Smoothie & Organic Breakfast" },
+      { time: "09:30", activity: "VO2 Max & Functional Movement Assessment" },
+      { time: "12:30", activity: "Plant-Based Nutrition Lunch at DiVine Restaurant" },
+      { time: "15:00", activity: "Sports Physiotherapy & Deep Tissue Release" },
+      { time: "17:00", activity: "Core & Mobility Yoga Session" },
+      { time: "19:00", activity: "Nutrient-Dense Dinner & Recovery Steam" },
+    ],
+    expertTeam: [
+      {
+        name: "Dr. Sutheera, MD",
+        role: "Chief Medical Officer",
+        credentials: "Specialist in Preventative Cardiology & Sports Medicine",
+        avatar: "https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&w=400&q=80",
+      },
+    ],
+    reviews: [
+      {
+        id: "tp-1",
+        author: "Christian V.",
+        date: "January 2026",
+        rating: 5,
+        title: "Transformed my fitness and body composition in 10 days",
+        comment: "Training in the Olympic pool and having my VO2 max tracked by sports doctors took my performance to another level.",
+        verifiedStay: true,
+      },
+    ],
+    contact: {
+      phone: "+66 76 336 000",
+      email: "info@thanyapura.com",
+      website: "https://www.thanyapura.com",
+    },
+  },
+
+  {
+    id: "samahita-retreat-thailand",
+    slug: "samahita-retreat-koh-samui",
+    name: "Samahita Retreat",
+    tagline: "Dedicated Beachfront Sanctuary for Breathwork, YogaCoreCycle & Total Detox",
+    description: "Founded in 2003 on Laem Sor Beach in southern Koh Samui, Samahita is one of Asia's most established dedicated yoga and breathwork retreat centers. Known for its signature YogaCoreCycle program, infrared saunas, saltwater pools, and intensive pranayama training.",
+    location: {
+      city: "Koh Samui",
+      region: "Laem Sor Beach",
+      country: "Thailand",
+      continent: "Asia-Pacific",
+      lat: 9.4121,
+      lng: 99.9882,
+    },
+    heroImage: "https://images.unsplash.com/photo-1545205597-3d9d02c29597?auto=format&fit=crop&w=1600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1545205597-3d9d02c29597?auto=format&fit=crop&w=1200&q=80",
+    ],
+    badgeTier: "claimed",
+    rating: 4.89,
+    reviewCount: 235,
+    pricing: {
+      minPricePerNight: 180,
+      currency: "USD",
+      pricingTier: "accessible",
+      packageOptions: [
+        {
+          name: "YogaCoreCycle & Detox (5 Nights)",
+          days: 5,
+          price: 1350,
+          description: "All-inclusive daily dynamic yoga, breathwork, indoor cycling, herbal steam, and buffet wellness dining.",
+        },
+      ],
+    },
+    primaryGoals: [
+      "Mindfulness & Meditation",
+      "Detox & Weight Loss",
+      "Burnout & Stress",
+    ],
+    modalities: [
+      "Pranayama",
+      "Sound Healing",
+      "Chi Nei Tsang",
+      "Infrared Sauna",
+    ],
+    dietary: [
+      "Plant-Based/Vegan",
+      "Organic Farm-to-Table",
+      "Gluten-Free",
+    ],
+    setting: "Coastal/Beachfront",
+    supervision: "Master Holistic Healers",
+    amenities: [
+      "Beachfront Bamboo Yoga Shala",
+      "Saltwater Swimming Pool",
+      "Indoor Sound-Engineered Cycle Studio",
+      "Herbal Steam Room",
+      "Eco-Dining Buffet Pavilion",
+    ],
+    dailySchedule: [
+      { time: "07:00", activity: "Pranayama & Classical Breathwork by the Sea" },
+      { time: "08:15", activity: "Dynamic Vinyasa Flow Yoga" },
+      { time: "10:00", activity: "Full Healthy Buffet Breakfast with Superfood Bar" },
+      { time: "12:00", activity: "Beach Walk or Sea Kayaking" },
+      { time: "16:00", activity: "YogaCoreCycle (Spin + Core Strength)" },
+      { time: "17:30", activity: "Restorative Yin Yoga & Meditation" },
+      { time: "19:00", activity: "Communal Candlelit Dinner Buffet" },
+    ],
+    expertTeam: [
+      {
+        name: "Paul Dallaghan",
+        role: "Founder & Master Breathwork Teacher",
+        credentials: "PhD Candidate in Biological Science, Senior Ashtanga Yoga Teacher",
+        avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=80",
+      },
+    ],
+    reviews: [
+      {
+        id: "sm-1",
+        author: "Jessica T.",
+        date: "December 2025",
+        rating: 5,
+        title: "The best breathwork instruction in the world",
+        comment: "Paul's pranayama teachings reset my nervous system completely. The food is incredible, fresh, and abundant.",
+        verifiedStay: true,
+      },
+    ],
+    contact: {
+      phone: "+66 77 920 088",
+      email: "info@samahitaretreat.com",
+      website: "https://www.samahitaretreat.com",
+    },
+  },
+
+  // ==========================================
+  // SOUTH EAST ASIA — INDONESIA (BALI)
+  // ==========================================
+  {
+    id: "como-shambhala-estate-bali",
+    slug: "como-shambhala-estate",
+    name: "COMO Shambhala Estate",
+    tagline: "Legendary 23-Acre Residential Health Retreat in the Jungle of Payangan",
+    description: "COMO Shambhala Estate is a peaceful residential health retreat nestled in the tropical forest above the sacred Ayung River in Bali. Combining state-of-the-art wellness facilities with ancient Eastern medicine, the Estate features resident Ayurvedic doctors, Oriental medicine masters, dietitians, and personal trainers to deliver deeply transformative stays.",
+    location: {
+      city: "Payangan",
+      region: "Ubud, Bali",
+      country: "Indonesia",
+      continent: "Asia-Pacific",
+      lat: -8.4554,
+      lng: 115.2413,
+    },
+    heroImage: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1545205597-3d9d02c29597?auto=format&fit=crop&w=1200&q=80",
+    ],
+    badgeTier: "featured",
+    rating: 4.97,
+    reviewCount: 289,
+    pricing: {
+      minPricePerNight: 1000,
+      currency: "USD",
+      pricingTier: "luxury",
+      packageOptions: [
+        {
+          name: "Ayurvedic Healing Journey (5 Nights)",
+          days: 5,
+          price: 5800,
+          description: "Private consultation with resident Ayurvedic doctor, daily Shirodhara, Abhyanga, customized Dosha dining, and private yoga.",
+        },
+        {
+          name: "COMO Cleanse & Reset (7 Nights)",
+          days: 7,
+          price: 7900,
+          description: "Cold-pressed juices, colon hydrotherapy, deep tissue massage, hyperbaric oxygen, and vitality pool therapy.",
+        },
+      ],
+    },
+    primaryGoals: [
+      "Ayurveda & Panchakarma",
+      "Burnout & Stress",
+      "Detox & Weight Loss",
+      "Mindfulness & Meditation",
+    ],
+    modalities: [
+      "Ayurvedic Massage",
+      "Hyperbaric Oxygen",
+      "Hydrotherapy",
+      "Acupuncture",
+      "Forest Bathing",
+      "Sound Healing",
+    ],
+    dietary: [
+      "Organic Farm-to-Table",
+      "Ayurvedic",
+      "Plant-Based/Vegan",
+      "Raw Food",
+    ],
+    setting: "Lush Rainforest",
+    supervision: "Master Holistic Healers",
+    amenities: [
+      "Hydrotherapy Vitality Pool",
+      "Natural Sacred Springs & Bathing Pools",
+      "Open-Air Yoga Pavilions",
+      "Ayurvedic Consultation Suites",
+      "Glow Organic Restaurant",
+    ],
+    dailySchedule: [
+      { time: "07:00", activity: "Morning Pranayama & Forest Yoga" },
+      { time: "08:30", activity: "COMO Shambhala Organic Cuisine Breakfast" },
+      { time: "10:00", activity: "Ayurvedic Doctor Pulse Diagnostic & Custom Herbal Plan" },
+      { time: "12:30", activity: "Living Foods Lunch at Glow" },
+      { time: "15:00", activity: "Shirodhara & Warm Herbal Oil Full-Body Abhyanga" },
+      { time: "17:30", activity: "Guided Trek to Sacred Spring Water Blessing" },
+      { time: "19:30", activity: "Evening Restorative Dinner & Sound Bath" },
+    ],
+    expertTeam: [
+      {
+        name: "Dr. Prasanth, BAMS",
+        role: "Resident Ayurvedic Physician",
+        credentials: "20+ Years Clinical Ayurvedic Experience across India & Bali",
+        avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80",
+      },
+    ],
+    reviews: [
+      {
+        id: "cs-e1",
+        author: "Victoria N.",
+        date: "January 2026",
+        rating: 5,
+        title: "Perfection in the heart of the Balinese jungle",
+        comment: "Drinking the fresh spring water and bathing in the rock pools while being guided by Dr. Prasanth was an unforgettable rejuvenation.",
+        verifiedStay: true,
+      },
+    ],
+    contact: {
+      phone: "+62 361 978888",
+      email: "res.CSestate@comohotels.com",
+      website: "https://www.comohotels.com/bali/como-shambhala-estate",
+    },
+  },
+
+  {
+    id: "fivelements-retreat-bali",
     slug: "fivelements-retreat-bali",
     name: "Fivelements Retreat",
     tagline: "Sacred Balinese Eco-Sanctuary for Deep Spiritual & Physical Healing",
@@ -132,13 +734,12 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       country: "Indonesia",
       continent: "Asia-Pacific",
       lat: -8.5192,
-      lng: 115.2285
+      lng: 115.2285,
     },
-    heroImage: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    heroImage: "https://images.unsplash.com/photo-1545205597-3d9d02c29597?auto=format&fit=crop&w=1600&q=80",
     gallery: [
-      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
       "https://images.unsplash.com/photo-1545205597-3d9d02c29597?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1518609878373-06d740f60d8b?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
     ],
     badgeTier: "featured",
     rating: 4.92,
@@ -152,21 +753,15 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
           name: "Panca Mahabhuta (7 Nights)",
           days: 7,
           price: 3250,
-          description: "Comprehensive Balinese chakra balancing, sacred fire ceremony, daily deep tissue herbal massage, and 7-day living foods cleanse."
+          description: "Comprehensive Balinese chakra balancing, sacred fire ceremony, daily deep tissue herbal massage, and 7-day living foods cleanse.",
         },
-        {
-          name: "Tri Kaya Parisudha Detox (5 Nights)",
-          days: 5,
-          price: 2450,
-          description: "Holistic colon hydrotherapy, organic juices, sound meditation, and private yoga sessions."
-        }
-      ]
+      ],
     },
     primaryGoals: [
       "Spiritual Awakening",
       "Burnout & Stress",
       "Emotional & Trauma Healing",
-      "Mindfulness & Meditation"
+      "Mindfulness & Meditation",
     ],
     modalities: [
       "Sound Healing",
@@ -174,13 +769,13 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "Balinese Massage",
       "Acupuncture",
       "Hydrotherapy",
-      "Somatic Release"
+      "Somatic Release",
     ],
     dietary: [
       "Plant-Based/Vegan",
       "Raw Food",
       "Organic Farm-to-Table",
-      "Gluten-Free"
+      "Gluten-Free",
     ],
     setting: "Lush Rainforest",
     supervision: "Master Holistic Healers",
@@ -189,7 +784,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "Riverfront Treatment Suites",
       "Sacred Fire Ceremony Agnihotra Pavilion",
       "Watsu Hydrotherapy Pool",
-      "Plant-Based Culinary Lab"
+      "Plant-Based Culinary Lab",
     ],
     dailySchedule: [
       { time: "06:30", activity: "Morning Pranayama & Dharma Yoga in Bamboo Shala" },
@@ -198,21 +793,15 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       { time: "12:30", activity: "Multi-Course Gourmet Vegan Lunch" },
       { time: "14:30", activity: "Somatic Bodywork & Hibiscus Flower Bath Overlooking River" },
       { time: "17:30", activity: "Agnihotra Sacred Fire Clearing Ceremony" },
-      { time: "19:30", activity: "Sacred Plant Culinary Dinner" }
+      { time: "19:30", activity: "Sacred Plant Culinary Dinner" },
     ],
     expertTeam: [
       {
         name: "Pak Wayan",
         role: "Traditional Balinese Healer (Balian)",
         credentials: "6th Generation Hereditary Energy Practitioner",
-        avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80"
+        avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80",
       },
-      {
-        name: "Ketut Artana",
-        role: "Head of Holistic Wellness",
-        credentials: "Master of Ayurvedic Science & Yoga Therapy",
-        avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=80"
-      }
     ],
     reviews: [
       {
@@ -221,34 +810,1085 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
         date: "December 2025",
         rating: 5,
         title: "Deep emotional release and supreme peace",
-        comment: "The energy of this place is something you cannot articulate in words. Falling asleep to the river sounds and experiencing the fire ceremony shifted something profound in me.",
-        verifiedStay: true
-      }
+        comment: "Falling asleep to the river sounds and experiencing the fire ceremony shifted something profound in me.",
+        verifiedStay: true,
+      },
     ],
     contact: {
       phone: "+62 361 469 206",
       email: "contact@fivelements.org",
-      website: "https://fivelementsbali.com"
-    }
+      website: "https://fivelementsbali.com",
+    },
   },
+
+  {
+    id: "revivo-wellness-bali",
+    slug: "revivo-wellness-resort",
+    name: "REVĪVŌ Wellness Resort",
+    tagline: "Mindful Luxury Retreat in Nusa Dua Built on Movement, Nutrition & Sleep Optimization",
+    description: "Spread across three hectares of teak forest in Nusa Dua, REVĪVŌ is built around four fundamental pillars: MOVEO (movement), NŪTRIŌ (nutrition), REMISSIŌ (spa healing), and NOCTURNO (sleep architecture). It features a dedicated Vitality Centre with VO2 Max testing, CELLGYM oxygen therapy, and infrared therapy.",
+    location: {
+      city: "Nusa Dua",
+      region: "Sawangan, Bali",
+      country: "Indonesia",
+      continent: "Asia-Pacific",
+      lat: -8.8167,
+      lng: 115.2167,
+    },
+    heroImage: "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=80",
+    ],
+    badgeTier: "verified",
+    rating: 4.93,
+    reviewCount: 174,
+    pricing: {
+      minPricePerNight: 350,
+      currency: "USD",
+      pricingTier: "moderate",
+      packageOptions: [
+        {
+          name: "Sleep Well & Adrenal Recovery (4 Nights)",
+          days: 4,
+          price: 2350,
+          description: "Sleep architecture consultation, sound therapy, magnesium body wrap, daily yoga, and sleep-inducing gourmet dining.",
+        },
+      ],
+    },
+    primaryGoals: [
+      "Burnout & Stress",
+      "Longevity & Anti-Aging",
+      "Detox & Weight Loss",
+    ],
+    modalities: [
+      "Hydrotherapy",
+      "Sound Healing",
+      "Cryotherapy",
+      "Infrared Sauna",
+      "CELLGYM Oxygen Therapy",
+    ],
+    dietary: [
+      "Organic Farm-to-Table",
+      "Plant-Based/Vegan",
+      "Gluten-Free",
+      "Anti-Inflammatory",
+    ],
+    setting: "Lush Rainforest",
+    supervision: "Master Holistic Healers",
+    amenities: [
+      "Saltwater Floating Pool",
+      "Vitality Longevity Centre",
+      "Pilates Reformer Studio",
+      "Hydroponic Organic Garden",
+      "Remissio Holistic Spa",
+    ],
+    dailySchedule: [
+      { time: "07:30", activity: "Morning Pranayama & Core Flow at MOVEO Studio" },
+      { time: "08:45", activity: "Nutrio Hydroponic Superfood Breakfast" },
+      { time: "10:30", activity: "CELLGYM Interval Oxygen Therapy Session" },
+      { time: "12:30", activity: "Organic Farm-to-Table Lunch" },
+      { time: "15:00", activity: "Lymphatic Drainage Massage & Infrared Sauna" },
+      { time: "17:30", activity: "Sound Healing Therapy with Alchemy Crystal Bowls" },
+      { time: "19:30", activity: "Nocturno Sleep-Optimized Dinner" },
+    ],
+    expertTeam: [
+      {
+        name: "Dr. Rachel Goh",
+        role: "Head of Holistic Medicine",
+        credentials: "Certified Functional Medicine Practitioner & Naturopath",
+        avatar: "https://images.unsplash.com/photo-1594824813593-9c8821434c76?auto=format&fit=crop&w=400&q=80",
+      },
+    ],
+    reviews: [
+      {
+        id: "rv-1",
+        author: "Mark P.",
+        date: "January 2026",
+        rating: 5,
+        title: "Cured my chronic insomnia in 4 days",
+        comment: "The sleep program here is remarkable. Combining CELLGYM oxygen therapy with the Nocturno dinners gave me the deepest REM sleep in years.",
+        verifiedStay: true,
+      },
+    ],
+    contact: {
+      phone: "+62 361 4773888",
+      email: "reservations-bali@revivoresorts.com",
+      website: "https://revivoresorts.com",
+    },
+  },
+
+  {
+    id: "sukhavati-bali",
+    slug: "sukhavati-ayurvedic-retreat",
+    name: "Sukhavati Ayurvedic Retreat & Wellness Spa",
+    tagline: "Authentic Ayurvedic Panchakarma & Vedic Astrology in Rural Bali",
+    description: "Located amidst the tranquil rice fields of Mengwi in Badung Regency, Sukhavati is an authentic Ayurvedic destination. Centered around personalized Panchakarma detoxification, Vedic pulse diagnostics, daily Shirodhara, and organic vegetarian dining.",
+    location: {
+      city: "Mengwi",
+      region: "Badung Regency, Bali",
+      country: "Indonesia",
+      continent: "Asia-Pacific",
+      lat: -8.5833,
+      lng: 115.1667,
+    },
+    heroImage: "https://images.unsplash.com/photo-1518609878373-06d740f60d8b?auto=format&fit=crop&w=1600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1518609878373-06d740f60d8b?auto=format&fit=crop&w=1200&q=80",
+    ],
+    badgeTier: "verified",
+    rating: 4.91,
+    reviewCount: 165,
+    pricing: {
+      minPricePerNight: 410,
+      currency: "USD",
+      pricingTier: "moderate",
+      packageOptions: [
+        {
+          name: "Authentic Panchakarma Detox (7 Nights)",
+          days: 7,
+          price: 2950,
+          description: "Full daily Abhyanga, continuous warm herbal oil Shirodhara, Vedic pulse diagnostics, and organic Dosha-specific meals.",
+        },
+      ],
+    },
+    primaryGoals: [
+      "Ayurveda & Panchakarma",
+      "Detox & Weight Loss",
+      "Burnout & Stress",
+    ],
+    modalities: [
+      "Ayurvedic Massage",
+      "Shirodhara",
+      "Pranayama",
+      "Transcendental Meditation",
+    ],
+    dietary: [
+      "Ayurvedic",
+      "Plant-Based/Vegan",
+      "Organic Farm-to-Table",
+    ],
+    setting: "Lush Rainforest",
+    supervision: "Master Holistic Healers",
+    amenities: [
+      "Open-Air Rice Field Yoga Shala",
+      "Ayurvedic Treatment Pavilion",
+      "Meditation Gazebos",
+      "Organic Herb Garden",
+    ],
+    dailySchedule: [
+      { time: "06:30", activity: "Morning Gentle Hatha Yoga & Pranayama" },
+      { time: "08:00", activity: "Ayurvedic Dosha Breakfast with Warm Spices" },
+      { time: "10:00", activity: "One-on-One Pulse Consultation with Ayurvedic Vaidya" },
+      { time: "12:30", activity: "Sattvic Vegetarian Lunch" },
+      { time: "14:30", activity: "Four-Hand Abhyanga & Shirodhara Oil Treatment" },
+      { time: "17:00", activity: "Transcendental Meditation & Vedic Discourse" },
+      { time: "19:00", activity: "Light Cleansing Dinner & Herbal Infusions" },
+    ],
+    expertTeam: [
+      {
+        name: "Dr. Komang Shanti, BAMS",
+        role: "Lead Ayurvedic Physician",
+        credentials: "Bachelor of Ayurvedic Medicine & Surgery, Kerala University",
+        avatar: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=400&q=80",
+      },
+    ],
+    reviews: [
+      {
+        id: "sk-1",
+        author: "Helena S.",
+        date: "November 2025",
+        rating: 5,
+        title: "True Ayurvedic medicine in a peaceful Balinese estate",
+        comment: "Shirodhara done right by experienced therapists every day. The serenity of the rice fields made letting go so easy.",
+        verifiedStay: true,
+      },
+    ],
+    contact: {
+      phone: "+62 361 900 6128",
+      email: "rejuvenation@sukhavatibali.com",
+      website: "https://sukhavatibali.com",
+    },
+  },
+
+  {
+    id: "bagus-jati-bali",
+    slug: "bagus-jati-wellbeing-retreat",
+    name: "Bagus Jati Health & Wellbeing Retreat",
+    tagline: "High-Altitude Rainforest Sanctuary in Tegallalang Dedicated to Balinese Tri Hita Karana",
+    description: "Perched 750 meters above sea level on five hectares of hillside flora in Tegallalang, Bagus Jati is Bali’s premier mountain health sanctuary. Built following the sacred philosophy of Tri Hita Karana (harmony with people, nature, and the divine), it offers an organic detox diet, thermal jacuzzi, and circular yoga pavilion suspended over valleys.",
+    location: {
+      city: "Tegallalang",
+      region: "Gianyar, Bali",
+      country: "Indonesia",
+      continent: "Asia-Pacific",
+      lat: -8.3833,
+      lng: 115.2833,
+    },
+    heroImage: "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=1600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=1200&q=80",
+    ],
+    badgeTier: "claimed",
+    rating: 4.87,
+    reviewCount: 198,
+    pricing: {
+      minPricePerNight: 180,
+      currency: "USD",
+      pricingTier: "accessible",
+      packageOptions: [
+        {
+          name: "Detox & Balinese Healing (5 Nights)",
+          days: 5,
+          price: 1450,
+          description: "Daily yoga, acupuncture, herbal steam, organic garden juices, and sacred waterfall purification.",
+        },
+      ],
+    },
+    primaryGoals: [
+      "Burnout & Stress",
+      "Detox & Weight Loss",
+      "Spiritual Awakening",
+    ],
+    modalities: [
+      "Acupuncture",
+      "Forest Bathing",
+      "Hydrotherapy",
+      "Balinese Massage",
+    ],
+    dietary: [
+      "Organic Farm-to-Table",
+      "Plant-Based/Vegan",
+      "Gluten-Free",
+    ],
+    setting: "Mountain Sanctuary",
+    supervision: "Master Holistic Healers",
+    amenities: [
+      "Circular Yoga Pavilion Over Valley",
+      "Thermal Hydro-Pool & Waterfall",
+      "Organic Vegetable & Herb Farm",
+      "Herbal Steam Grotto",
+    ],
+    dailySchedule: [
+      { time: "07:00", activity: "Sunrise Mountain Yoga in Circular Shala" },
+      { time: "08:30", activity: "Fresh Papaya & Organic Farm Breakfast" },
+      { time: "10:30", activity: "Nature Walk Through Indigenous Flora & Spice Trees" },
+      { time: "13:00", activity: "Farm-to-Table Lunch at Surya Restaurant" },
+      { time: "15:00", activity: "Traditional Balinese Boreh Spice Wrap & Herbal Bath" },
+      { time: "17:30", activity: "Sunset Meditation & Sound Bowls" },
+      { time: "19:00", activity: "Candlelit Healing Dinner" },
+    ],
+    expertTeam: [
+      {
+        name: "Wayan Sudarta",
+        role: "Traditional Balinese Healer & Yoga Master",
+        credentials: "Master of Classical Hatha & Balinese Energy Systems",
+        avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80",
+      },
+    ],
+    reviews: [
+      {
+        id: "bj-1",
+        author: "Thomas M.",
+        date: "December 2025",
+        rating: 5,
+        title: "Pure mountain air and unmatched stillness",
+        comment: "The circular yoga shala overlooking the jungle valley is heaven on earth. The food comes directly from the organic farm 50 meters away.",
+        verifiedStay: true,
+      },
+    ],
+    contact: {
+      phone: "+62 361 901888",
+      email: "info@bagusjati.com",
+      website: "https://bagusjati.com",
+    },
+  },
+
+  {
+    id: "the-yoga-barn-bali",
+    slug: "the-yoga-barn-ubud",
+    name: "The Yoga Barn",
+    tagline: "Global Epicenter for Yoga, Sound Healing & Conscious Living in Ubud",
+    description: "The Yoga Barn is an internationally renowned holistic oasis in Ubud. Offering over 180 classes weekly in yoga, meditation, breathwork, and sound healing, alongside private healing therapies (energy work, colon hydrotherapy, and Ayurvedic bodywork).",
+    location: {
+      city: "Ubud",
+      region: "Gianyar, Bali",
+      country: "Indonesia",
+      continent: "Asia-Pacific",
+      lat: -8.5142,
+      lng: 115.2631,
+    },
+    heroImage: "https://images.unsplash.com/photo-1545205597-3d9d02c29597?auto=format&fit=crop&w=1600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1545205597-3d9d02c29597?auto=format&fit=crop&w=1200&q=80",
+    ],
+    badgeTier: "claimed",
+    rating: 4.9,
+    reviewCount: 540,
+    pricing: {
+      minPricePerNight: 120,
+      currency: "USD",
+      pricingTier: "accessible",
+      packageOptions: [
+        {
+          name: "7-Day Unlimited Yoga & Healing Retreat",
+          days: 7,
+          price: 980,
+          description: "Unlimited class pass, private sound healing session, colon hydrotherapy, and organic cafe dining credits.",
+        },
+      ],
+    },
+    primaryGoals: [
+      "Mindfulness & Meditation",
+      "Spiritual Awakening",
+      "Emotional & Trauma Healing",
+    ],
+    modalities: [
+      "Sound Healing",
+      "Pranayama",
+      "Acupuncture",
+      "Somatic Release",
+    ],
+    dietary: [
+      "Plant-Based/Vegan",
+      "Raw Food",
+      "Organic Farm-to-Table",
+      "Gluten-Free",
+    ],
+    setting: "Lush Rainforest",
+    supervision: "Master Holistic Healers",
+    amenities: [
+      "7 Distinct Yoga Studios",
+      "Garden Kafe (Plant-Based & Ayurvedic)",
+      "Holistic Healing Clinic",
+      "Amphitheatre for Kirtan & Ecstatic Dance",
+    ],
+    dailySchedule: [
+      { time: "07:00", activity: "Morning Vinyasa Flow in Mountain View Studio" },
+      { time: "09:00", activity: "Fresh Cold Pressed Juices & Acai Bowl at Garden Kafe" },
+      { time: "11:00", activity: "Tibetan Bowl Sound Healing Alchemy" },
+      { time: "13:00", activity: "Raw Vegan Gourmet Lunch" },
+      { time: "15:00", activity: "Private Somatic Release or Energy Healing Session" },
+      { time: "17:30", activity: "Restorative Yin Yoga with Live Cello" },
+      { time: "19:30", activity: "Community Kirtan & Sacred Song Circle" },
+    ],
+    expertTeam: [
+      {
+        name: "Meghan Pappenheim",
+        role: "Co-Founder",
+        credentials: "25+ Years in Cultural & Spiritual Community Building in Bali",
+        avatar: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=400&q=80",
+      },
+    ],
+    reviews: [
+      {
+        id: "yb-1",
+        author: "Emma C.",
+        date: "February 2026",
+        rating: 5,
+        title: "The beating heart of conscious community",
+        comment: "The sound healing classes in the upper studio will make you cry and release things you didn't even know were there.",
+        verifiedStay: true,
+      },
+    ],
+    contact: {
+      phone: "+62 361 971236",
+      email: "info@theyogabarn.com",
+      website: "https://www.theyogabarn.com",
+    },
+  },
+
+  // ==========================================
+  // SOUTH EAST ASIA — PHILIPPINES
+  // ==========================================
+  {
+    id: "the-farm-san-benito",
+    slug: "the-farm-at-san-benito",
+    name: "The Farm at San Benito",
+    tagline: "Holistic Medical Wellness Sanctuary Amidst 52 Hectares of Tropical Forest",
+    description: "Located 90 minutes south of Manila in Lipa City, The Farm at San Benito is an eco-luxury medical retreat resort specializing in natural detoxification, cancer supportive care, cellular renewal, and pain management supervised by integrative medical doctors and licensed therapists.",
+    location: {
+      city: "Batangas",
+      region: "Lipa City",
+      country: "Philippines",
+      continent: "Asia-Pacific",
+      lat: 13.9419,
+      lng: 121.1631,
+    },
+    heroImage: "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=80",
+    ],
+    badgeTier: "featured",
+    rating: 4.88,
+    reviewCount: 312,
+    pricing: {
+      minPricePerNight: 350,
+      currency: "USD",
+      pricingTier: "accessible",
+      packageOptions: [
+        {
+          name: "Holistic Detox Cleanse (6 Days)",
+          days: 6,
+          price: 2400,
+          description: "Doctor consultation, live blood analysis, colon hydrotherapy, organic vegan meals, and daily yoga.",
+        },
+      ],
+    },
+    primaryGoals: [
+      "Detox & Weight Loss",
+      "Longevity & Anti-Aging",
+      "Burnout & Stress",
+    ],
+    modalities: [
+      "Hydrotherapy",
+      "Acupuncture",
+      "IV Therapy",
+      "Live Blood Analysis",
+      "Sound Healing",
+    ],
+    dietary: [
+      "Plant-Based/Vegan",
+      "Raw Food",
+      "Organic Farm-to-Table",
+    ],
+    setting: "Lush Rainforest",
+    supervision: "Medical Doctor Led",
+    amenities: [
+      "Holistic Sanctuary Treatment Complex",
+      "Acqua Hydrotherapy Sanctuary",
+      "ALIVE! Vegan Restaurant (Michelin recognized)",
+      "Organic Coconut Plantation",
+      "Peacock Gardens & Lagoons",
+    ],
+    dailySchedule: [
+      { time: "07:00", activity: "Power Walk through Coconut Plantations" },
+      { time: "08:30", activity: "Living Vegan Breakfast & Cold Pressed Juices" },
+      { time: "10:30", activity: "Integrative Doctor Consultation & Live Blood Analysis" },
+      { time: "12:30", activity: "Raw Food Farm-to-Table Lunch" },
+      { time: "15:00", activity: "Chlorophyll Colon Hydrotherapy Session" },
+      { time: "17:00", activity: "Tibetan Singing Bowl Meditation" },
+      { time: "19:00", activity: "Dinner & Wellness Lecture" },
+    ],
+    expertTeam: [
+      {
+        name: "Dr. Marian Alonzo, MD",
+        role: "Medical Chief of Integrative Health",
+        credentials: "MD, Homeopathy & Anthroposophic Medicine Certified",
+        avatar: "https://images.unsplash.com/photo-1594824813593-9c8821434c76?auto=format&fit=crop&w=400&q=80",
+      },
+    ],
+    reviews: [
+      {
+        id: "rev-8",
+        author: "Amanda C.",
+        date: "December 2025",
+        rating: 5,
+        title: "Incredible value and true medical depth",
+        comment: "The food at ALIVE! restaurant blew me away. I never imagined 100% plant-based raw food could taste like fine dining.",
+        verifiedStay: true,
+      },
+    ],
+    contact: {
+      phone: "+63 2 8884 7000",
+      email: "info@thefarm.com.ph",
+      website: "https://thefarmatsanbenito.com",
+    },
+  },
+
+  // ==========================================
+  // SOUTH EAST ASIA — MALAYSIA
+  // ==========================================
+  {
+    id: "banjaran-hotsprings-malaysia",
+    slug: "the-banjaran-hotsprings-retreat",
+    name: "The Banjaran Hotsprings Retreat",
+    tagline: "Natural Geothermal Hot Springs Sanctuary Nested in 260-Million-Year-Old Limestone Hills",
+    description: "Tucked into a valley of dramatic 260-million-year-old limestone hills in Ipoh, The Banjaran is Malaysia’s premier luxury wellness sanctuary. Built over natural geothermal hot spring lakes, it offers thermal steam caves, an ice bath, crystal meditation caves, and indigenous Malay, Chinese, and Ayurvedic healing treatments.",
+    location: {
+      city: "Ipoh",
+      region: "Perak",
+      country: "Malaysia",
+      continent: "Asia-Pacific",
+      lat: 4.6295,
+      lng: 101.1558,
+    },
+    heroImage: "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?auto=format&fit=crop&w=1600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?auto=format&fit=crop&w=1200&q=80",
+    ],
+    badgeTier: "verified",
+    rating: 4.94,
+    reviewCount: 278,
+    pricing: {
+      minPricePerNight: 330,
+      currency: "USD",
+      pricingTier: "moderate",
+      packageOptions: [
+        {
+          name: "Geothermal Rejuvenation (3 Nights)",
+          days: 3,
+          price: 1250,
+          description: "Private garden villa with geothermal dipping pool, thermal steam cave session, Malay Urut massage, and organic breakfast.",
+        },
+      ],
+    },
+    primaryGoals: [
+      "Burnout & Stress",
+      "Detox & Weight Loss",
+      "Mindfulness & Meditation",
+    ],
+    modalities: [
+      "Hydrotherapy",
+      "Contrast Therapy",
+      "Ayurvedic Massage",
+      "Sound Healing",
+      "Forest Bathing",
+    ],
+    dietary: [
+      "Organic Farm-to-Table",
+      "Gluten-Free",
+      "Plant-Based/Vegan",
+    ],
+    setting: "Lush Rainforest",
+    supervision: "Master Holistic Healers",
+    amenities: [
+      "Natural Geothermal Dipping Pools (38-42°C)",
+      "Thermal Steam Cave & Crystal Meditation Cave",
+      "Ice Bath & Freezing Water Dipping Pool",
+      "Jeff's Cellar (Fine dining inside natural cave)",
+      "Garra Rufa Doctor Fish Pool",
+    ],
+    dailySchedule: [
+      { time: "07:30", activity: "Morning Qi Gong on Lake Deck Overlooking Limestone Cliffs" },
+      { time: "08:45", activity: "Fresh Tropical Fruits & Organic Breakfast at The Pomelo" },
+      { time: "10:30", activity: "Thermal Steam Cave Bathing & Contrast Cold Plunge" },
+      { time: "13:00", activity: "Chef-Curated Organic Wellness Lunch" },
+      { time: "15:00", activity: "Traditional Malay Urut Healing Massage with Herbal Oils" },
+      { time: "17:30", activity: "Silent Meditation in the Natural Amethyst Crystal Cave" },
+      { time: "19:30", activity: "Dinner in the Subterranean Limestone Chamber of Jeff's Cellar" },
+    ],
+    expertTeam: [
+      {
+        name: "Dr. Aris Ramli",
+        role: "Lead Holistic Practitioner",
+        credentials: "Master of Traditional Malay Medicine (Ramuan) & Hydrotherapy",
+        avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80",
+      },
+    ],
+    reviews: [
+      {
+        id: "bj-m1",
+        author: "Nigel K.",
+        date: "November 2025",
+        rating: 5,
+        title: "Bathing in geothermal water surrounded by prehistoric cliffs",
+        comment: "The thermal steam cave feels like a spiritual sanctuary. Having dinner in Jeff's Cellar inside a natural cave is an experience of a lifetime.",
+        verifiedStay: true,
+      },
+    ],
+    contact: {
+      phone: "+60 5 210 7777",
+      email: "tbhr.reservations@sunwayhotels.com",
+      website: "https://www.sunwayhotels.com/the-banjaran",
+    },
+  },
+
+  // ==========================================
+  // SOUTH EAST ASIA — VIETNAM
+  // ==========================================
+  {
+    id: "tia-wellness-vietnam",
+    slug: "tia-wellness-resort-da-nang",
+    name: "TIA Wellness Resort",
+    tagline: "Beachfront All-Inclusive Holistic Wellness & Breathwork Sanctuary in Da Nang",
+    description: "Positioned directly on My Khe Beach in Da Nang, TIA Wellness Resort redefines luxury travel with an all-inclusive wellness concept. Every guest receives guaranteed daily spa treatments, nervous system breathwork classes, and plant-based fine dining across private pool villas.",
+    location: {
+      city: "Da Nang",
+      region: "Central Coast",
+      country: "Vietnam",
+      continent: "Asia-Pacific",
+      lat: 16.0354,
+      lng: 108.2482,
+    },
+    heroImage: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&q=80",
+    ],
+    badgeTier: "verified",
+    rating: 4.92,
+    reviewCount: 185,
+    pricing: {
+      minPricePerNight: 360,
+      currency: "USD",
+      pricingTier: "moderate",
+      packageOptions: [
+        {
+          name: "Body & Mind Cleanse Retreat (4 Nights)",
+          days: 4,
+          price: 1850,
+          description: "Private pool villa, 2 customized spa treatments daily, somatic breathwork, intermittent fasting coaching, and sound healing.",
+        },
+      ],
+    },
+    primaryGoals: [
+      "Burnout & Stress",
+      "Detox & Weight Loss",
+      "Mindfulness & Meditation",
+    ],
+    modalities: [
+      "Sound Healing",
+      "Reiki",
+      "Acupressure",
+      "Somatic Release",
+      "Aerial Flow Therapy",
+    ],
+    dietary: [
+      "Plant-Based/Vegan",
+      "Organic Farm-to-Table",
+      "Gluten-Free",
+    ],
+    setting: "Coastal/Beachfront",
+    supervision: "Master Holistic Healers",
+    amenities: [
+      "Private Pool in Every Villa",
+      "Infinity Beachfront Pool",
+      "Holistic Wellness Centre with Waterfall Gardens",
+      "Aerial Yoga Shala",
+    ],
+    dailySchedule: [
+      { time: "07:30", activity: "Vagus Nerve Morning Breathwork on the Beach" },
+      { time: "08:45", activity: "Plant-Powered Breakfast (Anytime, Anywhere service)" },
+      { time: "10:30", activity: "Signature Aerial Flow Therapy for Spinal Decompression" },
+      { time: "13:00", activity: "Gourmet Cleanse Lunch with Microgreens" },
+      { time: "15:00", activity: "Reiki Energy Balancing & Vietnamese Herbal Compress" },
+      { time: "17:30", activity: "Tibetan Singing Bowl Sunset Meditation" },
+      { time: "19:30", activity: "Plant-Based Chef's Degustation Dinner" },
+    ],
+    expertTeam: [
+      {
+        name: "Linh Nguyen",
+        role: "Head of Somatic & Energy Practices",
+        credentials: "Certified Reiki Master & Vagus Nerve Breathwork Specialist",
+        avatar: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=400&q=80",
+      },
+    ],
+    reviews: [
+      {
+        id: "tia-1",
+        author: "Sarah B.",
+        date: "January 2026",
+        rating: 5,
+        title: "Two treatments every single day in your own pool villa",
+        comment: "The breathwork sessions completely regulated my nervous system. Being able to have breakfast on the beach at any hour was true freedom.",
+        verifiedStay: true,
+      },
+    ],
+    contact: {
+      phone: "+84 2363 967 999",
+      email: "reservation@tiawellnessresort.com",
+      website: "https://tiawellnessresort.com",
+    },
+  },
+
+  {
+    id: "alba-wellness-vietnam",
+    slug: "alba-wellness-valley-hue",
+    name: "Alba Wellness Valley by Fusion",
+    tagline: "Japanese Onsen Journey & Natural Hot Springs Valley in the Foothills of Hue",
+    description: "Located 30km northwest of Hue at the base of the Truong Son mountains, Alba Wellness Valley is built around the natural mineral-rich Thanh Tan hot springs. It features an authentic 8-step Japanese onsen, detox programs, meditation, and zip-line forest therapy.",
+    location: {
+      city: "Hue",
+      region: "Phong Dien",
+      country: "Vietnam",
+      continent: "Asia-Pacific",
+      lat: 16.5412,
+      lng: 107.4123,
+    },
+    heroImage: "https://images.unsplash.com/photo-1518609878373-06d740f60d8b?auto=format&fit=crop&w=1600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1518609878373-06d740f60d8b?auto=format&fit=crop&w=1200&q=80",
+    ],
+    badgeTier: "claimed",
+    rating: 4.86,
+    reviewCount: 142,
+    pricing: {
+      minPricePerNight: 190,
+      currency: "USD",
+      pricingTier: "accessible",
+      packageOptions: [
+        {
+          name: "Detox Yourself Retreat (5 Days)",
+          days: 5,
+          price: 950,
+          description: "Daily Japanese onsen circuit, mineral thermal pool bathing, organic juicing, detox massage, and cycling.",
+        },
+      ],
+    },
+    primaryGoals: [
+      "Detox & Weight Loss",
+      "Burnout & Stress",
+      "Mindfulness & Meditation",
+    ],
+    modalities: [
+      "Hydrotherapy",
+      "Forest Bathing",
+      "Japanese Onsen",
+      "Reflexology",
+    ],
+    dietary: [
+      "Organic Farm-to-Table",
+      "Plant-Based/Vegan",
+    ],
+    setting: "Mountain Sanctuary",
+    supervision: "Master Holistic Healers",
+    amenities: [
+      "Natural Mineral Hot Springs (68°C at source)",
+      "Traditional 8-Step Japanese Onsen",
+      "Forest Zipline & Highwire Course",
+      "Organic Farm & Craft Village",
+    ],
+    dailySchedule: [
+      { time: "07:00", activity: "Morning Tai Chi by the Natural Stream" },
+      { time: "08:30", activity: "Organic Valley Harvest Breakfast & Detox Juice" },
+      { time: "10:00", activity: "8-Step Japanese Mineral Onsen Experience" },
+      { time: "12:30", activity: "Light Healthy Vietnamese Lunch at Madame Chau" },
+      { time: "15:00", activity: "Forest Bathing & Mineral Mud Wrap" },
+      { time: "17:30", activity: "Zen Meditation & Sound Bowls" },
+      { time: "19:00", activity: "Wholesome Dinner & Herbal Tea" },
+    ],
+    expertTeam: [
+      {
+        name: "Kenji Sato",
+        role: "Onsen Master & Hydrotherapy Director",
+        credentials: "Certified Japanese Onsen Specialist (Beppu, Japan)",
+        avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80",
+      },
+    ],
+    reviews: [
+      {
+        id: "ab-1",
+        author: "Pascal D.",
+        date: "December 2025",
+        rating: 5,
+        title: "Incredible natural hot springs in Vietnam",
+        comment: "The natural onsen water is so therapeutic for arthritis and sore muscles. A hidden treasure in the mountains of Hue.",
+        verifiedStay: true,
+      },
+    ],
+    contact: {
+      phone: "+84 234 3556 666",
+      email: "reservation@albawellnessvalley.com",
+      website: "https://fusion-collection.com/albawellnessvalleyhue/",
+    },
+  },
+
+  // ==========================================
+  // SOUTH EAST ASIA — CAMBODIA
+  // ==========================================
+  {
+    id: "song-saa-cambodia",
+    slug: "song-saa-private-island",
+    name: "Song Saa Private Island",
+    tagline: "Ultra-Luxury Regenerative Sanctuary & Marine Conservation in the Koh Rong Archipelago",
+    description: "Spanning two virgin islands in the Koh Rong Archipelago, Song Saa is Cambodia's premier private island sanctuary. Built on principles of regenerative luxury, its nature-led Saraan Sanctuaries draw on ancient Khmer blessing rituals, marine-based wellness, bio-reserve marine protection, and Buddhist water blessings.",
+    location: {
+      city: "Koh Rong Archipelago",
+      region: "Sihanoukville",
+      country: "Cambodia",
+      continent: "Asia-Pacific",
+      lat: 10.6125,
+      lng: 103.2842,
+    },
+    heroImage: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+    ],
+    badgeTier: "featured",
+    rating: 4.96,
+    reviewCount: 128,
+    pricing: {
+      minPricePerNight: 950,
+      currency: "USD",
+      pricingTier: "ultra-luxury",
+      packageOptions: [
+        {
+          name: "All-Inclusive Khmer Rejuvenation (5 Nights)",
+          days: 5,
+          price: 5200,
+          description: "All-inclusive overwater villa, private boat transfers, daily spa rituals, floating sound healing, and marine reserve snorkeling.",
+        },
+      ],
+    },
+    primaryGoals: [
+      "Spiritual Awakening",
+      "Emotional & Trauma Healing",
+      "Burnout & Stress",
+    ],
+    modalities: [
+      "Sound Healing",
+      "Floating Sound Baths",
+      "Forest Bathing",
+      "Khmer Herbal Steam",
+      "Shirodhara",
+    ],
+    dietary: [
+      "Organic Farm-to-Table",
+      "Plant-Based/Vegan",
+      "Gluten-Free",
+    ],
+    setting: "Coastal/Beachfront",
+    supervision: "Master Holistic Healers",
+    amenities: [
+      "Private Overwater & Ocean Villas",
+      "Marine Protected Coral Reef Sanctuary",
+      "Floating Yoga Pavilions",
+      "Subterranean Wine Cave & Vista Restaurant",
+    ],
+    dailySchedule: [
+      { time: "07:00", activity: "Sunrise Yoga on Overwater Pavilion" },
+      { time: "08:30", activity: "All-Inclusive Tropical Island Breakfast" },
+      { time: "10:30", activity: "Coral Reef Conservation Snorkel with Marine Biologist" },
+      { time: "13:00", activity: "Catch-of-the-Day or Plant-Based Lunch" },
+      { time: "15:30", activity: "Khmer Herbal Steam & Traditional Healing Scrub" },
+      { time: "18:00", activity: "Floating Sound Healing Session in the Lagoon" },
+      { time: "19:30", activity: "Candlelit Overwater Dinner Under the Stars" },
+    ],
+    expertTeam: [
+      {
+        name: "Melita Koulmandas",
+        role: "Co-Founder & Creative Director",
+        credentials: "Leader in Regenerative Island Hospitality & Marine Conservation",
+        avatar: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=400&q=80",
+      },
+    ],
+    reviews: [
+      {
+        id: "ss-1",
+        author: "Julian G.",
+        date: "January 2026",
+        rating: 5,
+        title: "The floating sound bath in the ocean is magic",
+        comment: "Floating in the sea at twilight while singing bowls vibrate around you is a memory I will cherish forever.",
+        verifiedStay: true,
+      },
+    ],
+    contact: {
+      phone: "+855 92 609 488",
+      email: "reservations@songsaa.com",
+      website: "https://www.songsaa.com",
+    },
+  },
+
+  {
+    id: "navutu-dreams-cambodia",
+    slug: "navutu-dreams-siem-reap",
+    name: "Navutu Dreams Resort & Wellness Retreat",
+    tagline: "Boutique Wellness Sanctuary for Yoga, TCM & Detox Near Angkor Wat",
+    description: "Located in the quiet countryside just minutes from the temples of Angkor, Navutu Dreams is Cambodia’s premier boutique wellness retreat. Featuring three swimming pools, tropical gardens, an on-site Ayurvedic & Traditional Chinese Medicine clinic, and comprehensive detox programs.",
+    location: {
+      city: "Siem Reap",
+      region: "Salakamroeuk",
+      country: "Cambodia",
+      continent: "Asia-Pacific",
+      lat: 13.3456,
+      lng: 103.8678,
+    },
+    heroImage: "https://images.unsplash.com/photo-1545205597-3d9d02c29597?auto=format&fit=crop&w=1600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1545205597-3d9d02c29597?auto=format&fit=crop&w=1200&q=80",
+    ],
+    badgeTier: "claimed",
+    rating: 4.87,
+    reviewCount: 162,
+    pricing: {
+      minPricePerNight: 140,
+      currency: "USD",
+      pricingTier: "accessible",
+      packageOptions: [
+        {
+          name: "Angkor Rebalance & Yoga (4 Nights)",
+          days: 4,
+          price: 880,
+          description: "Private yoga sessions, acupuncture, herbal scrub, organic vegetarian meals, and guided sunrise temple meditation.",
+        },
+      ],
+    },
+    primaryGoals: [
+      "Mindfulness & Meditation",
+      "Detox & Weight Loss",
+      "Spiritual Awakening",
+    ],
+    modalities: [
+      "Acupuncture",
+      "Sound Healing",
+      "Ayurvedic Massage",
+      "Hydrotherapy",
+    ],
+    dietary: [
+      "Plant-Based/Vegan",
+      "Organic Farm-to-Table",
+      "Gluten-Free",
+    ],
+    setting: "Lush Rainforest",
+    supervision: "Master Holistic Healers",
+    amenities: [
+      "3 Outdoor Swimming Pools (Freshwater & Saltwater)",
+      "Tropical Spa Treatment Pavilions",
+      "Yoga Shala Surrounded by Palms",
+      "Niam Niam Organic Restaurant",
+    ],
+    dailySchedule: [
+      { time: "06:00", activity: "Optional Sunrise Silent Meditation at Angkor Wat" },
+      { time: "08:30", activity: "Tropical Fruit Bowl & Lemongrass Infused Breakfast" },
+      { time: "10:30", activity: "Traditional Chinese Medicine Pulse & Acupuncture" },
+      { time: "13:00", activity: "Nutrient-Dense Cambodian Plant-Based Lunch" },
+      { time: "15:30", activity: "Herbal Oil Body Polish & Aromatherapy" },
+      { time: "17:30", activity: "Restorative Yin Yoga in Open Shala" },
+      { time: "19:30", activity: "Dinner at Niam Niam" },
+    ],
+    expertTeam: [
+      {
+        name: "Francois Guiraud",
+        role: "Wellness Director",
+        credentials: "Acupuncturist & TCM Doctor (Beijing Institute of TCM)",
+        avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=80",
+      },
+    ],
+    reviews: [
+      {
+        id: "nd-1",
+        author: "Sophie T.",
+        date: "February 2026",
+        rating: 5,
+        title: "A calm sanctuary after exploring Angkor",
+        comment: "The acupuncture treatments helped my chronic migraines immediately. The staff treated me like family.",
+        verifiedStay: true,
+      },
+    ],
+    contact: {
+      phone: "+855 63 964 864",
+      email: "reservationsdreams@navuturesorts.com",
+      website: "https://navuturesorts.com/",
+    },
+  },
+
+  // ==========================================
+  // GLOBAL BENCHMARKS (EUROPE & NORTH AMERICA)
+  // ==========================================
+  {
+    id: "clp-switzerland",
+    slug: "clinique-la-prairie",
+    name: "Clinique La Prairie",
+    tagline: "Pioneering Medical Longevity & Cellular Rejuvenation on Lake Geneva",
+    description: "Nestled between the Swiss Alps and Lake Geneva, Clinique La Prairie combines medical excellence with luxury hospitality. Renowned for its world-famous Revitalization program and cutting-edge longevity diagnostics, the clinic unites 50 medical specialists to optimize immune health, cellular longevity, and biological age reversal.",
+    location: {
+      city: "Montreux",
+      region: "Vaud",
+      country: "Switzerland",
+      continent: "Europe",
+      lat: 46.4312,
+      lng: 6.9107,
+    },
+    heroImage: "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1200&q=80",
+    ],
+    badgeTier: "featured",
+    rating: 4.96,
+    reviewCount: 142,
+    pricing: {
+      minPricePerNight: 2450,
+      currency: "CHF",
+      pricingTier: "ultra-luxury",
+      packageOptions: [
+        {
+          name: "Revitalization Premium (7 Days)",
+          days: 7,
+          price: 26800,
+          description: "Comprehensive DNA sequencing, cellular extract therapy, heavy metal detox, hyperbaric oxygen, and tailored longevity diet.",
+        },
+      ],
+    },
+    primaryGoals: [
+      "Longevity & Anti-Aging",
+      "Burnout & Stress",
+      "Detox & Weight Loss",
+    ],
+    modalities: [
+      "Hyperbaric Oxygen",
+      "Cryotherapy",
+      "IV Therapy",
+      "Cellular Genomics",
+      "Hydrotherapy",
+      "Acupuncture",
+    ],
+    dietary: [
+      "Organic Farm-to-Table",
+      "Anti-Inflammatory",
+      "Gluten-Free",
+    ],
+    setting: "Lakefront",
+    supervision: "Medical Doctor Led",
+    amenities: [
+      "Medical Diagnostic Lab",
+      "Thermal Hydrotherapy Pools",
+      "Cryo Chamber",
+      "Private Spa Suites",
+      "Private Helipad",
+    ],
+    dailySchedule: [
+      { time: "07:30", activity: "Gentle Alpine Awakening & Breathwork by the Lake" },
+      { time: "08:30", activity: "Tailored Nutrient Breakfast & Cellular Supplement Protocol" },
+      { time: "10:00", activity: "Medical Consultations & Biomarker Diagnostics" },
+      { time: "12:30", activity: "Anti-Inflammatory Gourmet Lunch" },
+      { time: "14:30", activity: "Hyperbaric Oxygen Therapy & Contrast Hydro-Thermal Circuit" },
+      { time: "17:00", activity: "Restorative Yoga & Sound Frequency Healing" },
+      { time: "19:30", activity: "Longevity Dinner & Guided Sleep Meditation" },
+    ],
+    expertTeam: [
+      {
+        name: "Dr. Adrian Heini, MD",
+        role: "Head of Preventive Medicine",
+        credentials: "MD, Board-Certified Internal Medicine & Clinical Nutrition",
+        avatar: "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=400&q=80",
+      },
+    ],
+    reviews: [
+      {
+        id: "rev-1",
+        author: "Marcus V.",
+        date: "October 2025",
+        rating: 5,
+        title: "Life-changing diagnostic depth and bespoke recovery",
+        comment: "The medical precision here is unmatched anywhere in the world. Identified underlying stressors two top clinics missed.",
+        verifiedStay: true,
+      },
+    ],
+    contact: {
+      phone: "+41 21 989 33 11",
+      email: "concierge@cliniquelaprairie.com",
+      website: "https://cliniquelaprairie.com",
+    },
+  },
+
   {
     id: "sha-wellness-spain",
     slug: "sha-wellness-clinic",
     name: "SHA Wellness Clinic",
     tagline: "World-Renowned Pioneer in Integrative Health & Longevity Medicine",
-    description: "Positioned on the scenic cliffs of Sierra Helada overlooking the Mediterranean Sea, SHA Wellness Clinic blends ancient Eastern philosophies with state-of-the-art Western medicine. With dedicated units in Cognitive Health, Healthy Aging, and Metabolic Recovery, SHA provides one of the most sophisticated holistic health curricula on earth.",
+    description: "Positioned on the scenic cliffs of Sierra Helada overlooking the Mediterranean Sea, SHA Wellness Clinic blends ancient Eastern philosophies with state-of-the-art Western medicine. With dedicated units in Cognitive Health, Healthy Aging, and Metabolic Recovery.",
     location: {
       city: "Alicante",
       region: "Costa Blanca",
       country: "Spain",
       continent: "Europe",
       lat: 38.5719,
-      lng: -0.0768
+      lng: -0.0768,
     },
     heroImage: "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?auto=format&fit=crop&w=1600&q=80",
     gallery: [
       "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&q=80"
     ],
     badgeTier: "verified",
     rating: 4.94,
@@ -262,20 +1902,14 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
           name: "Optimal Weight & Detox (7 Days)",
           days: 7,
           price: 6900,
-          description: "Metabolic profiling, colon hydrotherapy, pressotherapy, acupuncture, and customized SHA macrobiotic diet plan."
+          description: "Metabolic profiling, colon hydrotherapy, pressotherapy, acupuncture, and customized SHA macrobiotic diet plan.",
         },
-        {
-          name: "Rebalance & De-Stress (7 Days)",
-          days: 7,
-          price: 5800,
-          description: "Cognitive assessment, neurofeedback, stress-hormone mapping, and daily mindfulness meditation."
-        }
-      ]
+      ],
     },
     primaryGoals: [
       "Detox & Weight Loss",
       "Longevity & Anti-Aging",
-      "Burnout & Stress"
+      "Burnout & Stress",
     ],
     modalities: [
       "Cryotherapy",
@@ -283,12 +1917,11 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "Acupuncture",
       "IV Therapy",
       "Hydrotherapy",
-      "Ozone Therapy"
     ],
     dietary: [
       "Anti-Inflammatory",
       "Organic Farm-to-Table",
-      "Gluten-Free"
+      "Gluten-Free",
     ],
     setting: "Coastal/Beachfront",
     supervision: "Medical Doctor Led",
@@ -297,7 +1930,6 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "Cryotherapy Chamber",
       "Infinity Rooftop Pool",
       "Cognitive Stimulation Lab",
-      "Private Heliport"
     ],
     dailySchedule: [
       { time: "07:30", activity: "Sunrise Coastal Walk & Qi Gong on Helipad" },
@@ -306,15 +1938,15 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       { time: "13:00", activity: "Chef-Prepared Therapeutic Lunch" },
       { time: "15:00", activity: "Cryotherapy Session & Hydrotherapy Flotarium" },
       { time: "17:30", activity: "Healthy Cooking Academy Masterclass" },
-      { time: "19:30", activity: "Dinner & Evening Sound Therapy" }
+      { time: "19:30", activity: "Dinner & Evening Sound Therapy" },
     ],
     expertTeam: [
       {
         name: "Dr. Vicente Mera",
         role: "Head of Anti-Aging & Genomic Medicine",
         credentials: "European Award for Medicine in Anti-Aging (2021)",
-        avatar: "https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&w=400&q=80"
-      }
+        avatar: "https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&w=400&q=80",
+      },
     ],
     reviews: [
       {
@@ -323,34 +1955,34 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
         date: "November 2025",
         rating: 5,
         title: "Metabolic reset that changed my lifestyle",
-        comment: "Lost 4kg in 7 days without feeling hungry once. The medical staff is extraordinary, and the architectural design makes every day feel like a movie.",
-        verifiedStay: true
-      }
+        comment: "The medical staff is extraordinary, and the architectural design makes every day feel like a movie.",
+        verifiedStay: true,
+      },
     ],
     contact: {
       phone: "+34 966 81 11 99",
       email: "info@shawellness.com",
-      website: "https://shawellness.com"
-    }
+      website: "https://shawellness.com",
+    },
   },
+
   {
     id: "ananda-himalayas",
     slug: "ananda-in-the-himalayas",
     name: "Ananda in the Himalayas",
     tagline: "Authentic Ayurvedic Panchakarma & Vedanta Philosophy in a Maharaja's Palace",
-    description: "Perched on a 100-acre palace estate surrounded by Sal forests with panoramic vistas of the Ganges and Himalayan foothills, Ananda is the gold standard for traditional Ayurveda, Panchakarma detox, and classical Hatha Yoga. Every guest receives custom pulse diagnostics from resident Ayurvedic vaidyas.",
+    description: "Perched on a 100-acre palace estate surrounded by Sal forests with panoramic vistas of the Ganges and Himalayan foothills, Ananda is the gold standard for traditional Ayurveda, Panchakarma detox, and classical Hatha Yoga.",
     location: {
       city: "Rishikesh",
       region: "Uttarakhand",
       country: "India",
       continent: "Asia-Pacific",
       lat: 30.1254,
-      lng: 78.3182
+      lng: 78.3182,
     },
     heroImage: "https://images.unsplash.com/photo-1545205597-3d9d02c29597?auto=format&fit=crop&w=1600&q=80",
     gallery: [
       "https://images.unsplash.com/photo-1545205597-3d9d02c29597?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=1200&q=80"
     ],
     badgeTier: "verified",
     rating: 4.97,
@@ -364,34 +1996,27 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
           name: "Authentic Panchakarma (14 Nights)",
           days: 14,
           price: 11200,
-          description: "Full traditional Ayurvedic detoxification, daily Abhyanga, Shirodhara, herbal steam, and personalized Dosha cuisine."
+          description: "Full traditional Ayurvedic detoxification, daily Abhyanga, Shirodhara, herbal steam, and personalized Dosha cuisine.",
         },
-        {
-          name: "Stress Management & Yoga (7 Nights)",
-          days: 7,
-          price: 5600,
-          description: "Classical yoga therapy, Vedanta philosophy discourses, and deep nervous system rejuvenation."
-        }
-      ]
+      ],
     },
     primaryGoals: [
       "Ayurveda & Panchakarma",
       "Burnout & Stress",
       "Spiritual Awakening",
-      "Mindfulness & Meditation"
+      "Mindfulness & Meditation",
     ],
     modalities: [
       "Ayurvedic Massage",
       "Forest Bathing",
       "Sound Healing",
       "Pranayama",
-      "Hydrotherapy"
+      "Hydrotherapy",
     ],
     dietary: [
       "Ayurvedic",
       "Organic Farm-to-Table",
       "Plant-Based/Vegan",
-      "Gluten-Free"
     ],
     setting: "Mountain Sanctuary",
     supervision: "Master Holistic Healers",
@@ -400,25 +2025,24 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "Open-Air Yoga Pavilions",
       "Private Sal Forest Hiking Trails",
       "Meditation Shala",
-      "Ayurvedic Pharmacy"
     ],
     dailySchedule: [
       { time: "06:00", activity: "Ganges Valley Sunrise Hatha Yoga" },
       { time: "07:30", activity: "Pranayama & Himalayan Breath Mastery" },
-      { time: "08:30", activity: "Ayurvedic Dosha Breakfast (Vata/Pitta/Kapha customized)" },
+      { time: "08:30", activity: "Ayurvedic Dosha Breakfast" },
       { time: "10:30", activity: "Four-Hand Abhyanga & Warm Herbal Oil Shirodhara" },
       { time: "13:00", activity: "Organic Sattvic Lunch" },
       { time: "16:00", activity: "Vedanta Discourse & Guided Philosophy Reflection" },
       { time: "17:30", activity: "Forest Meditation in Himalayan Sal Woodlands" },
-      { time: "19:30", activity: "Evening Ayurvedic Dinner & Healing Herb Infusions" }
+      { time: "19:30", activity: "Evening Ayurvedic Dinner & Healing Herb Infusions" },
     ],
     expertTeam: [
       {
         name: "Dr. Chandan Rawat",
         role: "Chief Ayurvedic Physician (BAMS)",
         credentials: "25+ Years Experience in Panchakarma Diagnostics",
-        avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80"
-      }
+        avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80",
+      },
     ],
     reviews: [
       {
@@ -428,33 +2052,33 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
         rating: 5,
         title: "A spiritual home above the clouds",
         comment: "The pulse diagnosis was so accurate it was uncanny. After 14 days of Panchakarma, my chronic fatigue of 6 years vanished.",
-        verifiedStay: true
-      }
+        verifiedStay: true,
+      },
     ],
     contact: {
       phone: "+91 1378 227 500",
       email: "reservations@anandaspa.com",
-      website: "https://anandaspa.com"
-    }
+      website: "https://anandaspa.com",
+    },
   },
+
   {
     id: "mii-amo-sedona",
     slug: "mii-amo-sedona",
     name: "Mii Amo",
     tagline: "Transformative Spiritual & Mind-Body Retreat in Sedona's Red Rock Vortex",
-    description: "Tucked inside the sheer red rock walls of Boynton Canyon, Mii Amo is an intimate, destination spa renowned for connection, healing, and mindfulness. Known for its sacred Crystal Grotto, Native American wisdom, and personalized 'Journeys', it offers an unforgettable pause from modern digital chaos.",
+    description: "Tucked inside the sheer red rock walls of Boynton Canyon, Mii Amo is an intimate, destination spa renowned for connection, healing, and mindfulness. Known for its sacred Crystal Grotto, Native American wisdom, and personalized 'Journeys'.",
     location: {
       city: "Sedona",
       region: "Arizona",
       country: "United States",
       continent: "North America",
       lat: 34.9125,
-      lng: -111.8496
+      lng: -111.8496,
     },
     heroImage: "https://images.unsplash.com/photo-1518609878373-06d740f60d8b?auto=format&fit=crop&w=1600&q=80",
     gallery: [
       "https://images.unsplash.com/photo-1518609878373-06d740f60d8b?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=80"
     ],
     badgeTier: "verified",
     rating: 4.91,
@@ -468,33 +2092,25 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
           name: "All-Inclusive 4-Night Journey",
           days: 4,
           price: 6600,
-          description: "Full lodging, all gourmet canyon dining, daily spa treatments, vortex meditation, and intuitive astrology consultation."
+          description: "Full lodging, all gourmet canyon dining, daily spa treatments, vortex meditation, and intuitive astrology consultation.",
         },
-        {
-          name: "All-Inclusive 7-Night Journey",
-          days: 7,
-          price: 11200,
-          description: "Deeper emotional transformation journey, somatic sound ceremonies, red clay body wraps, and guided canyon hikes."
-        }
-      ]
+      ],
     },
     primaryGoals: [
       "Emotional & Trauma Healing",
       "Spiritual Awakening",
       "Burnout & Stress",
-      "Mindfulness & Meditation"
     ],
     modalities: [
       "Sound Healing",
       "Acupuncture",
       "Somatic Release",
       "Forest Bathing",
-      "Chakra Balancing"
     ],
     dietary: [
       "Organic Farm-to-Table",
       "Gluten-Free",
-      "Plant-Based/Vegan"
+      "Plant-Based/Vegan",
     ],
     setting: "Desert Oasis",
     supervision: "Master Holistic Healers",
@@ -502,8 +2118,6 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "Crystal Grotto Sanctuary",
       "Boynton Canyon Private Trail Access",
       "Hummingbird Signature Restaurant",
-      "Reflexology Path",
-      "Outdoor Canyon Pool"
     ],
     dailySchedule: [
       { time: "07:00", activity: "Vortex Morning Meditation in Crystal Grotto" },
@@ -511,17 +2125,16 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       { time: "09:30", activity: "Guided Red Rock Hiking & Nature Attunement" },
       { time: "11:45", activity: "Red Clay & Prickly Pear Purification Body Wrap" },
       { time: "13:00", activity: "Mindful Culinary Lunch" },
-      { time: "15:00", activity: "Private Intuitive Consultation or Aura Photography" },
       { time: "17:30", activity: "Sunset Sound Bath with Alchemy Quartz Bowls" },
-      { time: "19:30", activity: "Starlight Dinner at Hummingbird" }
+      { time: "19:30", activity: "Starlight Dinner at Hummingbird" },
     ],
     expertTeam: [
       {
         name: "Raven Lightfoot",
         role: "Lead Spiritual Guide",
         credentials: "Indigenous Wisdom Keeper & Master Sound Alchemist",
-        avatar: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=400&q=80"
-      }
+        avatar: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=400&q=80",
+      },
     ],
     reviews: [
       {
@@ -530,298 +2143,14 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
         date: "February 2026",
         rating: 5,
         title: "Healed a heart that felt broken for two years",
-        comment: "The Crystal Grotto morning meditation opened tears I didn't know I was holding. The silence and the canyon energy are medicine.",
-        verifiedStay: true
-      }
+        comment: "The Crystal Grotto morning meditation opened tears I didn't know I was holding.",
+        verifiedStay: true,
+      },
     ],
     contact: {
       phone: "+1 855 200 6003",
       email: "concierge@miiamo.com",
-      website: "https://miiamo.com"
-    }
+      website: "https://miiamo.com",
+    },
   },
-  {
-    id: "lanserhof-tegernsee",
-    slug: "lanserhof-tegernsee",
-    name: "Lanserhof Tegernsee",
-    tagline: "State-of-the-Art German Medical Diagnostics & Modern Mayr Gut Regeneration",
-    description: "Overlooking Lake Tegernsee and the Bavarian Alps, Lanserhof Tegernsee is Europe's foremost health resort for scientific gut detoxification, preventative cardiology, and longevity medicine. Combining Modern Mayr therapy with state-of-the-art MRI diagnostics and sleep medicine, Lanserhof restores gut flora and metabolic equilibrium.",
-    location: {
-      city: "Waakirchen",
-      region: "Bavaria",
-      country: "Germany",
-      continent: "Europe",
-      lat: 47.7667,
-      lng: 11.6667
-    },
-    heroImage: "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1600&q=80",
-    gallery: [
-      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=80"
-    ],
-    badgeTier: "featured",
-    rating: 4.95,
-    reviewCount: 178,
-    pricing: {
-      minPricePerNight: 1850,
-      currency: "EUR",
-      pricingTier: "ultra-luxury",
-      packageOptions: [
-        {
-          name: "Lanserhof Cure Classic (7 Days)",
-          days: 7,
-          price: 9400,
-          description: "Initial medical check-up, full lab diagnostics, daily abdominal medical treatments, urine & detox monitoring, and Mayr gut diet."
-        }
-      ]
-    },
-    primaryGoals: [
-      "Detox & Weight Loss",
-      "Longevity & Anti-Aging",
-      "Burnout & Stress"
-    ],
-    modalities: [
-      "Cryotherapy",
-      "Hyperbaric Oxygen",
-      "IV Therapy",
-      "Hydrotherapy",
-      "Acupuncture"
-    ],
-    dietary: [
-      "Anti-Inflammatory",
-      "Gluten-Free",
-      "Intermittent Fasting"
-    ],
-    setting: "Mountain Sanctuary",
-    supervision: "Medical Doctor Led",
-    amenities: [
-      "3-Tesla MRI & Advanced Medical Diagnostic Center",
-      "Sleep Laboratory",
-      "Heated Saltwater Indoor & Outdoor Pool",
-      "High-Tech Cryo Chamber (-110°C)",
-      "Bavarian Alpine Walking Grounds"
-    ],
-    dailySchedule: [
-      { time: "07:00", activity: "Epsom Salt & Warm Alkaline Water Cleansing Ritual" },
-      { time: "08:15", activity: "Mindful Mayr Chewing Training & Protein Breakfast" },
-      { time: "10:00", activity: "Medical Abdominal Examination by Lead Physician" },
-      { time: "11:30", activity: "Full Body Cryotherapy (-110°C) for Inflammation Reduction" },
-      { time: "13:00", activity: "Alkaline Light Vegetable Broth & Sheep's Milk Curd" },
-      { time: "15:00", activity: "Lymphatic Drainage & Hay Flower Liver Compress" },
-      { time: "17:30", activity: "Alpine Nordic Walking with Sports Physiologist" },
-      { time: "19:00", activity: "Restorative Evening Broth & Sleep Optimization Routine" }
-    ],
-    expertTeam: [
-      {
-        name: "Dr. Benedikt Weber, MD",
-        role: "Medical Director",
-        credentials: "Specialist in Internal Medicine & Modern Mayr Medicine",
-        avatar: "https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&w=400&q=80"
-      }
-    ],
-    reviews: [
-      {
-        id: "rev-7",
-        author: "Henrik S.",
-        date: "November 2025",
-        rating: 5,
-        title: "Medical precision that reset my entire digestive system",
-        comment: "The discipline of the Mayr cure combined with the German medical rigor is exceptional. My blood pressure normalized, and I feel 10 years younger.",
-        verifiedStay: true
-      }
-    ],
-    contact: {
-      phone: "+49 8022 1880 0",
-      email: "tegernsee@lanserhof.com",
-      website: "https://lanserhof.com"
-    }
-  },
-  {
-    id: "the-farm-san-benito",
-    slug: "the-farm-at-san-benito",
-    name: "The Farm at San Benito",
-    tagline: "Holistic Medical Wellness Sanctuary Amidst 52 Hectares of Tropical Forest",
-    description: "Located 90 minutes south of Manila in Lipa City, The Farm at San Benito is an eco-luxury medical retreat resort specializing in natural detoxification, cancer supportive care, cellular renewal, and pain management supervised by integrative medical doctors and licensed therapists.",
-    location: {
-      city: "Batangas",
-      region: "Lipa City",
-      country: "Philippines",
-      continent: "Asia-Pacific",
-      lat: 13.9419,
-      lng: 121.1631
-    },
-    heroImage: "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1600&q=80",
-    gallery: [
-      "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=80"
-    ],
-    badgeTier: "claimed",
-    rating: 4.88,
-    reviewCount: 312,
-    pricing: {
-      minPricePerNight: 350,
-      currency: "USD",
-      pricingTier: "accessible",
-      packageOptions: [
-        {
-          name: "Holistic Detox Cleanse (6 Days)",
-          days: 6,
-          price: 2400,
-          description: "Doctor consultation, live blood analysis, colon hydrotherapy, organic vegan meals, and daily yoga."
-        }
-      ]
-    },
-    primaryGoals: [
-      "Detox & Weight Loss",
-      "Longevity & Anti-Aging",
-      "Burnout & Stress"
-    ],
-    modalities: [
-      "Hydrotherapy",
-      "Acupuncture",
-      "IV Therapy",
-      "Live Blood Analysis",
-      "Sound Healing"
-    ],
-    dietary: [
-      "Plant-Based/Vegan",
-      "Raw Food",
-      "Organic Farm-to-Table"
-    ],
-    setting: "Lush Rainforest",
-    supervision: "Medical Doctor Led",
-    amenities: [
-      "Holistic Sanctuary Treatment Complex",
-      "Acqua Hydrotherapy Sanctuary",
-      "ALIVE! Vegan Restaurant (Michelin recognized)",
-      "Organic Coconut Plantation",
-      "Peacock Gardens & Lagoons"
-    ],
-    dailySchedule: [
-      { time: "07:00", activity: "Power Walk through Coconut Plantations" },
-      { time: "08:30", activity: "Living Vegan Breakfast & Cold Pressed Juices" },
-      { time: "10:30", activity: "Integrative Doctor Consultation & Live Blood Analysis" },
-      { time: "12:30", activity: "Raw Food Farm-to-Table Lunch" },
-      { time: "15:00", activity: "Chlorophyll Colon Hydrotherapy Session" },
-      { time: "17:00", activity: "Tibetan Singing Bowl Meditation" },
-      { time: "19:00", activity: "Dinner & Wellness Lecture" }
-    ],
-    expertTeam: [
-      {
-        name: "Dr. Marian Alonzo, MD",
-        role: "Medical Chief of Integrative Health",
-        credentials: "MD, Homeopathy & Anthroposophic Medicine Certified",
-        avatar: "https://images.unsplash.com/photo-1594824813593-9c8821434c76?auto=format&fit=crop&w=400&q=80"
-      }
-    ],
-    reviews: [
-      {
-        id: "rev-8",
-        author: "Amanda C.",
-        date: "December 2025",
-        rating: 5,
-        title: "Incredible value and true medical depth",
-        comment: "The food at ALIVE! restaurant blew me away. I never imagined 100% plant-based raw food could taste like fine dining.",
-        verifiedStay: true
-      }
-    ],
-    contact: {
-      phone: "+63 2 8884 7000",
-      email: "info@thefarm.com.ph",
-      website: "https://thefarmatsanbenito.com"
-    }
-  },
-  {
-    id: "aro-ha-new-zealand",
-    slug: "aro-ha-wellness-retreat",
-    name: "Aro Hā Wellness Retreat",
-    tagline: "Regenerative Eco-Zen Sanctuary in the Southern Alps of New Zealand",
-    description: "Overlooking Lake Wakatipu and the majestic snow-capped peaks of Glenorchy, Aro Hā is a purpose-built, carbon-positive wellness retreat. Fusing subalpine hiking, mindful Vinyasa yoga, functional strength, and vegan permaculture cuisine, Aro Hā offers an invigorating reset for body and soul.",
-    location: {
-      city: "Glenorchy",
-      region: "Otago",
-      country: "New Zealand",
-      continent: "Asia-Pacific",
-      lat: -44.8500,
-      lng: 168.4000
-    },
-    heroImage: "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=1600&q=80",
-    gallery: [
-      "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=1200&q=80"
-    ],
-    badgeTier: "verified",
-    rating: 4.98,
-    reviewCount: 154,
-    pricing: {
-      minPricePerNight: 950,
-      currency: "NZD",
-      pricingTier: "luxury",
-      packageOptions: [
-        {
-          name: "6-Day Revitalise & Rejuvenate",
-          days: 6,
-          price: 6450,
-          description: "All-inclusive subalpine guided hiking, daily dynamic yoga, daily massage, functional movement, and organic plant food."
-        }
-      ]
-    },
-    primaryGoals: [
-      "Burnout & Stress",
-      "Detox & Weight Loss",
-      "Mindfulness & Meditation"
-    ],
-    modalities: [
-      "Forest Bathing",
-      "Contrast Therapy",
-      "Somatic Release",
-      "Vinyasa Yoga"
-    ],
-    dietary: [
-      "Plant-Based/Vegan",
-      "Organic Farm-to-Table",
-      "Gluten-Free"
-    ],
-    setting: "Mountain Sanctuary",
-    supervision: "Master Holistic Healers",
-    amenities: [
-      "Obsidian Contrast Hydrotherapy Spa",
-      "Aro Hā Yoga Shala with 180° Lake Views",
-      "Permaculture Greenhouse",
-      "Finnish Sauna",
-      "Outdoor Cold Plunge Pool"
-    ],
-    dailySchedule: [
-      { time: "06:30", activity: "Tibetan Brass Chime Awakening" },
-      { time: "07:00", activity: "Dynamic Vinyasa Yoga overlooking Lake Wakatipu" },
-      { time: "08:30", activity: "Permaculture Rainbow Breakfast Bowl" },
-      { time: "10:00", activity: "Guided 3-4 Hour Subalpine Wilderness Trek" },
-      { time: "14:00", activity: "Nutrient-Dense Lunch & Herbal Elixirs" },
-      { time: "15:30", activity: "Daily Restorative Massage & Contrast Spa Circuit" },
-      { time: "18:00", activity: "Restorative Yin Yoga & Mindfulness Meditation" },
-      { time: "19:30", activity: "Communal Candlelit Vegetarian Feast" }
-    ],
-    expertTeam: [
-      {
-        name: "Damian Chaparro",
-        role: "Co-Founder & Movement Lead",
-        credentials: "20+ Years in Transformational Human Potential Retreats",
-        avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=80"
-      }
-    ],
-    reviews: [
-      {
-        id: "rev-9",
-        author: "Liam B.",
-        date: "January 2026",
-        rating: 5,
-        title: "The purest air and most energizing week of my life",
-        comment: "Hiking through the Southern Alps and jumping into the cold plunge after sauna with that view is something I will carry with me forever.",
-        verifiedStay: true
-      }
-    ],
-    contact: {
-      phone: "+64 3 441 3333",
-      email: "host@aro-ha.com",
-      website: "https://aro-ha.com"
-    }
-  }
 ];
