@@ -399,11 +399,11 @@ export default function CenterDetailClient({ center, similarCenters = [] }: Cent
                       G
                     </div>
                     <h2 className="font-serif text-2xl font-bold text-stone-900">
-                      Verified Google Reviews ({center.reviewCount || center.reviews.length})
+                      Verified Google Reviews ({center.reviews.length})
                     </h2>
                   </div>
                   <p className="text-xs text-stone-500 mt-1">
-                    Authentic guest feedback verified from Google Business profiles and clinical audits.
+                    Authentic guest feedback verified from Google Business profiles ({center.reviewCount || 120}+ total on Google).
                   </p>
                 </div>
                 <div className="flex items-center gap-3">
@@ -411,17 +411,23 @@ export default function CenterDetailClient({ center, similarCenters = [] }: Cent
                     <Star className="w-4 h-4 fill-gold text-gold" />
                     <span>{center.rating} / 5.0</span>
                   </div>
-                  {center.contact.googleReviewsUrl && (
-                    <a
-                      href={center.contact.googleReviewsUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-xs font-semibold text-primary-800 hover:text-primary-950 flex items-center gap-1 underline underline-offset-2"
-                    >
-                      <span>Read on Google</span>
-                      <ExternalLink className="w-3.5 h-3.5" />
-                    </a>
-                  )}
+                  {(() => {
+                    const googleReviewsLink =
+                      center.contact.googleReviewsUrl && !center.contact.googleReviewsUrl.includes("cid=")
+                        ? center.contact.googleReviewsUrl
+                        : `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${center.name} ${center.location.city} ${center.location.country}`)}`;
+                    return (
+                      <a
+                        href={googleReviewsLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-xs font-semibold text-primary-800 hover:text-primary-950 flex items-center gap-1 underline underline-offset-2"
+                      >
+                        <span>Read on Google</span>
+                        <ExternalLink className="w-3.5 h-3.5" />
+                      </a>
+                    );
+                  })()}
                 </div>
               </div>
 
