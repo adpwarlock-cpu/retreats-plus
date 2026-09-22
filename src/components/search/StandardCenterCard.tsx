@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 import { RetreatCenter } from "@/types/retreat";
 import { useCompare } from "@/components/compare/CompareContext";
 import {
@@ -20,11 +21,13 @@ interface StandardCenterCardProps {
 }
 
 export default function StandardCenterCard({ center }: StandardCenterCardProps) {
+  const router = useRouter();
   const { addToCompare, removeFromCompare, isInCompare } = useCompare();
   const inCompare = isInCompare(center.id);
 
   const handleToggleCompare = (e: React.MouseEvent) => {
     e.preventDefault();
+    e.stopPropagation();
     if (inCompare) {
       removeFromCompare(center.id);
     } else {
@@ -32,8 +35,19 @@ export default function StandardCenterCard({ center }: StandardCenterCardProps) 
     }
   };
 
+  const handleCardClick = (e: React.MouseEvent) => {
+    const target = e.target as HTMLElement;
+    if (target.closest("button") || target.closest("a")) {
+      return;
+    }
+    router.push(`/centers/${center.slug}`);
+  };
+
   return (
-    <article className="bg-white rounded-2xl border border-stone-200/90 hover:border-stone-300 hover:shadow-lg transition-all duration-300 overflow-hidden flex flex-col md:flex-row group">
+    <article
+      onClick={handleCardClick}
+      className="bg-white rounded-2xl border border-stone-200/90 hover:border-stone-300 hover:shadow-lg transition-all duration-300 overflow-hidden flex flex-col md:flex-row group cursor-pointer"
+    >
       {/* Left Column: Image */}
       <div className="w-full md:w-72 lg:w-80 shrink-0 p-3 sm:p-4">
         <div className="relative aspect-[16/10] md:aspect-[4/3] w-full rounded-xl overflow-hidden bg-stone-100 shadow-inner">

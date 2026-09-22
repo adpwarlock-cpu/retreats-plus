@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { RetreatCenter } from "@/types/retreat";
 import { useCompare } from "@/components/compare/CompareContext";
@@ -25,12 +26,14 @@ interface AdvertisedCenterCardProps {
 }
 
 export default function AdvertisedCenterCard({ center, rank }: AdvertisedCenterCardProps) {
+  const router = useRouter();
   const { addToCompare, removeFromCompare, isInCompare } = useCompare();
   const inCompare = isInCompare(center.id);
   const [activeImage, setActiveImage] = useState(center.heroImage);
 
   const handleToggleCompare = (e: React.MouseEvent) => {
     e.preventDefault();
+    e.stopPropagation();
     if (inCompare) {
       removeFromCompare(center.id);
     } else {
@@ -38,11 +41,22 @@ export default function AdvertisedCenterCard({ center, rank }: AdvertisedCenterC
     }
   };
 
+  const handleCardClick = (e: React.MouseEvent) => {
+    const target = e.target as HTMLElement;
+    if (target.closest("button") || target.closest("a")) {
+      return;
+    }
+    router.push(`/centers/${center.slug}`);
+  };
+
   // Thumbnail list from hero + gallery
   const thumbnails = [center.heroImage, ...(center.gallery || [])].slice(0, 4);
 
   return (
-    <article className="relative bg-gradient-to-r from-amber-50/40 via-white to-sand-50/25 rounded-2xl border-2 border-amber-300/80 shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden group">
+    <article
+      onClick={handleCardClick}
+      className="relative bg-gradient-to-r from-amber-50/40 via-white to-sand-50/25 rounded-2xl border-2 border-amber-300/80 shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden group cursor-pointer"
+    >
       {/* Sponsored Header Banner */}
       <div className="flex items-center justify-between px-4 sm:px-6 py-2 bg-gradient-to-r from-amber-100/95 via-amber-50 to-sand-100/90 border-b border-amber-200/80 text-[11px] font-bold text-amber-950">
         <div className="flex items-center gap-1.5">

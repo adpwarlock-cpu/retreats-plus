@@ -24,7 +24,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://www.chivasom.com/wp-content/uploads/2024/07/Chiva-Som-Taste-of-Siam-Outdoor-Pool-Sunrise-e1721286759679.webp",
       "https://www.chivasom.com/wp-content/uploads/2024/07/06-Chiva-Som-Hua-Hin-Thai-Pavilion-Suite-7.jpg",
       "https://www.chivasom.com/wp-content/uploads/2024/07/06-Chiva-Som-Hua-Hin-Thai-Pavilion-Suite-9.1.jpg",
-      "https://www.chivasom.com/wp-content/uploads/2024/07/Chiva-Som-014.webp",
+      "https://www.chivasom.com/wp-content/uploads/2024/07/Chiva-Som-014.webp"
     ],
     "badgeTier": "featured",
     "rating": 4.97,
@@ -192,7 +192,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://kamalaya.com/wp-content/uploads/2026/02/wellness-thailand-01.jpg",
       "https://kamalaya.com/wp-content/uploads/2026/02/wellness-thailand-08.jpg",
       "https://kamalaya.com/wp-content/uploads/2026/02/wellness-thailand-02.jpg",
-      "https://kamalaya.com/wp-content/uploads/2026/02/wellness-thailand-03.jpg",
+      "https://kamalaya.com/wp-content/uploads/2026/02/wellness-thailand-03.jpg"
     ],
     "badgeTier": "featured",
     "rating": 4.95,
@@ -357,7 +357,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://ak-d.tripcdn.com/images/0222912000trahdul2C48_R_600_600_R5_D.jpg",
       "https://ak-d.tripcdn.com/images/0222912000trahdul2C48_R_452_274_R5_D.jpg",
       "https://ak-d.tripcdn.com/images/0221y12000trahj2p13C5_R_452_274_R5_D.jpg",
-      "https://ak-d.tripcdn.com/images/0222912000trahdul2C48_W_480_360_R5_Q70.jpg",
+      "https://ak-d.tripcdn.com/images/0222912000trahdul2C48_W_480_360_R5_Q70.jpg"
     ],
     "badgeTier": "verified",
     "rating": 4.96,
@@ -518,7 +518,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://www.aman.com/sites/default/files/styles/central_carousel_small/public/2025-09/Amanpuri-_Thailand_-_Experience-_Andaman_Sea-_Ocean_Platform.webp?itok=46KbLBjs",
       "https://www.aman.com/sites/default/files/styles/central_carousel_small/public/2025-09/Amanpuri-_Thailand_-_Dining-_The_Beach_Terrace-_Upper_Deck-_Table_Set_Up-_Andaman_Sea.webp?itok=NX2gtor0",
       "https://www.aman.com/sites/default/files/styles/central_carousel_small/public/2025-09/Amanpuri-_Thailand_-_Experience-_Cruise_Adventure-_Boat-_Island1.webp?itok=VNkd0FhN",
-      "https://www.aman.com/sites/default/files/styles/central_carousel_small/public/2025-09/Amanpuri-_Thailand_-_Experience-_Water_Sports-_Wakeboarding.webp?itok=q7OxuDPo",
+      "https://www.aman.com/sites/default/files/styles/central_carousel_small/public/2025-09/Amanpuri-_Thailand_-_Experience-_Water_Sports-_Wakeboarding.webp?itok=q7OxuDPo"
     ],
     "badgeTier": "featured",
     "rating": 4.98,
@@ -670,7 +670,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://upload.wikimedia.org/wikipedia/commons/0/06/Thanyapura_Health_Sports_Resort_Phuket_facilities_Swimming_Pool.jpg",
       "https://upload.wikimedia.org/wikipedia/commons/3/3c/Thanyapura-Health-Sports-Resort-Phuket-facilities-3.jpg",
       "https://upload.wikimedia.org/wikipedia/commons/2/2d/Thanyapura_Health_Sports_Resort_Phuket_Aerial_View_2.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/6/68/Sports_Hotel_-_Pool_%281%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/6/68/Sports_Hotel_-_Pool_%281%29.jpg"
     ],
     "badgeTier": "verified",
     "rating": 4.88,
@@ -821,7 +821,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://samahita-media.ams3.cdn.digitaloceanspaces.com/media/uploads/_20241008121046.jpg",
       "https://samahita-media.ams3.cdn.digitaloceanspaces.com/media/uploads/Yoga-retreat-class_20250308113634.jpg",
       "https://samahita-media.ams3.cdn.digitaloceanspaces.com/media/uploads/Yoga_Teacher_Training_Thailand_20250303104635.jpg",
-      "https://samahita-media.ams3.cdn.digitaloceanspaces.com/media/uploads/gomukhasana_healthy_yoga_20241128060320.jpg",
+      "https://samahita-media.ams3.cdn.digitaloceanspaces.com/media/uploads/gomukhasana_healthy_yoga_20241128060320.jpg"
     ],
     "badgeTier": "claimed",
     "rating": 4.89,
@@ -974,7 +974,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://de87ve0y4m3tc.cloudfront.net/comohotels.com-2459770069/cms/cache/v2/689c0ca00dd56.jpg/1386x916/fit/80/16d6b5aa524d0e1a490866b18e2a83b9.jpg",
       "https://de87ve0y4m3tc.cloudfront.net/comohotels.com-2459770069/cms/cache/v2/68f0324839748.jpg/1772x1180/fit/80/bdd8028f83d6f0c33a4119d962b76bbc.jpg",
       "https://de87ve0y4m3tc.cloudfront.net/comohotels.com-2459770069/cms/cache/v2/689c0c9917e3c.jpg/1772x1180/fit/80/5c251df8918de6e8c8399ec95474665e.jpg",
-      "https://de87ve0y4m3tc.cloudfront.net/comohotels.com-2459770069/cms/cache/v2/67071bf0ac6e0.jpg/1772x1180/fit/80/8dafc9207e2d14899c40c9c195a0f7ff.jpg",
+      "https://de87ve0y4m3tc.cloudfront.net/comohotels.com-2459770069/cms/cache/v2/67071bf0ac6e0.jpg/1772x1180/fit/80/8dafc9207e2d14899c40c9c195a0f7ff.jpg"
     ],
     "badgeTier": "featured",
     "rating": 4.97,
@@ -1137,7 +1137,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://fivelements.com/wp-content/uploads/2026/09/Hydrotherapy-1024x682.jpeg",
       "https://fivelements.com/wp-content/uploads/2026/08/Fivelements-Samui-Ocean-Pier-1024x576.jpg",
       "https://fivelements.com/wp-content/uploads/2026/07/Blog-Image-1-1024x683.jpeg",
-      "https://fivelements.com/wp-content/uploads/2026/06/testimonial-2.jpeg",
+      "https://fivelements.com/wp-content/uploads/2026/06/testimonial-2.jpeg"
     ],
     "badgeTier": "featured",
     "rating": 4.92,
@@ -1291,7 +1291,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://www.revivoresorts.com/wp-content/uploads/2026/08/image002-1.webp",
       "https://www.revivoresorts.com/wp-content/uploads/2026/08/image008-1.webp",
       "https://www.revivoresorts.com/wp-content/uploads/2025/09/Sustainable.webp",
-      "https://www.revivoresorts.com/wp-content/uploads/2025/09/Detox.webp",
+      "https://www.revivoresorts.com/wp-content/uploads/2025/09/Detox.webp"
     ],
     "badgeTier": "verified",
     "rating": 4.93,
@@ -1437,13 +1437,13 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "lat": -8.5833,
       "lng": 115.1667
     },
-    "heroImage": "https://sukhavatibali.com/wp-content/uploads/2026/04/2025-Personalised-Spa-Winner-dark.webp",
+    "heroImage": "https://sukhavatibali.com/wp-content/uploads/2026/06/Sukhavati-Bali_Ayurveda-Luxury-Retreat_accomodation-scaled.jpg",
     "gallery": [
-      "https://sukhavatibali.com/wp-content/uploads/2026/04/2025-Personalised-Spa-Winner-dark.webp",
-      "https://sukhavatibali.com/wp-content/uploads/2026/04/Sukhavati-Logo.png",
+      "https://sukhavatibali.com/wp-content/uploads/2026/06/Sukhavati-Bali_Ayurveda-Luxury-Retreat_accomodation-scaled.jpg",
       "https://sukhavatibali.com/wp-content/uploads/2026/05/dsc06774-1.jpg",
       "https://sukhavatibali.com/wp-content/uploads/2026/05/dsc07163-1-1-1.jpg",
       "https://sukhavatibali.com/wp-content/uploads/2026/05/dsc06971.jpg",
+      "https://sukhavatibali.com/wp-content/uploads/2026/05/dsc06774-1-955x1024.jpg"
     ],
     "badgeTier": "verified",
     "rating": 4.91,
@@ -1592,7 +1592,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://bagusjati.com/wp-content/uploads/2024/08/bjslide.jpg",
       "https://bagusjati.com/wp-content/uploads/2024/08/3-4-scaled.jpg",
       "https://bagusjati.com/wp-content/uploads/2024/08/4-3-scaled.jpg",
-      "https://bagusjati.com/wp-content/uploads/2024/08/Balinese-Compound-2-1300x650.jpg",
+      "https://bagusjati.com/wp-content/uploads/2024/08/Balinese-Compound-2-1300x650.jpg"
     ],
     "badgeTier": "claimed",
     "rating": 4.87,
@@ -1741,7 +1741,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://ak-d.tripcdn.com/images/1mi4t224x8zuc7orv8ADE_Q90.jpg",
       "https://ak-d.tripcdn.com/images/1mi55224x8zucqgihC0D9_Q90.jpg",
       "https://ak-d.tripcdn.com/images/1mi0p224x8zue0cou80BD_Q90.jpg",
-      "https://ak-d.tripcdn.com/images/1mi3w224x8zudhzo52B81_Q90.jpg",
+      "https://ak-d.tripcdn.com/images/1mi3w224x8zudhzo52B81_Q90.jpg"
     ],
     "badgeTier": "claimed",
     "rating": 4.9,
@@ -1894,7 +1894,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://www.thefarmatsanbenito.com/wp-content/uploads/2023/09/highlight-facilities-opt.jpg",
       "https://www.thefarmatsanbenito.com/wp-content/uploads/2022/09/palmera-suites.jpg",
       "https://www.thefarmatsanbenito.com/wp-content/uploads/2022/09/anahaw-family-villa.jpg",
-      "https://www.thefarmatsanbenito.com/wp-content/uploads/2022/09/garden-glass-villa.jpg",
+      "https://www.thefarmatsanbenito.com/wp-content/uploads/2022/09/garden-glass-villa.jpg"
     ],
     "badgeTier": "featured",
     "rating": 4.88,
@@ -2045,7 +2045,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://image-tc.galaxy.tf/wijpeg-62js1kj84woiwc1xy9aiy238y/the-banjaran-pool.jpg",
       "https://image-tc.galaxy.tf/wijpeg-djjqlwjaqahptu9rlxhx4uzhu/ps-16732.jpg",
       "https://image-tc.galaxy.tf/wijpeg-8dxo68y6s7z8fk9qsk3liszni/ps-17627.jpg",
-      "https://image-tc.galaxy.tf/wijpeg-eac9lmq9socd6gfx3bnvkjm7w/ps-17396.jpg",
+      "https://image-tc.galaxy.tf/wijpeg-eac9lmq9socd6gfx3bnvkjm7w/ps-17396.jpg"
     ],
     "badgeTier": "verified",
     "rating": 4.94,
@@ -2196,7 +2196,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://tiawellnessresort.com/wp-content/uploads/2026/03/TIA-BEACH-LIVING-3.webp",
       "https://tiawellnessresort.com/wp-content/uploads/2026/03/TIA-WELLNESS-CENTRE-22.webp",
       "https://tiawellnessresort.com/wp-content/uploads/2026/01/Wellness-Inclusive-1.png",
-      "https://tiawellnessresort.com/wp-content/uploads/2026/01/Retreat-Inclusive.jpg",
+      "https://tiawellnessresort.com/wp-content/uploads/2026/01/Retreat-Inclusive.jpg"
     ],
     "badgeTier": "verified",
     "rating": 4.92,
@@ -2346,7 +2346,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://ak-d.tripcdn.com/images/1mc1b12000d2zlv3b2116_Z_1280_853_R50_Q90.jpg",
       "https://ak-d.tripcdn.com/images/1mc6z12000d2zlfcxE5F3_Z_1280_853_R50_Q90.jpg",
       "https://ak-d.tripcdn.com/images/1mc1l12000d2z1pytF25C_Z_1280_853_R50_Q90.jpg",
-      "https://ak-d.tripcdn.com/images/220p0u000000jcotbB96D_Z_1280_853_R50_Q90.jpg",
+      "https://ak-d.tripcdn.com/images/220p0u000000jcotbB96D_Z_1280_853_R50_Q90.jpg"
     ],
     "badgeTier": "claimed",
     "rating": 4.86,
@@ -2497,7 +2497,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://cdn.kiwicollection.com/media/room_images/PR009346/ll/009346-songsaa-onebed-jungle-villa1-song-saa-private-island.jpg",
       "https://cdn.kiwicollection.com/media/room_images/PR009346/xxl/009346-songsaa-onebed-jungle-villa1-song-saa-private-island.jpg",
       "https://cdn.kiwicollection.com/media/room_images/PR009346/xl/009346-songsaa-onebed-jungle-villa7-song-saa-private-island.jpg",
-      "https://cdn.kiwicollection.com/media/room_images/PR009346/ll/009346-songsaa-onebed-jungle-villa7-song-saa-private-island.jpg",
+      "https://cdn.kiwicollection.com/media/room_images/PR009346/ll/009346-songsaa-onebed-jungle-villa7-song-saa-private-island.jpg"
     ],
     "badgeTier": "featured",
     "rating": 4.96,
@@ -2647,7 +2647,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://navuturesorts.com/wp-content/uploads/2025/07/navutu-dreams-the-grand-suite-2.webp",
       "https://navuturesorts.com/wp-content/uploads/2025/07/the-grand-tour-family-1.webp",
       "https://navuturesorts.com/wp-content/uploads/2025/07/the-grand-tour-1.webp",
-      "https://navuturesorts.com/wp-content/uploads/2025/07/navutu-dreams-explorer-double-room-2.webp",
+      "https://navuturesorts.com/wp-content/uploads/2025/07/navutu-dreams-explorer-double-room-2.webp"
     ],
     "badgeTier": "claimed",
     "rating": 4.87,
@@ -2799,7 +2799,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://cliniquelaprairie.com/wp-content/uploads/2026/06/Executive-Suite-Clinique-La-Prairie-Montreux.jpg",
       "https://cliniquelaprairie.com/wp-content/uploads/2026/06/Executive-Suite-Clinique-La-Prairie-Montreux-2.jpg",
       "https://cliniquelaprairie.com/wp-content/uploads/2026/06/Standard-Room-Clinique-La-Prairie-Montreux.jpg",
-      "https://cliniquelaprairie.com/wp-content/uploads/2025/03/CLP-M05-scaled.jpg",
+      "https://cliniquelaprairie.com/wp-content/uploads/2025/03/CLP-M05-scaled.jpg"
     ],
     "badgeTier": "featured",
     "rating": 4.96,
@@ -2951,7 +2951,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://shawellness.com/wp-content/uploads/2026/07/51349f9eb7563c6092eff3dc9a402b333c59d224-1-scaled-1.jpg",
       "https://shawellness.com/wp-content/uploads/2026/02/Programs-26-_Rebalance-opt.jpg",
       "https://shawellness.com/wp-content/uploads/2026/02/Programs-26-_Executive-opt.jpg",
-      "https://shawellness.com/wp-content/uploads/2026/02/Programs-26-_Longevity-opt.jpg",
+      "https://shawellness.com/wp-content/uploads/2026/02/Programs-26-_Longevity-opt.jpg"
     ],
     "badgeTier": "verified",
     "rating": 4.94,
@@ -3101,7 +3101,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://cdn.kiwicollection.com/media/property/PR003650/xxl/Ananda%20-%20in%20the%20Himalayas-003650-%20A%20destination%20spa.jpg?cb=1470264485,",
       "https://cdn.kiwicollection.com/media/property/PR003650/ll/003650-05-08d916bb-bdc9-4c60-a746-5a5c1eb7dba9.jpg?cb=1418156434,",
       "https://cdn.kiwicollection.com/media/property/PR003650/xxl/003650-05-08d916bb-bdc9-4c60-a746-5a5c1eb7dba9.jpg?cb=1418156434,",
-      "https://cdn.kiwicollection.com/media/property/PR003650/ll/003650-16-f6451025-23ae-466d-a73b-79081c7d3ccf.jpg?cb=1418156440,",
+      "https://cdn.kiwicollection.com/media/property/PR003650/ll/003650-16-f6451025-23ae-466d-a73b-79081c7d3ccf.jpg?cb=1418156440,"
     ],
     "badgeTier": "verified",
     "rating": 4.97,
@@ -3256,7 +3256,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://miiamo.com/wp-content/uploads/2022/09/Pool-at-Dusk-847x582.jpg",
       "https://miiamo.com/wp-content/uploads/2023/07/steam-and-sauna-847x582.jpg",
       "https://miiamo.com/wp-content/uploads/2023/07/Relaxation-Lounge-847x582.jpg",
-      "https://miiamo.com/wp-content/uploads/2023/07/Grotto-Slider-custom-image-847x582.jpg",
+      "https://miiamo.com/wp-content/uploads/2023/07/Grotto-Slider-custom-image-847x582.jpg"
     ],
     "badgeTier": "verified",
     "rating": 4.91,
@@ -3407,7 +3407,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://d1m3k9ghxaebb7.cloudfront.net/images/Yoga_Hall.jpg",
       "https://d1m3k9ghxaebb7.cloudfront.net/images/gallery/gallery-image-19.jpg",
       "https://d1m3k9ghxaebb7.cloudfront.net/images/gallery/gallery-image-05.jpg",
-      "https://d1m3k9ghxaebb7.cloudfront.net/images/gallery/gallery-image-12.jpg",
+      "https://d1m3k9ghxaebb7.cloudfront.net/images/gallery/gallery-image-12.jpg"
     ],
     "badgeTier": "featured",
     "rating": 4.96,
@@ -3579,7 +3579,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://secure.s.forbestravelguide.com/img/properties/six-senses-vana/six-senses-vana-anayu.jpg",
       "https://secure.s.forbestravelguide.com/img/properties/six-senses-vana/six-senses-vana-ayurveda-center.jpg",
       "https://secure.s.forbestravelguide.com/img/properties/six-senses-vana/six-senses-vana-temple-garden.jpg",
-      "https://secure.s.forbestravelguide.com/img/properties/six-senses-vana/six-senses-vana-hotel-exterior.jpg",
+      "https://secure.s.forbestravelguide.com/img/properties/six-senses-vana/six-senses-vana-hotel-exterior.jpg"
     ],
     "badgeTier": "featured",
     "rating": 4.98,
@@ -3745,7 +3745,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://www.aman.com/sites/default/files/styles/carousel_cards_slim_plus/public/2026-08/Amanvari--Mexico---Casa-Grande--1-.webp?itok=Nd0lflWB",
       "https://www.aman.com/sites/default/files/styles/central_carousel_small/public/2022-03/Amanemu%2C%20Japan%20-%20Resort%2C%20exterior%20detail%204.webp?itok=5wYFtOeQ",
       "https://www.aman.com/sites/default/files/styles/central_carousel_small/public/2022-04/Amanemu%2C%20Japan%20-%20Resort%2C%20exterior%20detail.webp?itok=6S0Z0IdP",
-      "https://www.aman.com/sites/default/files/styles/central_carousel_small/public/2021-08/amanemu-lunch-l.webp?itok=C6IlQISQ",
+      "https://www.aman.com/sites/default/files/styles/central_carousel_small/public/2021-08/amanemu-lunch-l.webp?itok=C6IlQISQ"
     ],
     "badgeTier": "verified",
     "rating": 4.95,
@@ -3911,7 +3911,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://www.gocohospitality.com/wp-content/uploads/2019/05/4-370x370.jpg",
       "https://www.gocohospitality.com/wp-content/uploads/2019/04/Sangha-Octave-China-Restaurant-Lounge.png",
       "https://www.gocohospitality.com/wp-content/uploads/2019/04/Sangha-Octave-China-Spa-Indoor-Pool.png",
-      "https://www.gocohospitality.com/wp-content/uploads/2019/04/Sangha-Octave-China-Spa-Outdoor-Pool.png",
+      "https://www.gocohospitality.com/wp-content/uploads/2019/04/Sangha-Octave-China-Spa-Outdoor-Pool.png"
     ],
     "badgeTier": "featured",
     "rating": 4.94,
@@ -4079,7 +4079,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://img.healience.co.kr/upload/event/20260911/4658d38e-b1db-46a5-922f-ec680c2eebfd.jpg",
       "https://img.healience.co.kr/upload/event/20260831/16bd5dd1-6328-4630-8a3e-e2768830b420.jpg",
       "https://img.healience.co.kr/upload/event/20260824/d77a8b2f-0636-452e-918c-2c0b2b97ed6c.jpg",
-      "https://img.healience.co.kr/upload/event/20260914/6b42da51-9fb8-4fc7-baf2-138ef34170f6.jpg",
+      "https://img.healience.co.kr/upload/event/20260914/6b42da51-9fb8-4fc7-baf2-138ef34170f6.jpg"
     ],
     "badgeTier": "verified",
     "rating": 4.88,
@@ -4236,16 +4236,16 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "lat": 7.2906,
       "lng": 80.6337
     },
-    "heroImage": "https://www.santani.com/wp-content/uploads/2022/11/santani-kandy-1.jpg",
+    "heroImage": "https://ak-d.tripcdn.com/images/0224x12000kulha0dA594_R_960_660_R5_D.jpg",
     "gallery": [
-      "https://www.santani.com/wp-content/uploads/2022/11/santani-kandy-1.jpg",
-      "https://www.santani.com/wp-content/uploads/2022/11/last-min-offer-thumb.jpg",
-      "https://www.santani.com/wp-content/uploads/2022/11/santani-kandy-1.webp",
-      "https://www.santani.com/wp-content/uploads/2022/11/last-min-offer-thumb.webp",
-      "https://www.santani.com/wp-content/uploads/2022/11/last-min-offer-thumb-768x576.webp",
-      "https://www.santani.com/wp-content/uploads/2022/11/last-min-offer-thumb-768x576.jpg",
-      "https://www.santani.com/wp-content/uploads/2023/01/home-page.webp",
-      "https://www.santani.com/santaniwellness-kandy/wp-content/uploads/sites/4/2023/01/d-santani-pavillion.jpg",
+      "https://ak-d.tripcdn.com/images/0224x12000kulha0dA594_R_960_660_R5_D.jpg",
+      "https://ak-d.tripcdn.com/images/1ik5p12000t042svwCF81_Z_1280_853_R50_Q90.jpg",
+      "https://ak-d.tripcdn.com/images/0225p12000kzvvuho8A3C_Z_1280_853_R50_Q90.jpg",
+      "https://ak-d.tripcdn.com/images/0221w12000r19rupy1899_Z_1280_853_R50_Q90.jpg",
+      "https://ak-d.tripcdn.com/images/0225412000r19rm10F47E_Z_1280_853_R50_Q90.jpg",
+      "https://ak-d.tripcdn.com/images/0221012000r19rpci8346_Z_1280_853_R50_Q90.jpg",
+      "https://ak-d.tripcdn.com/images/0222f12000r19rhlf36D6_Z_1280_853_R50_Q90.jpg",
+      "https://ak-d.tripcdn.com/images/0584g12000kmnxx4f3EC4_Z_1280_853_R50_Q90.jpg"
     ],
     "badgeTier": "featured",
     "rating": 4.96,
@@ -4414,7 +4414,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://www.aman.com/sites/default/files/styles/listing_teaser_small/public/2025-02/amankora_bhutan_-_gangtey_5.webp?itok=yFK2pvCb",
       "https://www.aman.com/sites/default/files/styles/listing_teaser_small/public/2025-02/amankora_bhutan_-_thimphu.webp?itok=tRFwQa3X",
       "https://www.aman.com/sites/default/files/styles/listing_teaser_small/public/2025-02/amankora_bhutan_-_punakha.webp?itok=7F8iIijL",
-      "https://www.aman.com/sites/default/files/styles/listing_teaser_small/public/2025-02/amankora_bhutan_-_paro_0.webp?itok=TbHiTKXW",
+      "https://www.aman.com/sites/default/files/styles/listing_teaser_small/public/2025-02/amankora_bhutan_-_paro_0.webp?itok=TbHiTKXW"
     ],
     "badgeTier": "verified",
     "rating": 4.97,
@@ -4581,7 +4581,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://ak-d.tripcdn.com/images/0222112000k6s5tusD877_Z_1280_853_R50_Q90.jpg",
       "https://ak-d.tripcdn.com/images/0223n12000k6s61h82171_Z_1280_853_R50_Q90.jpg",
       "https://ak-d.tripcdn.com/images/0222u12000k6s5e5jCB13_Z_1280_853_R50_Q90.jpg",
-      "https://ak-d.tripcdn.com/images/0223712000k6s576k0565_Z_1280_853_R50_Q90.jpg",
+      "https://ak-d.tripcdn.com/images/0223712000k6s576k0565_Z_1280_853_R50_Q90.jpg"
     ],
     "badgeTier": "featured",
     "rating": 4.99,
@@ -4753,7 +4753,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://zulal.com/wp-content/uploads/2024/07/Zulal_Treatment_Physiotheraphy_Gyrotonic-1-250x167.jpg",
       "https://zulal.com/wp-content/uploads/2025/02/Zulal_Treatment_Fitness_Fitness-Assessment-2-250x167.jpg",
       "https://zulal.com/wp-content/uploads/2024/07/Zulal_Treatment_Fitness_Agility-Activity-scaled-250x167.jpg",
-      "https://zulal.com/wp-content/uploads/2025/06/Zulal-Wellness-Resort_Family-meditation_Landscape-2048x1366-1-600x400.webp",
+      "https://zulal.com/wp-content/uploads/2025/06/Zulal-Wellness-Resort_Family-meditation_Landscape-2048x1366-1-600x400.webp"
     ],
     "badgeTier": "featured",
     "rating": 4.96,
@@ -4920,7 +4920,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://www.absolutesanctuary.com/wp-content/uploads/2023/07/mainslide-absolutesanctuary-2.jpg",
       "https://www.absolutesanctuary.com/wp-content/uploads/2023/07/mainslide-absolutesanctuary-3.jpg",
       "https://www.absolutesanctuary.com/wp-content/uploads/2023/07/mainslide-absolutesanctuary-4.jpg",
-      "https://www.absolutesanctuary.com/wp-content/uploads/2023/07/mainslide-absolutesanctuary-5.jpg",
+      "https://www.absolutesanctuary.com/wp-content/uploads/2023/07/mainslide-absolutesanctuary-5.jpg"
     ],
     "badgeTier": "verified",
     "rating": 4.88,
@@ -5083,7 +5083,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://ak-d.tripcdn.com/images/0224g12000mcy78y1FF43_Z_1280_853_R50_Q90.jpg",
       "https://ak-d.tripcdn.com/images/0223l12000mcy6nyj44A1_Z_1280_853_R50_Q90.jpg",
       "https://ak-d.tripcdn.com/images/0225212000mcy79d1684B_Z_1280_853_R50_Q90.jpg",
-      "https://ak-d.tripcdn.com/images/0585u12000sy4a0riF495_Z_1280_853_R50_Q90.jpg",
+      "https://ak-d.tripcdn.com/images/0585u12000sy4a0riF495_Z_1280_853_R50_Q90.jpg"
     ],
     "badgeTier": "verified",
     "rating": 4.89,
@@ -5240,7 +5240,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://ak-d.tripcdn.com/images/1mc1212000lxikjk49F01_R_960_660_R5_D.jpg",
       "https://res.klook.com/klook-hotel/image/upload/w_750,c_fill,q_85/travelapi/83000000/82970000/82966100/82966054/1d496d8f_z.jpg",
       "https://ak-d.tripcdn.com/images/1mi3v12000th1d9nwD6EE.jpg",
-      "https://ak-d.tripcdn.com/images/1mi4b12000togwwgk93E2.jpg",
+      "https://ak-d.tripcdn.com/images/1mi4b12000togwwgk93E2.jpg"
     ],
     "badgeTier": "verified",
     "rating": 4.92,
@@ -5389,7 +5389,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://amatara.com/wp-content/uploads/2026/06/Twin-Sala.png",
       "https://amatara.com/wp-content/uploads/2026/06/Oceanview-Pool-Villa.jpg",
       "https://amatara.com/wp-content/uploads/2026/06/01-wellness-retreats-thailand-for-women_.jpg",
-      "https://amatara.com/wp-content/uploads/2026/05/choose-exclusive-outdoor-wedding-venues-phuket-01.jpg",
+      "https://amatara.com/wp-content/uploads/2026/05/choose-exclusive-outdoor-wedding-venues-phuket-01.jpg"
     ],
     "badgeTier": "verified",
     "rating": 4.91,
@@ -5538,7 +5538,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://bali-floatingleaf.com/wp-content/uploads/2024/06/TP-2015-2019-e1594264239845-1.webp",
       "https://bali-floatingleaf.com/wp-content/uploads/2024/06/l3_19bfa5a53898da84b4a2436cb270a402.webp",
       "https://bali-floatingleaf.com/wp-content/uploads/2024/06/l10_9072acb1c7dc7f4988d6aa4d4125f6d5-1.webp",
-      "https://bali-floatingleaf.com/wp-content/uploads/2024/06/l11_dfb956b7b9f394a78c68e3ef2f57a2fe.webp",
+      "https://bali-floatingleaf.com/wp-content/uploads/2024/06/l11_dfb956b7b9f394a78c68e3ef2f57a2fe.webp"
     ],
     "badgeTier": "verified",
     "rating": 4.96,
@@ -5687,7 +5687,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://oneworldayurveda.com/wp-content/uploads/2025/09/v-consultation2.jpg",
       "https://oneworldayurveda.com/wp-content/uploads/2025/09/v-consultation2-225x300.jpg",
       "https://oneworldayurveda.com/wp-content/uploads/2025/01/treatment-abhyanga-1200x650.webp",
-      "https://oneworldayurveda.com/wp-content/uploads/2025/01/owat-garden-walk-650x1200.webp",
+      "https://oneworldayurveda.com/wp-content/uploads/2025/01/owat-garden-walk-650x1200.webp"
     ],
     "badgeTier": "verified",
     "rating": 4.97,
@@ -5836,7 +5836,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://www.mesastilaresortandspa.com/wp-content/uploads/sites/62/2019/10/Slideshow2-Landscape-BANNER-min-min.jpg",
       "https://www.mesastilaresortandspa.com/wp-content/uploads/sites/62/2025/12/2.jpg",
       "https://www.mesastilaresortandspa.com/wp-content/uploads/sites/62/2025/12/2-1200x654.jpg",
-      "https://www.mesastilaresortandspa.com/wp-content/uploads/sites/62/2025/12/2-992x541.jpg",
+      "https://www.mesastilaresortandspa.com/wp-content/uploads/sites/62/2025/12/2-992x541.jpg"
     ],
     "badgeTier": "verified",
     "rating": 4.89,
@@ -5979,13 +5979,13 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "lat": 8.3542,
       "lng": 77.0123
     },
-    "heroImage": "https://somatheeram.in/Content/img/france.jpg",
+    "heroImage": "https://ak-d.tripcdn.com/images/0583i12000mo3wgu29776_R_960_660_R5_D.jpg",
     "gallery": [
-      "https://somatheeram.in/Content/img/france.jpg",
-      "https://somatheeram.in/Content/img/germany.jpg",
-      "https://somatheeram.in/Content/img/spain.jpg",
-      "https://somatheeram.in/Content/img/Summer_Somatheeram_offer_2026.jpeg",
-      "https://somatheeram.in/Content/img/soma_offer.png",
+      "https://ak-d.tripcdn.com/images/0583i12000mo3wgu29776_R_960_660_R5_D.jpg",
+      "https://ak-d.tripcdn.com/images/0223q120009zsueyb28DF_Z_1280_853_R50_Q90.jpg",
+      "https://ak-d.tripcdn.com/images/0220612000l4el2cuB1FE_Z_1280_853_R50_Q90.jpg",
+      "https://ak-d.tripcdn.com/images/0584r12000tvvy3ls1947_Z_1280_853_R50_Q90.jpg",
+      "https://ak-d.tripcdn.com/images/0584d12000tw7r8440652_Z_1280_853_R50_Q90.jpg"
     ],
     "badgeTier": "verified",
     "rating": 4.93,
@@ -6138,7 +6138,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://www.cghearthayurveda.com/wp-content/uploads/2026/04/s5-1.webp",
       "https://www.cghearthayurveda.com/wp-content/uploads/2026/04/i1.webp",
       "https://www.cghearthayurveda.com/wp-content/uploads/2026/04/i2.webp",
-      "https://www.cghearthayurveda.com/wp-content/uploads/2026/04/i3.webp",
+      "https://www.cghearthayurveda.com/wp-content/uploads/2026/04/i3.webp"
     ],
     "badgeTier": "featured",
     "rating": 4.98,
@@ -6287,7 +6287,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://atmantan.com/wp-content/uploads/2021/11/silence1.jpg",
       "https://atmantan.com/wp-content/uploads/2021/11/herb.jpg",
       "https://atmantan.com/wp-content/uploads/2025/06/Ayurveda-panchakarma.jpg",
-      "https://ak-d.tripcdn.com/images/0226f120008723dzu689D_R_960_660_R5_D.jpg",
+      "https://ak-d.tripcdn.com/images/0226f120008723dzu689D_R_960_660_R5_D.jpg"
     ],
     "badgeTier": "verified",
     "rating": 4.91,
@@ -6437,7 +6437,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://barberynresorts.com/wp-content/uploads/2020/03/barberyn-ayurveda-resorts.png",
       "https://www.barberynresorts.com/wp-content/uploads/2020/03/barberyn-reef_beach-front-room_0000-1024x580.jpg.webp",
       "https://www.barberynresorts.com/wp-content/uploads/2020/03/barberyn-reef_beach-front-room_0000-1024x580.jpg",
-      "https://www.barberynresorts.com/wp-content/uploads/2020/05/B.R_Garden-Room-1024x768.jpg.webp",
+      "https://www.barberynresorts.com/wp-content/uploads/2020/05/B.R_Garden-Room-1024x768.jpg.webp"
     ],
     "badgeTier": "verified",
     "rating": 4.9,
@@ -6586,7 +6586,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://www.senwellnesssanctuary.com/wp-content/uploads/2021/07/front-page.jpg",
       "https://www.senwellnesssanctuary.com/wp-content/uploads/2021/01/Kundalini-Class-Yoga-Shala-min.jpg",
       "https://www.senwellnesssanctuary.com/wp-content/uploads/2024/12/L1000817-EDIT--scaled.jpeg",
-      "https://www.senwellnesssanctuary.com/wp-content/uploads/2023/06/Monk-scaled.jpeg",
+      "https://www.senwellnesssanctuary.com/wp-content/uploads/2023/06/Monk-scaled.jpeg"
     ],
     "badgeTier": "verified",
     "rating": 4.95,
@@ -6737,7 +6737,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://mukayu.com/wp-content/themes/corporate/img/index/cuisine_img.jpg",
       "https://mukayu.com/wp-content/themes/corporate/img/index/spa_img.jpg",
       "https://mukayu.com/wp-content/themes/corporate/img/index/amenity_img.jpg",
-      "https://mukayu.com/wp-content/themes/corporate/img/index/experience_img.jpg",
+      "https://mukayu.com/wp-content/themes/corporate/img/index/experience_img.jpg"
     ],
     "badgeTier": "featured",
     "rating": 4.96,
@@ -6887,7 +6887,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://zaborin.com/wp-content/uploads/2022/01/bonzai.jpg",
       "https://zaborin.com/wp-content/uploads/2019/06/DSC04241-1.jpg",
       "https://zaborin.com/wp-content/uploads/2019/06/DSC_4080-2.jpg",
-      "https://zaborin.com/wp-content/uploads/2019/04/DSC03919.jpg",
+      "https://zaborin.com/wp-content/uploads/2019/04/DSC03919.jpg"
     ],
     "badgeTier": "featured",
     "rating": 4.97,
@@ -7037,7 +7037,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://cdn.kiwicollection.com/media/property/PR002952/ll/002952-03-The-Rock-Retreat-Sun-Deck-at%20Six%20Senses%20Ninh%20Van%20Bay.jpg?cb=1721853642,",
       "https://cdn.kiwicollection.com/media/property/PR002952/xxl/002952-03-The-Rock-Retreat-Sun-Deck-at%20Six%20Senses%20Ninh%20Van%20Bay.jpg?cb=1721853642,",
       "https://cdn.kiwicollection.com/media/property/PR002952/ll/002952-04-The-Rock-Retreat-Bedroom-at%20Six%20Senses%20Ninh%20Van%20Bay.jpg?cb=1721853646,",
-      "https://cdn.kiwicollection.com/media/property/PR002952/xxl/002952-04-The-Rock-Retreat-Bedroom-at%20Six%20Senses%20Ninh%20Van%20Bay.jpg?cb=1721853646,",
+      "https://cdn.kiwicollection.com/media/property/PR002952/xxl/002952-04-The-Rock-Retreat-Bedroom-at%20Six%20Senses%20Ninh%20Van%20Bay.jpg?cb=1721853646,"
     ],
     "badgeTier": "featured",
     "rating": 4.95,
@@ -7186,7 +7186,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://www.ahstatic.com/photos/b1y7_ho_01_p_1024x768.jpg",
       "https://www.ahstatic.com/photos/b1y7_ho_02_p_1024x768.jpg",
       "https://www.ahstatic.com/photos/b1y7_ho_03_p_1024x768.jpg",
-      "https://www.ahstatic.com/photos/b1y7_rotwbmv_00_p_1024x768.jpg",
+      "https://www.ahstatic.com/photos/b1y7_rotwbmv_00_p_1024x768.jpg"
     ],
     "badgeTier": "verified",
     "rating": 4.88,
@@ -7336,7 +7336,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://cdn.kiwicollection.com/media/property/PR241016/ll/241016-03-Thimphu_Suites_and_Villa_Exterior_9230-Six%20Senses%20Bhutan.jpg?cb=1671490009,",
       "https://cdn.kiwicollection.com/media/property/PR241016/xxl/241016-03-Thimphu_Suites_and_Villa_Exterior_9230-Six%20Senses%20Bhutan.jpg?cb=1671490009,",
       "https://cdn.kiwicollection.com/media/property/PR241016/ll/241016-04-Thimphu_Main_Building_Living_Room_with_View2_9235-Six%20Senses%20Bhutan.jpg?cb=1671490013,",
-      "https://cdn.kiwicollection.com/media/property/PR241016/xxl/241016-04-Thimphu_Main_Building_Living_Room_with_View2_9235-Six%20Senses%20Bhutan.jpg?cb=1671490013,",
+      "https://cdn.kiwicollection.com/media/property/PR241016/xxl/241016-04-Thimphu_Main_Building_Living_Room_with_View2_9235-Six%20Senses%20Bhutan.jpg?cb=1671490013,"
     ],
     "badgeTier": "featured",
     "rating": 4.98,
@@ -7484,7 +7484,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://ak-d.tripcdn.com/images/0223f12000l1fudol5EAD_Z_1280_853_R50_Q90.jpg",
       "https://ak-d.tripcdn.com/images/1mc5f12000jmsa15x6140_Z_1280_853_R50_Q90.jpg",
       "https://ak-d.tripcdn.com/images/1mc3812000pele6gp81EA_Z_1280_853_R50_Q90.jpg",
-      "https://ak-d.tripcdn.com/images/0221j12000l8ga0tt665E_Z_1280_853_R50_Q90.jpg",
+      "https://ak-d.tripcdn.com/images/0221j12000l8ga0tt665E_Z_1280_853_R50_Q90.jpg"
     ],
     "badgeTier": "verified",
     "rating": 4.94,
@@ -7635,7 +7635,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://soneva-offload-media-library.storage.googleapis.com/wp-content/uploads/2023/07/30205919/43114_Soneva-Soul-Yoga-Teacher-at-the-Turtle-Beach-Yoga-Champa-min-scaled-450x800.jpg",
       "https://soneva-offload-media-library.storage.googleapis.com/wp-content/uploads/2026/05/11114927/SonevaFushi-CatalinavonBonin66-450x683.jpg",
       "https://soneva-offload-media-library.storage.googleapis.com/wp-content/uploads/2026/05/11114927/SonevaFushi-CatalinavonBonin66.jpg",
-      "https://soneva-offload-media-library.storage.googleapis.com/wp-content/uploads/2026/05/11114927/SonevaFushi-CatalinavonBonin66-300x200.jpg",
+      "https://soneva-offload-media-library.storage.googleapis.com/wp-content/uploads/2026/05/11114927/SonevaFushi-CatalinavonBonin66-300x200.jpg"
     ],
     "badgeTier": "featured",
     "rating": 4.98,
@@ -7788,7 +7788,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://cdn.kiwicollection.com/media/property/PR005418/xxl/005418-23-The_Private_Reserve_exterior4.jpg?cb=1499381299,",
       "https://cdn.kiwicollection.com/media/property/PR005418/ll/005418-31-The_Retreat_second_floor_balcony.jpg?cb=1499381276,",
       "https://cdn.kiwicollection.com/media/property/PR005418/xxl/005418-31-The_Retreat_second_floor_balcony.jpg?cb=1499381276,",
-      "https://cdn.kiwicollection.com/media/property/PR005418/ll/005418-15-Pool_Villa_Suite_Beachfront_exterior.jpg?cb=1499381259,",
+      "https://cdn.kiwicollection.com/media/property/PR005418/ll/005418-15-Pool_Villa_Suite_Beachfront_exterior.jpg?cb=1499381259,"
     ],
     "badgeTier": "featured",
     "rating": 4.96,
@@ -7940,7 +7940,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://dharanaretreat.com/wp-content/uploads/2024/07/GALLERY.webp",
       "https://dharanaretreat.com/wp-content/uploads/2026/06/Gratitude-Retreat_blog_1920x700-1.webp",
       "https://dharanaretreat.com/wp-content/uploads/2025/06/SFrances_241125_0442--scaled.webp",
-      "https://dharanaretreat.com/wp-content/uploads/2025/06/SFrances_241113_0073--scaled.webp",
+      "https://dharanaretreat.com/wp-content/uploads/2025/06/SFrances_241113_0073--scaled.webp"
     ],
     "badgeTier": "featured",
     "rating": 4.93,
@@ -8109,7 +8109,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://www.kairali.com/headerbanner/banner-ayurveda-home-mobile.jpg",
       "https://www.kairali.com/pic/ancient-ayurveda-treatment.jpg",
       "https://www.kairali.com/pic/ancient-ayurveda-treatment-mobile.jpg",
-      "https://www.kairali.com/pic/shirodhara-ancient.jpg",
+      "https://www.kairali.com/pic/shirodhara-ancient.jpg"
     ],
     "badgeTier": "verified",
     "rating": 4.89,
@@ -8275,7 +8275,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://ak-d.tripcdn.com/images/20040q000000ga90r3358_Z_1280_853_R50_Q90.jpg",
       "https://ak-d.tripcdn.com/images/02X4412000i5lfbdcE50F_Z_1280_853_R50_Q90.jpg",
       "https://ak-d.tripcdn.com/images/0221c12000k6ct06bACF6_Z_1280_853_R50_Q90.jpg",
-      "https://ak-d.tripcdn.com/images/0582b12000i690teq6BF7_Z_1280_853_R50_Q90.jpg",
+      "https://ak-d.tripcdn.com/images/0582b12000i690teq6BF7_Z_1280_853_R50_Q90.jpg"
     ],
     "badgeTier": "verified",
     "rating": 4.88,
@@ -8433,7 +8433,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://de87ve0y4m3tc.cloudfront.net/comohotels.com-2459770069/cms/cache/v2/6331719d0529b.jpg/420x830/fit/80/09fe0a7b9a455d03eb6dc2e145c4f7df.webp",
       "https://de87ve0y4m3tc.cloudfront.net/comohotels.com-2459770069/cms/cache/v2/6331719d0529b.jpg/767x600/fit/80/f36c1002503957f2e6dacc94db25347b.webp",
       "https://de87ve0y4m3tc.cloudfront.net/comohotels.com-2459770069/cms/cache/v2/6331719d0529b.jpg/1280x768/fit/80/61189ac976619cf862147ebe7fb00cca.webp",
-      "https://de87ve0y4m3tc.cloudfront.net/comohotels.com-2459770069/cms/cache/v2/6331719d0529b.jpg/1920x1080/fit/80/066d3a0fb3299022af5e8c5cf1e21706.webp",
+      "https://de87ve0y4m3tc.cloudfront.net/comohotels.com-2459770069/cms/cache/v2/6331719d0529b.jpg/1920x1080/fit/80/066d3a0fb3299022af5e8c5cf1e21706.webp"
     ],
     "badgeTier": "verified",
     "rating": 4.91,
@@ -8591,7 +8591,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://ak-d.tripcdn.com/images/0224312000kzz4oop3D1F_Z_1280_853_R50_Q90.jpg",
       "https://ak-d.tripcdn.com/images/0223e120009h1gpqpB350_Z_1280_853_R50_Q90.jpg",
       "https://ak-d.tripcdn.com/images/1mc6p12000h6o6xy3F049_Z_1280_853_R50_Q90.jpg",
-      "https://ak-d.tripcdn.com/images/1mc4112000falv04uEE28_Z_1280_853_R50_Q90.jpg",
+      "https://ak-d.tripcdn.com/images/1mc4112000falv04uEE28_Z_1280_853_R50_Q90.jpg"
     ],
     "badgeTier": "verified",
     "rating": 4.87,
@@ -8753,7 +8753,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://www.thechateau.com.my/wp-content/uploads/2023/08/TCR-Homepage-800x800.jpg",
       "https://www.thechateau.com.my/wp-content/uploads/2019/03/Pool-side-view-768x1024.jpg",
       "https://www.thechateau.com.my/wp-content/uploads/2025/04/Living-Hall_1170x658-1110x611.jpg",
-      "https://www.thechateau.com.my/wp-content/uploads/2018/01/The-Chateau-Deluxe-Room-1170-rev-720x658.jpg",
+      "https://www.thechateau.com.my/wp-content/uploads/2018/01/The-Chateau-Deluxe-Room-1170-rev-720x658.jpg"
     ],
     "badgeTier": "verified",
     "rating": 4.86,
@@ -8916,7 +8916,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://ak-d.tripcdn.com/images/0226g120009ztf7buBCE4_Z_1280_853_R50_Q90.jpg",
       "https://ak-d.tripcdn.com/images/220c1700000135mj57052_Z_1280_853_R50_Q90.jpg",
       "https://ak-d.tripcdn.com/images/0584g12000ivxr1xq8958_Z_1280_853_R50_Q90.jpg",
-      "https://ak-d.tripcdn.com/images/0582712000flkdasc357F_Z_1280_853_R50_Q90.jpg",
+      "https://ak-d.tripcdn.com/images/0582712000flkdasc357F_Z_1280_853_R50_Q90.jpg"
     ],
     "badgeTier": "verified",
     "rating": 4.92,
@@ -9077,7 +9077,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://cdn.sanity.io/images/bnm4fe24/production/336e000fed419865a5bbf21488c2a1f1bfd1b7d4-2394x1002.png?w=384&amp;q=75&amp;fit=clip&amp;auto=format",
       "https://cdn.sanity.io/images/bnm4fe24/production/023d4c936525d1b158a29bb3d5eb215dde528d82-2232x1404.jpg?rect=473%2C0%2C1434%2C1404&amp;auto=format&amp;h=917&amp;w=750&amp;fit=min",
       "https://cdn.sanity.io/images/bnm4fe24/production/b36d37ce0413ab3165008b78fa538779e89cdb66-3648x2736.jpg?rect=0%2C0%2C3049%2C2736&amp;auto=format&amp;h=917&amp;w=750&amp;fit=min",
-      "https://cdn.sanity.io/images/bnm4fe24/production/4f32672f9e59f900c9e850b30d7f72d718baab3b-426x640.jpg?rect=0%2C89%2C426%2C518&amp;auto=format&amp;h=917&amp;w=750&amp;fit=min",
+      "https://cdn.sanity.io/images/bnm4fe24/production/4f32672f9e59f900c9e850b30d7f72d718baab3b-426x640.jpg?rect=0%2C89%2C426%2C518&amp;auto=format&amp;h=917&amp;w=750&amp;fit=min"
     ],
     "badgeTier": "featured",
     "rating": 4.96,
@@ -9242,7 +9242,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://media.hoshinoresorts.com/image/authenticated/s--NqKf7xdA--/c_crop,h_1179,w_2358,x_0,y_339/c_scale,h_1179,w_2358/c_fill,g_auto,h_600/f_auto,q_auto/v1684736509/%E6%98%9F%E3%81%AE%E3%82%84%E4%BA%AC%E9%83%BD_%E5%A5%A5%E3%81%AE%E5%BA%AD_%E5%85%A8%E4%BD%93_r6moxd.jpg",
       "https://media.hoshinoresorts.com/image/authenticated/s--zpMFePE1--/c_fill,g_auto,h_600,w_1200/f_auto,q_auto/v1688636931/%E6%98%9F%E3%81%AE%E3%82%84%E4%BA%AC%E9%83%BD_%E5%A4%8F_%E7%BF%A1%E7%BF%A0_1_iuixcj.jpg",
       "https://media.hoshinoresorts.com/image/authenticated/s--343aV8qa--/c_crop,h_1500,w_3000,x_0,y_432/c_scale,h_1500,w_3000/c_fill,g_auto,h_600/f_auto,q_auto/v1686280380/%E6%98%9F%E3%81%AE%E3%82%84%E4%BA%AC%E9%83%BD_%E7%A9%BA%E4%B8%AD%E8%8C%B6%E5%AE%A4_dp9qvr.jpg",
-      "https://media.hoshinoresorts.com/image/authenticated/s--KRv5EGnK--/c_crop,h_2250,w_4500,x_0,y_339/c_scale,h_2250,w_4500/c_fill,g_auto,h_600/f_auto,q_auto/v1696065287/%E6%98%9F%E3%81%AE%E3%82%84%E4%BA%AC%E9%83%BD_%E7%95%B3%E3%82%BD%E3%83%95%E3%82%A1_3_ejnzix.jpg",
+      "https://media.hoshinoresorts.com/image/authenticated/s--KRv5EGnK--/c_crop,h_2250,w_4500,x_0,y_339/c_scale,h_2250,w_4500/c_fill,g_auto,h_600/f_auto,q_auto/v1696065287/%E6%98%9F%E3%81%AE%E3%82%84%E4%BA%AC%E9%83%BD_%E7%95%B3%E3%82%BD%E3%83%95%E3%82%A1_3_ejnzix.jpg"
     ],
     "badgeTier": "featured",
     "rating": 4.95,
@@ -9403,8 +9403,8 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://gangteylodge.com/app/uploads/2022/12/Gangtey-Lodge-bedroom-bath-view-1-1024x707.jpg",
       "https://gangteylodge.com/app/uploads/2025/10/2-MICHELIN-Keys_2025_Vertical_White.png",
       "https://gangteylodge.com/app/uploads/2026/02/2-MICHELIN-Keys_2025_Round_Red-360x360-2.png",
-      "https://gangteylodge.com/app/uploads/2025/10/2025_CNT_UK_READERS-CHOICE-AWARDS-1-1.png",
-      "https://gangteylodge.com/app/uploads/2025/11/SLH_Considerate_white.png",
+      "https://gangteylodge.com/app/uploads/2022/12/Gangtey-Lodge-bedroom-bath-view-1-scaled.jpg",
+      "https://gangteylodge.com/app/uploads/2025/11/SLH_Considerate_white.png"
     ],
     "badgeTier": "verified",
     "rating": 4.97,
@@ -9565,7 +9565,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://pix10.agoda.net/hotelImages/64398447/0/aa5aaf1a67b3feccc7775e497ac0f191.jpeg?ce=2&s=1024x768",
       "https://cf.bstatic.com/xdata/images/hotel/max1024x768/638060482.jpg?k=214d69be0ed79ff15076f9de61b284ca5a152351d106a92fce770454010636ca&o=",
       "https://images.trvl-media.com/lodging/111000000/110830000/110822900/110822895/cb8e971b.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill",
-      "https://r1imghtlak.mmtcdn.com/f2213864-9b06-48a0-b399-d7ccbcf82381.jpeg?&output-quality=75&downsize=375:218&crop=375:218;6,0&output-format=jpg&downsize=160:187&crop=160:187",
+      "https://r1imghtlak.mmtcdn.com/f2213864-9b06-48a0-b399-d7ccbcf82381.jpeg?&output-quality=75&downsize=375:218&crop=375:218;6,0&output-format=jpg&downsize=160:187&crop=160:187"
     ],
     "badgeTier": "verified",
     "rating": 4.89,
@@ -9717,16 +9717,16 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "lat": 9.6139,
       "lng": 76.2994
     },
-    "heroImage": "https://www.carnoustieresorts.com/images/video/video-new.mp4",
+    "heroImage": "https://www.carnoustieresorts.com/images/home-gallery/slider-1.jpg",
     "gallery": [
-      "https://www.carnoustieresorts.com/images/video/video-new.mp4",
-      "https://www.carnoustieresorts.com/images/play.png",
-      "https://www.carnoustieresorts.com/images/programme/4.png",
-      "https://www.carnoustieresorts.com/images/programme/5.jpg",
-      "https://www.carnoustieresorts.com/images/programme/6.jpg",
-      "https://www.carnoustieresorts.com/storage/01HXTQ9GZ6WXRR7SV4B8BCXC8D.jpg",
-      "https://www.carnoustieresorts.com/storage/01HXVCYGBSYGB2CX2V1MH1P598.jpg",
-      "https://www.carnoustieresorts.com/storage/01HXTQA3YJZGN9AQ752QQG77N5.jpg",
+      "https://www.carnoustieresorts.com/images/home-gallery/slider-1.jpg",
+      "https://www.carnoustieresorts.com/images/home-gallery/slider-2.jpg",
+      "https://www.carnoustieresorts.com/images/home-gallery/slider-3.jpg",
+      "https://www.carnoustieresorts.com/images/home-gallery/slider-4.jpg",
+      "https://www.carnoustieresorts.com/images/villas/semantha-pool-villa.jpg",
+      "https://www.carnoustieresorts.com/images/villas/zukra-pool-villa.jpg",
+      "https://www.carnoustieresorts.com/images/villas/mallika-pool-villa.jpg",
+      "https://www.carnoustieresorts.com/images/villas/akund-pool-villa.jpg"
     ],
     "badgeTier": "featured",
     "rating": 4.94,
@@ -9894,7 +9894,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://mekosha.com/wp-content/uploads/2020/07/slide-2.jpg",
       "https://mekosha.com/wp-content/uploads/2020/07/Tab-6.jpg",
       "https://mekosha.com/wp-content/uploads/2020/07/slider-1-e1594508649744.jpg",
-      "https://mekosha.com/wp-content/uploads/2020/08/Copy-of-_MG_0017-1.jpg",
+      "https://mekosha.com/wp-content/uploads/2020/08/Copy-of-_MG_0017-1.jpg"
     ],
     "badgeTier": "verified",
     "rating": 4.91,
@@ -10059,7 +10059,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://www.prakritishakti.com/wp-content/uploads/2018/09/homepage-viewgallery_01.jpg",
       "https://www.prakritishakti.com/wp-content/uploads/2018/09/homepage-viewgallery_02.jpg",
       "https://www.prakritishakti.com/wp-content/uploads/2018/09/homepage-viewgallery_03.jpg",
-      "https://www.prakritishakti.com/wp-content/uploads/2026/06/reset-naturally-popup.webp",
+      "https://www.prakritishakti.com/wp-content/uploads/2026/06/reset-naturally-popup.webp"
     ],
     "badgeTier": "featured",
     "rating": 4.96,
@@ -10224,7 +10224,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://www.cghearthayurveda.com/wp-content/uploads/2026/08/5-1.webp",
       "https://www.cghearthayurveda.com/wp-content/uploads/2026/04/temple.webp",
       "https://www.cghearthayurveda.com/wp-content/uploads/2026/04/i1.webp",
-      "https://www.cghearthayurveda.com/wp-content/uploads/2026/04/i2.webp",
+      "https://www.cghearthayurveda.com/wp-content/uploads/2026/04/i2.webp"
     ],
     "badgeTier": "featured",
     "rating": 4.97,
@@ -10390,7 +10390,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://www.sitaramretreat.com/wp-content/uploads/2023/10/SBR-Home-Page-Banner-1-1.jpg",
       "https://www.sitaramretreat.com/wp-content/uploads/2023/10/SBR-Home-Page-Banner-6.jpg",
       "https://www.sitaramretreat.com/wp-content/uploads/2023/10/SBR-Home-Page-Banner-4.jpg",
-      "https://www.sitaramretreat.com/wp-content/uploads/2023/10/SBR-Home-Page-Banner-2-1.jpg",
+      "https://www.sitaramretreat.com/wp-content/uploads/2023/10/SBR-Home-Page-Banner-2-1.jpg"
     ],
     "badgeTier": "verified",
     "rating": 4.93,
@@ -10552,7 +10552,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://ak-d.tripcdn.com/images/0a255224x93h1ufurA63B_Q90.jpg",
       "https://ak-d.tripcdn.com/images/1mi64224x93iqpba7B2AC_Q90.jpg",
       "https://ak-d.tripcdn.com/images/1mi52224x93ir4mgj52D5_Q90.jpg",
-      "https://ak-d.tripcdn.com/images/1mi4b224x93irtzo4180D_Q90.jpg",
+      "https://ak-d.tripcdn.com/images/1mi4b224x93irtzo4180D_Q90.jpg"
     ],
     "badgeTier": "verified",
     "rating": 4.88,
@@ -10708,13 +10708,13 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "lat": 8.3478,
       "lng": 77.0144
     },
-    "heroImage": "https://kudapoker2.live/img/agen-idn-poker.jpg",
+    "heroImage": "https://www.ayurvedashinshiva.com/wp-content/uploads/2026/05/ayurveda-hospital-wellness-resort-in-trivandrum-kerala-1-870x460.webp",
     "gallery": [
-      "https://kudapoker2.live/img/agen-idn-poker.jpg",
-      "https://kudapoker2.live/img/idn-poker.png",
-      "https://kudapoker2.live/img/idn-play.jpg",
-      "https://kudapoker2.live/img/poker-online.jpg",
-      "https://kudapoker2.live/img//poker.png",
+      "https://www.ayurvedashinshiva.com/wp-content/uploads/2026/05/ayurveda-hospital-wellness-resort-in-trivandrum-kerala-1-870x460.webp",
+      "https://www.ayurvedashinshiva.com/wp-content/uploads/2025/01/photogallery-93-1024x683.jpg",
+      "https://www.ayurvedashinshiva.com/wp-content/uploads/2025/01/edited-min-1024x683.jpg",
+      "https://www.ayurvedashinshiva.com/wp-content/uploads/2025/01/ANAN6447-copy-min-1024x683.jpg",
+      "https://www.ayurvedashinshiva.com/wp-content/uploads/2025/01/ANAN6478-copy-min-1024x683.jpg"
     ],
     "badgeTier": "verified",
     "rating": 4.87,
@@ -10870,13 +10870,13 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "lat": 8.3189,
       "lng": 77.0654
     },
-    "heroImage": "https://www.poovarislandresorts.com/assets/img/home-3/about/right-shape.png",
+    "heroImage": "https://ak-d.tripcdn.com/images/0582q12000hv2gbl3C12F_R_960_660_R5_D.jpg",
     "gallery": [
-      "https://www.poovarislandresorts.com/assets/img/home-3/about/right-shape.png",
-      "https://www.poovarislandresorts.com/assets/img/about/about-02.jpg",
-      "https://www.poovarislandresorts.com/assets/img/about/about-01.jpg",
-      "https://www.poovarislandresorts.com/assets/img/room/maharajah_suite1.jpg",
-      "https://www.poovarislandresorts.com/assets/img/room/maharajah_suite2.jpg",
+      "https://ak-d.tripcdn.com/images/0582q12000hv2gbl3C12F_R_960_660_R5_D.jpg",
+      "https://ak-d.tripcdn.com/images/0225x120008jmr17s60D0_Z_1280_853_R50_Q90.jpg",
+      "https://ak-d.tripcdn.com/images/0221v120008tjrmgr4461_Z_1280_853_R50_Q90.jpg",
+      "https://ak-d.tripcdn.com/images/02X5e12000euf6pm8EF55_Z_1280_853_R50_Q90.jpg",
+      "https://www.poovarislandresorts.com/assets/img/about/about-02.jpg"
     ],
     "badgeTier": "verified",
     "rating": 4.86,
@@ -11041,7 +11041,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://www.ayurmana.in/wp-content/uploads/2020/05/review1.jpg",
       "https://www.ayurmana.in/wp-content/uploads/2020/08/ayurmana_retreat03.jpg",
       "https://www.ayurmana.in/wp-content/webp-express/webp-images/uploads/2020/08/ayurmana_retreat01.jpg.webp",
-      "https://www.ayurmana.in/wp-content/webp-express/webp-images/uploads/2020/08/ayurmana_retreat01-300x200.jpg.webp",
+      "https://www.ayurmana.in/wp-content/webp-express/webp-images/uploads/2020/08/ayurmana_retreat01-300x200.jpg.webp"
     ],
     "badgeTier": "featured",
     "rating": 4.95,
@@ -11208,9 +11208,9 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://www.kumarakomlakeresort.in/assets/images/luxury-dining/thattukada-traditional-tea-shop/thattukada-traditional-tea-shop.webp",
       "https://www.kumarakomlakeresort.in/assets/images/luxury-dining/pool-pavilion/pool-pavilion.webp",
       "https://www.kumarakomlakeresort.in/assets/images/destination-weddings/destination-weddings-at-kumarakom-lake-resort.jpg",
-      "https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_2025_L.png",
-      "https://www.kumarakomlakeresort.in/assets/images/awards/world-travel-award-2023.png",
-      "https://www.kumarakomlakeresort.in/assets/images/page-banners/sitemap.jpg",
+      "https://ak-d.tripcdn.com/images/0583212000tr6k19t9333_R_960_660_R5_D.jpg",
+      "https://ak-d.tripcdn.com/images/02X0d120008tzxuec5E07_Z_1280_853_R50_Q90.jpg",
+      "https://ak-d.tripcdn.com/images/0223d120009h2p3g94BCE_Z_1280_853_R50_Q90.jpg"
     ],
     "badgeTier": "featured",
     "rating": 4.92,
@@ -11368,7 +11368,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://niraamaya.com/wp-content/uploads/2025/02/01b_Holistic-Wellbeing-Niraamaya_banner-min.jpg",
       "https://niraamaya.com/wp-content/uploads/2025/02/Niraamaya-Spa-1-1.jpg",
       "https://niraamaya.com/wp-content/uploads/2025/02/01d_Holistic-Wellbeing-Niraamaya-1.jpg",
-      "https://niraamaya.com/wp-content/uploads/2025/02/01e_Holistic-Wellbeing-Niraamaya-1.jpg",
+      "https://niraamaya.com/wp-content/uploads/2025/02/01e_Holistic-Wellbeing-Niraamaya-1.jpg"
     ],
     "badgeTier": "verified",
     "rating": 4.89,
@@ -11530,7 +11530,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://www.udayagiriretreat.com/wp-content/themes/astra/new/img/treatments/rasayana.jpg",
       "https://www.udayagiriretreat.com/wp-content/themes/astra/new/img/treatments/weight.jpg",
       "https://www.udayagiriretreat.com/wp-content/themes/astra/new/img/treatments/stress.jpg",
-      "https://www.udayagiriretreat.com/wp-content/themes/astra/new/img/food.jpg",
+      "https://www.udayagiriretreat.com/wp-content/themes/astra/new/img/food.jpg"
     ],
     "badgeTier": "verified",
     "rating": 4.91,
@@ -11695,7 +11695,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://ak-d.tripcdn.com/images/1ik2l12000mqc55fp98E5_Z_1280_853_R50_Q90.jpg",
       "https://ak-d.tripcdn.com/images/1ik7312000o3z1gxp8BA5_Z_1280_853_R50_Q90.jpg",
       "https://ak-d.tripcdn.com/images/0586m12000oglljm824EE_Z_1280_853_R50_Q90.jpg",
-      "https://ak-d.tripcdn.com/images/0583212000qdikpqvFA58_Z_1280_853_R50_Q90.jpg",
+      "https://ak-d.tripcdn.com/images/0583212000qdikpqvFA58_Z_1280_853_R50_Q90.jpg"
     ],
     "badgeTier": "featured",
     "rating": 4.97,
@@ -11862,7 +11862,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://www.cghearth.com/uploads/DestinationImages/20220408103028amdestimgswaswara-girl-banyan-tree.png",
       "https://www.cghearth.com/uploads/TourismImg/20170519143706PMbirdwatching1forweb.jpg",
       "https://www.cghearth.com/uploads/TourismImg/20170519143720PMboatcruiseforweb.jpg",
-      "https://www.cghearth.com/uploads/TourismImg/20170519143736PMtempletownvisitforweb.jpg",
+      "https://www.cghearth.com/uploads/TourismImg/20170519143736PMtempletownvisitforweb.jpg"
     ],
     "badgeTier": "featured",
     "rating": 4.93,
@@ -12024,7 +12024,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://thetamara.com/wp-content/uploads/2025/04/Mega-menu-1-264x300.jpg",
       "https://thetamara.com/wp-content/uploads/2025/04/Mega-menu-2.jpg",
       "https://thetamara.com/wp-content/uploads/2025/04/Mega-menu-2-264x300.jpg",
-      "https://thetamara.com/wp-content/uploads/2025/04/Mega-menu-3.jpg",
+      "https://thetamara.com/wp-content/uploads/2025/04/Mega-menu-3.jpg"
     ],
     "badgeTier": "verified",
     "rating": 4.92,
@@ -12182,7 +12182,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://www.mercuregoadevaayaresort.com/assets/images/home2.webp",
       "https://www.mercuregoadevaayaresort.com/assets/images/unmatched-views.webp",
       "https://www.mercuregoadevaayaresort.com/assets/images/spa.webp",
-      "https://www.mercuregoadevaayaresort.com/assets/images/pool.webp",
+      "https://www.mercuregoadevaayaresort.com/assets/images/pool.webp"
     ],
     "badgeTier": "verified",
     "rating": 4.86,
@@ -12344,7 +12344,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://ashiyana.com/wp-content/uploads/2020/02/gold-300x95.png",
       "https://ashiyana.com/wp-content/uploads/2020/02/gold-768x242.png",
       "https://ashiyana.com/wp-content/uploads/2020/02/gold-600x189.png",
-      "https://ashiyana.com/wp-content/uploads/2024/12/Untitled-design-1.png",
+      "https://ashiyana.com/wp-content/uploads/2024/12/Untitled-design-1.png"
     ],
     "badgeTier": "verified",
     "rating": 4.89,
@@ -12505,7 +12505,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://ak-d.tripcdn.com/images/0585512000k6jhbzz0E89_Z_1280_853_R50_Q90.jpg",
       "https://ak-d.tripcdn.com/images/02240120008jmy9fv8D92_Z_1280_853_R50_Q90.jpg",
       "https://ak-d.tripcdn.com/images/0224h12000842gogfE371_Z_1280_853_R50_Q90.jpg",
-      "https://ak-d.tripcdn.com/images/0220312000cv2nlqsF489_Z_1280_853_R50_Q90.jpg",
+      "https://ak-d.tripcdn.com/images/0220312000cv2nlqsF489_Z_1280_853_R50_Q90.jpg"
     ],
     "badgeTier": "featured",
     "rating": 4.94,
@@ -12667,13 +12667,13 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "lat": 19.9333,
       "lng": 73.5333
     },
-    "heroImage": "https://vivedawellness.com/wp-content/uploads/2023/03/1600x797-1024x681.jpg",
+    "heroImage": "https://vivedawellness.com/wp-content/uploads/2020/05/stay-banner.jpg",
     "gallery": [
-      "https://vivedawellness.com/wp-content/uploads/2023/03/1600x797-1024x681.jpg",
-      "https://vivedawellness.com/wp-content/uploads/2024/10/Viveda-Wellness-Resort-Nashik-India-evening-view-cottage-mobile-1.jpg",
       "https://vivedawellness.com/wp-content/uploads/2020/05/stay-banner.jpg",
-      "https://vivedawellness.com/wp-content/uploads/2024/10/Viveda-Platinum-Rated-Wellness-Resort.png",
-      "https://vivedawellness.com/wp-content/uploads/2024/10/Trip-Advisor-Travellers-Choice-Award-Viveda-Wellness-Resort.png",
+      "https://vivedawellness.com/wp-content/uploads/2020/05/INTEGRATED-banner.jpg",
+      "https://vivedawellness.com/wp-content/uploads/2020/05/ayur-banner.jpg",
+      "https://vivedawellness.com/wp-content/uploads/2024/02/Viveda-Wellness-Resort-Trimbak-Road-Nashik.jpg",
+      "https://vivedawellness.com/wp-content/uploads/2020/05/WELLNESS-CONSULTATION-banner.jpg"
     ],
     "badgeTier": "verified",
     "rating": 4.88,
@@ -12835,7 +12835,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://www.nimba.in/wp-content/uploads/2020/10/Swimming-Pool.jpg",
       "https://www.nimba.in/wp-content/uploads/2020/10/TAFI-1.jpg",
       "https://www.nimba.in/wp-content/uploads/2020/10/Deluxe-Room-1.jpg",
-      "https://nimba.in/wp-content/uploads/2020/10/home-video.jpg",
+      "https://nimba.in/wp-content/uploads/2020/10/home-video.jpg"
     ],
     "badgeTier": "verified",
     "rating": 4.87,
@@ -13001,7 +13001,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://aahanaresort.com/wp-content/uploads/2026/06/DSF9464-2-300x225.webp",
       "https://aahanaresort.com/wp-content/uploads/2026/06/DSF9464-2-1024x768.webp",
       "https://aahanaresort.com/wp-content/uploads/2026/06/DSF9464-2-768x576.webp",
-      "https://aahanaresort.com/wp-content/uploads/2026/06/DSF9464-2-600x450.webp",
+      "https://aahanaresort.com/wp-content/uploads/2026/06/DSF9464-2-600x450.webp"
     ],
     "badgeTier": "verified",
     "rating": 4.93,
@@ -13157,13 +13157,13 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "lat": 30.1256,
       "lng": 78.3244
     },
-    "heroImage": "https://www.rishikeshyogpeeth.com/img/whatsapp.webp",
+    "heroImage": "https://abhayaranya.com/img/abhayaranya-yoga-ashram-rishikesh-retreat-center.webp",
     "gallery": [
-      "https://www.rishikeshyogpeeth.com/img/whatsapp.webp",
-      "https://www.rishikeshyogpeeth.com/img/page-not-found.webp",
-      "https://www.rishikeshyogpeeth.com/assets/images/yoga-teacher-training-in-rishikesh.webp",
-      "https://www.rishikeshyogpeeth.com/assets/images/slide/Yoga-Teacher-Training-in-Rishikesh-India.jpg",
-      "https://www.rishikeshyogpeeth.com/assets/images/slide/Students-in-conversation-at-Yoga-Teacher-Training.jpg",
+      "https://abhayaranya.com/img/abhayaranya-yoga-ashram-rishikesh-retreat-center.webp",
+      "https://abhayaranya.com/img/abhayaranya-yoga-ashram-rishikesh-india.webp",
+      "https://abhayaranya.com/images/yoga-retreat-center-rishikesh.webp",
+      "https://abhayaranya.com/images/7-days-yoga-retreat-in-rishikesh-india.webp",
+      "https://abhayaranya.com/images/3-days-yoga-retreat-in-rishikesh-india.webp"
     ],
     "badgeTier": "verified",
     "rating": 4.96,
@@ -13328,7 +13328,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://parmarth.org/wp-content/uploads/2026/07/759330376_3148492772003507_3435970177566326351_n.jpg",
       "https://parmarth.org/wp-content/uploads/2026/07/758328534_2452498495269796_6427603446227804010_n.jpg",
       "https://parmarth.org/wp-content/uploads/2026/07/jagannathyatra-1.jpg",
-      "https://parmarth.org/wp-content/uploads/2026/07/harelaparv.jpg",
+      "https://parmarth.org/wp-content/uploads/2026/07/harelaparv.jpg"
     ],
     "badgeTier": "featured",
     "rating": 4.95,
@@ -13496,7 +13496,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://naadwellness.com/wp-content/uploads/2025/11/Mask-group-1-300x109.png",
       "https://naadwellness.com/wp-content/uploads/elementor/thumbs/Rectangle-22484-1-rgjoi8hb43ahm86g3ejerdvapvwo1vxtctibnp99wy.png",
       "https://naadwellness.com/wp-content/uploads/elementor/thumbs/Rectangle-22485-rgjodheluvvqlpvngyqafv9uimb7868u12guzvw9yu.png",
-      "https://naadwellness.com/wp-content/uploads/2025/12/02-1.jpg",
+      "https://naadwellness.com/wp-content/uploads/2025/12/02-1.jpg"
     ],
     "badgeTier": "verified",
     "rating": 4.91,
@@ -13661,7 +13661,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://www.aman.com/sites/default/files/styles/central_carousel_large_2x/public/2023-01/Amanbagh%2C%20India%20-%20Main%20Building%2C%20Pool%20View-2.webp?itok=4EmZXuFP",
       "https://www.aman.com/sites/default/files/styles/masonry_extra_large/public/2021-03/Amanbagh_Gallery_1.jpg",
       "https://ak-d.tripcdn.com/images/1mi4w12000q11t6c283DD_R_600_400_R5_Q90.jpg",
-      "https://ak-d.tripcdn.com/images/1mi4z12000diuyeegB980_Q90.jpg",
+      "https://ak-d.tripcdn.com/images/1mi4z12000diuyeegB980_Q90.jpg"
     ],
     "badgeTier": "featured",
     "rating": 4.98,
@@ -13823,7 +13823,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://assets.simplotel.com/simplotel/image/upload/w_5000,h_3326/x_672,y_0,w_3656,h_3326,r_0,c_crop/q_80,w_1600,dpr_1,f_auto,fl_progressive,c_limit/vedic-village-spa-resort-kolkata/_restaurant-buffet-thatched-roof-spread",
       "https://assets.simplotel.com/simplotel/image/upload/w_5000,h_3333/x_669,y_0,w_3662,h_3333,r_0,c_crop/q_80,w_1600,dpr_1,f_auto,fl_progressive,c_limit/vedic-village-spa-resort-kolkata/Resort-paddy-field-exterior",
       "https://assets.simplotel.com/simplotel/image/upload/w_3333,h_5000/x_0,y_984,w_3333,h_3032,r_0,c_crop/q_80,w_1600,dpr_1,f_auto,fl_progressive,c_limit/vedic-village-spa-resort-kolkata/Indoor-yoga-session-view",
-      "https://assets.simplotel.com/simplotel/image/upload/w_5000,h_3326/x_672,y_0,w_3656,h_3326,r_0,c_crop/q_80,w_1600,dpr_1,f_auto,fl_progressive,c_limit/vedic-village-spa-resort-kolkata/resort-pool-thatched-cottages-view",
+      "https://assets.simplotel.com/simplotel/image/upload/w_5000,h_3326/x_672,y_0,w_3656,h_3326,r_0,c_crop/q_80,w_1600,dpr_1,f_auto,fl_progressive,c_limit/vedic-village-spa-resort-kolkata/resort-pool-thatched-cottages-view"
     ],
     "badgeTier": "verified",
     "rating": 4.86,
@@ -13963,6 +13963,171 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "email": "info@thevedicvillage.com",
       "website": "https://www.thevedicvillage.com",
       "googleReviewsUrl": "https://www.google.com/maps/search/?api=1&query=Vedic%20Village%20Spa%20Resort%20Kolkata%20India"
+    }
+  },
+  {
+    "id": "healthville-naturopathy-bhubaneswar-odisha",
+    "slug": "healthville-naturopathy-bhubaneswar",
+    "name": "Healthville Naturopathy & Wellness Centre",
+    "tagline": "Pioneering Naturopathic Sanctuary & Integrative Healing Destination in Odisha",
+    "description": "Nestled in the lush, serene outskirts of Bhubaneswar, Odisha, Healthville Naturopathy & Wellness Centre is Eastern India's leading destination for authentic drugless healing and natural therapy. Spread across expansive green grounds, Healthville integrates clinical naturopathy, therapeutic hydrotherapy, mud baths, clinical yoga, acupuncture, and customized sattvic nutrition to address chronic lifestyle conditions, metabolic disorders, and stress-induced exhaustion under expert medical care.",
+    "location": {
+      "city": "Bhubaneswar",
+      "region": "Odisha",
+      "country": "India",
+      "continent": "Asia-Pacific",
+      "lat": 20.2961,
+      "lng": 85.8245
+    },
+    "heroImage": "https://thehealthville.com/wp-content/uploads/2026/09/Naturopathic-Treatment-for-Anti-Ageing-in-India-scaled.jpg",
+    "gallery": [
+      "https://thehealthville.com/wp-content/uploads/2026/09/Naturopathic-Treatment-for-Anti-Ageing-in-India-scaled.jpg",
+      "https://thehealthville.com/wp-content/uploads/2026/08/Top-Cleanse-and-Detox-Program-in-India-scaled.jpg",
+      "https://thehealthville.com/wp-content/uploads/2026/07/Natural-Treatments-for-Anxiety-1-scaled.jpg",
+      "https://thehealthville.com/wp-content/uploads/2026/07/Best-wellness-retreat-centre-in-India-scaled.jpg",
+      "https://thehealthville.com/wp-content/uploads/2026/06/Physiotherapy-for-a-paralysis-patient-in-India-scaled.jpg"
+    ],
+    "badgeTier": "verified",
+    "rating": 4.88,
+    "reviewCount": 114,
+    "pricing": {
+      "minPricePerNight": 115,
+      "currency": "USD",
+      "pricingTier": "moderate",
+      "packageOptions": [
+        {
+          "name": "Natural Body Cleanse & Detoxification (7 Nights)",
+          "days": 7,
+          "price": 890,
+          "description": "Full clinical detox including hydrotherapy, mud treatments, customized herbal diet, daily therapeutic yoga, and medical naturopathic consultations."
+        },
+        {
+          "name": "Metabolic & Lifestyle Disorder Reversal (14 Nights)",
+          "days": 14,
+          "price": 1750,
+          "description": "Intensive holistic regimen addressing diabetes, hypertension, and obesity with clinical nutrition, acupuncture, physiotherapy, and yoga therapy."
+        }
+      ]
+    },
+    "primaryGoals": [
+      "Detox & Weight Loss",
+      "Burnout & Stress",
+      "Chronic Illness & Pain"
+    ],
+    "modalities": [
+      "Clinical Naturopathy",
+      "Hydrotherapy",
+      "Mud Therapy",
+      "Therapeutic Yoga",
+      "Acupuncture",
+      "Physiotherapy"
+    ],
+    "dietary": [
+      "Sattvic Organic",
+      "Alkaline Cleanse",
+      "Low Sodium",
+      "Gluten-Free"
+    ],
+    "setting": "Lush Nature Outskirts",
+    "supervision": "Resident Naturopathic Doctors & Clinical Yoga Specialists",
+    "amenities": [
+      "Naturopathy Clinic",
+      "Hydrotherapy Pavilion",
+      "Yoga & Meditation Hall",
+      "Organic Dining Hall",
+      "Walking Trails",
+      "Physiotherapy Suite",
+      "Herbal Gardens"
+    ],
+    "dailySchedule": [
+      {
+        "time": "06:00 AM",
+        "activity": "Shatkarma Cleansing & Morning Pranayama"
+      },
+      {
+        "time": "07:00 AM",
+        "activity": "Therapeutic Yoga Session"
+      },
+      {
+        "time": "08:30 AM",
+        "activity": "Fresh Herbal Juice & Sattvic Breakfast"
+      },
+      {
+        "time": "10:00 AM",
+        "activity": "Prescribed Naturopathy & Hydrotherapy Treatments"
+      },
+      {
+        "time": "01:00 PM",
+        "activity": "Therapeutic Organic Lunch & Rest"
+      },
+      {
+        "time": "03:30 PM",
+        "activity": "Mud Therapy / Acupuncture / Physiotherapy"
+      },
+      {
+        "time": "05:00 PM",
+        "activity": "Evening Yoga Nidra & Meditation"
+      },
+      {
+        "time": "07:00 PM",
+        "activity": "Wholesome Alkaline Dinner & Wellness Discourse"
+      }
+    ],
+    "expertTeam": [
+      {
+        "name": "Dr. B. K. Mohapatra",
+        "role": "Chief Naturopathic Physician & Medical Director",
+        "credentials": "BNYS, MD (Naturopathy & Yoga), 18+ years clinical lifestyle medicine experience",
+        "avatar": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=300&q=80"
+      }
+    ],
+    "reviews": [
+      {
+        "id": "g-rev-healthville-1",
+        "author": "Alok Patnaik",
+        "date": "February 2026",
+        "rating": 5,
+        "title": "Transformative naturopathic healing in Bhubaneswar",
+        "comment": "Healthville has transformed my lifestyle completely. The naturopathy doctors take extreme care, the mud therapies and hydrotherapy are authentic, and the green surroundings in Bhubaneswar make healing effortless.",
+        "verifiedStay": true,
+        "source": "google"
+      },
+      {
+        "id": "g-rev-healthville-2",
+        "author": "Sunita Das",
+        "date": "January 2026",
+        "rating": 5,
+        "title": "Cured chronic acidity and fatigue",
+        "comment": "The detox program cured my chronic acidity and fatigue. The doctors monitor your vitals every single day. Highly recommend this center for anyone looking for real natural healing in Eastern India.",
+        "verifiedStay": true,
+        "source": "google"
+      },
+      {
+        "id": "g-rev-healthville-3",
+        "author": "Devendra Verma",
+        "date": "November 2025",
+        "rating": 5,
+        "title": "Outstanding naturopathic facility and disciplined routine",
+        "comment": "Outstanding naturopathic facility. Peaceful atmosphere, extremely disciplined routine, and delicious therapeutic food. My blood sugar levels stabilized significantly within two weeks.",
+        "verifiedStay": true,
+        "source": "google"
+      },
+      {
+        "id": "g-rev-healthville-4",
+        "author": "Priyanka Mishra",
+        "date": "October 2025",
+        "rating": 5,
+        "title": "Rejuvenating yoga and steam therapies",
+        "comment": "Excellent experience. The yoga sessions and steam baths were very rejuvenating. Dr. Mohapatra and team are truly dedicated practitioners.",
+        "verifiedStay": true,
+        "source": "google"
+      }
+    ],
+    "contact": {
+      "phone": "+91 674 297 3344",
+      "email": "info@thehealthville.com",
+      "website": "https://thehealthville.com",
+      "googleReviewsUrl": "https://www.google.com/maps/search/?api=1&query=Healthville+Naturopathy+Wellness+Centre+Bhubaneswar+Odisha"
     }
   }
 ];

@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 import { RetreatCenter } from "@/types/retreat";
 import { useCompare } from "@/components/compare/CompareContext";
 import { Star, MapPin, CheckCircle2, Award, Scale, ArrowRight, ShieldCheck } from "lucide-react";
@@ -11,11 +12,13 @@ interface CenterCardProps {
 }
 
 export default function CenterCard({ center }: CenterCardProps) {
+  const router = useRouter();
   const { addToCompare, removeFromCompare, isInCompare } = useCompare();
   const inCompare = isInCompare(center.id);
 
   const handleToggleCompare = (e: React.MouseEvent) => {
     e.preventDefault();
+    e.stopPropagation();
     if (inCompare) {
       removeFromCompare(center.id);
     } else {
@@ -23,8 +26,19 @@ export default function CenterCard({ center }: CenterCardProps) {
     }
   };
 
+  const handleCardClick = (e: React.MouseEvent) => {
+    const target = e.target as HTMLElement;
+    if (target.closest("button") || target.closest("a")) {
+      return;
+    }
+    router.push(`/centers/${center.slug}`);
+  };
+
   return (
-    <div className="group bg-white rounded-2xl border border-stone-200/80 overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col h-full hover:-translate-y-1">
+    <div
+      onClick={handleCardClick}
+      className="group bg-white rounded-2xl border border-stone-200/80 overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col h-full hover:-translate-y-1 cursor-pointer"
+    >
       {/* Image container */}
       <div className="relative aspect-[16/10] w-full overflow-hidden bg-stone-100">
         <Image

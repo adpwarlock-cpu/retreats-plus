@@ -248,7 +248,7 @@ export default function HomePage() {
 
             {/* Headline */}
             <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-extrabold text-stone-900 tracking-tight leading-[1.15]">
-              Find the Sanctuary Your <br className="hidden sm:inline" />
+              Find the Retreat Your <br className="hidden sm:inline" />
               <span className="italic font-normal text-primary-800">Body & Mind</span> Truly Need.
             </h1>
 
