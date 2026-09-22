@@ -5,6 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { WELLNESS_CENTERS } from "@/data/centers";
 import { calculateQuizMatches, QuizAnswers, QuizMatchResult } from "@/lib/filterUtils";
+import { useCurrency } from "@/context/CurrencyContext";
 import {
   Sparkles,
   ArrowRight,
@@ -24,6 +25,7 @@ import {
 } from "lucide-react";
 
 export default function QuizPage() {
+  const { formatPrice } = useCurrency();
   const [currentStep, setCurrentStep] = useState(1);
   const [answers, setAnswers] = useState<QuizAnswers>({
     goal: "",
@@ -398,7 +400,7 @@ export default function QuizPage() {
                     <div>
                       <span className="text-[10px] text-stone-400 block">Starting from</span>
                       <span className="font-serif text-base font-bold text-stone-900">
-                        {res.center.pricing.currency} {res.center.pricing.minPricePerNight.toLocaleString()}
+                        {formatPrice(res.center.pricing.minPricePerNight)}
                       </span>
                       <span className="text-[11px] text-stone-500 ml-1">/ night</span>
                     </div>

@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { Compass, Sparkles, Scale, PlusCircle, Menu, X, ShieldCheck } from "lucide-react";
+import CurrencySelector from "@/components/common/CurrencySelector";
 
 export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -56,8 +57,9 @@ export default function Navbar() {
             </Link>
           </nav>
 
-          {/* Right Action: List Center & Get Started */}
-          <div className="hidden md:flex items-center gap-4">
+          {/* Right Action: Currency, List Center & Get Started */}
+          <div className="hidden md:flex items-center gap-3.5">
+            <CurrencySelector variant="desktop" />
             <Link
               href="/list-a-center"
               className="text-xs font-semibold text-primary-900 hover:text-primary-950 border border-primary-800/30 px-3.5 py-2 rounded-full hover:bg-primary-50 transition-all flex items-center gap-1.5"
@@ -119,6 +121,7 @@ export default function Navbar() {
           >
             Advertising & Sponsorship
           </Link>
+          <CurrencySelector variant="mobile" />
           <div className="pt-4 border-t border-stone-200 flex flex-col gap-2">
             <Link
               href="/list-a-center"

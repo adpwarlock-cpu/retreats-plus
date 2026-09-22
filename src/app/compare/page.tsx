@@ -3,6 +3,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { useCompare } from "@/components/compare/CompareContext";
+import { useCurrency } from "@/context/CurrencyContext";
 import { WELLNESS_CENTERS } from "@/data/centers";
 import {
   Scale,
@@ -18,6 +19,7 @@ import {
 
 export default function ComparePage() {
   const { selectedCenters, removeFromCompare, clearCompare, addToCompare } = useCompare();
+  const { formatPrice } = useCurrency();
 
   // Pick centers that aren't yet in comparison to offer as quick adds
   const availableToAdd = WELLNESS_CENTERS.filter(
@@ -176,7 +178,7 @@ export default function ComparePage() {
                 {selectedCenters.map((center) => (
                   <td key={center.id} className="p-4 bg-white border-l border-stone-200">
                     <span className="font-serif text-base font-bold text-stone-900 block">
-                      {center.pricing.currency} {center.pricing.minPricePerNight.toLocaleString()}
+                      {formatPrice(center.pricing.minPricePerNight)}
                     </span>
                     <span className="text-[10px] text-stone-500">per night (all-inclusive)</span>
                   </td>

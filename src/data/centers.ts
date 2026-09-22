@@ -5532,13 +5532,13 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "lat": -8.5912,
       "lng": 115.3045
     },
-    "heroImage": "https://bali-floatingleaf.com/wp-content/uploads/2024/06/cropped-floating-leaf-192x192.jpeg",
+    "heroImage": "https://bali-floatingleaf.com/wp-content/uploads/2024/06/EOSR1479-copy.webp",
     "gallery": [
-      "https://bali-floatingleaf.com/wp-content/uploads/2024/06/cropped-floating-leaf-192x192.jpeg",
-      "https://bali-floatingleaf.com/wp-content/uploads/2024/06/TP-2015-2019-e1594264239845-1.webp",
-      "https://bali-floatingleaf.com/wp-content/uploads/2024/06/l3_19bfa5a53898da84b4a2436cb270a402.webp",
-      "https://bali-floatingleaf.com/wp-content/uploads/2024/06/l10_9072acb1c7dc7f4988d6aa4d4125f6d5-1.webp",
-      "https://bali-floatingleaf.com/wp-content/uploads/2024/06/l11_dfb956b7b9f394a78c68e3ef2f57a2fe.webp"
+      "https://bali-floatingleaf.com/wp-content/uploads/2024/06/EOSR1479-copy.webp",
+      "https://bali-floatingleaf.com/wp-content/uploads/2024/07/Bali-best-hotel-pool1-600x600_fbc9583f0d81c0684928404c25b9b09b.webp",
+      "https://bali-floatingleaf.com/wp-content/uploads/2024/07/Postcard-FLELR-large_preview-e1526441428173_b45f01ff6043635068ab3cf0dbf97d7a_htayju.webp",
+      "https://bali-floatingleaf.com/wp-content/uploads/2024/07/meditation-Bali-yoga-buddha-2-600x600_c87d472bc6a5188767bbfed9a4870294.webp",
+      "https://bali-floatingleaf.com/wp-content/uploads/2024/07/community-outreach-retreat-charity-2_f27fc2d7b38058f5e84d89a8aafd41ec-1_bfm5cb.jpg"
     ],
     "badgeTier": "verified",
     "rating": 4.96,
@@ -8103,13 +8103,13 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "lat": 10.7867,
       "lng": 76.6548
     },
-    "heroImage": "https://www.kairali.com/headerbanner/banner-ayurveda-home.jpg",
+    "heroImage": "https://ayurvedichealingvillage.com/wp-content/uploads/2025/01/Villa.jpg",
     "gallery": [
-      "https://www.kairali.com/headerbanner/banner-ayurveda-home.jpg",
-      "https://www.kairali.com/headerbanner/banner-ayurveda-home-mobile.jpg",
-      "https://www.kairali.com/pic/ancient-ayurveda-treatment.jpg",
-      "https://www.kairali.com/pic/ancient-ayurveda-treatment-mobile.jpg",
-      "https://www.kairali.com/pic/shirodhara-ancient.jpg"
+      "https://ayurvedichealingvillage.com/wp-content/uploads/2025/01/Villa.jpg",
+      "https://ayurvedichealingvillage.com/wp-content/uploads/2025/01/Therapy.jpg",
+      "https://ayurvedichealingvillage.com/wp-content/uploads/2024/11/r-1.jpg",
+      "https://ayurvedichealingvillage.com/wp-content/uploads/2024/11/r-2.jpg",
+      "https://ayurvedichealingvillage.com/wp-content/uploads/2025/01/Classic-.png"
     ],
     "badgeTier": "verified",
     "rating": 4.89,
@@ -13490,13 +13490,13 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "lat": 28.9958,
       "lng": 77.0114
     },
-    "heroImage": "https://naadwellness.com/wp-content/uploads/2025/11/Mask-group-1.png",
+    "heroImage": "https://naadwellness.com/wp-content/uploads/2025/12/4-1.jpg",
     "gallery": [
-      "https://naadwellness.com/wp-content/uploads/2025/11/Mask-group-1.png",
-      "https://naadwellness.com/wp-content/uploads/2025/11/Mask-group-1-300x109.png",
-      "https://naadwellness.com/wp-content/uploads/elementor/thumbs/Rectangle-22484-1-rgjoi8hb43ahm86g3ejerdvapvwo1vxtctibnp99wy.png",
-      "https://naadwellness.com/wp-content/uploads/elementor/thumbs/Rectangle-22485-rgjodheluvvqlpvngyqafv9uimb7868u12guzvw9yu.png",
-      "https://naadwellness.com/wp-content/uploads/2025/12/02-1.jpg"
+      "https://naadwellness.com/wp-content/uploads/2025/12/4-1.jpg",
+      "https://naadwellness.com/wp-content/uploads/2025/12/5-1.jpg",
+      "https://naadwellness.com/wp-content/uploads/2025/12/6-1.jpg",
+      "https://naadwellness.com/wp-content/uploads/2025/12/7-1.jpg",
+      "https://naadwellness.com/wp-content/uploads/2026/01/therpaies_gallery2.jpg"
     ],
     "badgeTier": "verified",
     "rating": 4.91,
@@ -13979,13 +13979,13 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "lat": 20.2961,
       "lng": 85.8245
     },
-    "heroImage": "https://thehealthville.com/wp-content/uploads/2026/09/Naturopathic-Treatment-for-Anti-Ageing-in-India-scaled.jpg",
+    "heroImage": "https://thehealthville.com/wp-content/uploads/2025/05/Cottage.jpeg",
     "gallery": [
-      "https://thehealthville.com/wp-content/uploads/2026/09/Naturopathic-Treatment-for-Anti-Ageing-in-India-scaled.jpg",
-      "https://thehealthville.com/wp-content/uploads/2026/08/Top-Cleanse-and-Detox-Program-in-India-scaled.jpg",
-      "https://thehealthville.com/wp-content/uploads/2026/07/Natural-Treatments-for-Anxiety-1-scaled.jpg",
-      "https://thehealthville.com/wp-content/uploads/2026/07/Best-wellness-retreat-centre-in-India-scaled.jpg",
-      "https://thehealthville.com/wp-content/uploads/2026/06/Physiotherapy-for-a-paralysis-patient-in-India-scaled.jpg"
+      "https://thehealthville.com/wp-content/uploads/2025/05/Cottage.jpeg",
+      "https://thehealthville.com/wp-content/uploads/2023/10/slide-2-1220x686-1.jpg",
+      "https://thehealthville.com/wp-content/uploads/2023/09/yoga.jpg",
+      "https://thehealthville.com/wp-content/uploads/2025/05/Cottage-1536x600.jpeg",
+      "https://thehealthville.com/wp-content/uploads/2025/05/Cottage-1220x477.jpeg"
     ],
     "badgeTier": "verified",
     "rating": 4.88,

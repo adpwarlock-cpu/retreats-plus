@@ -5,6 +5,7 @@ import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { RetreatCenter } from "@/types/retreat";
 import { useCompare } from "@/components/compare/CompareContext";
+import { useCurrency } from "@/context/CurrencyContext";
 import { Star, MapPin, CheckCircle2, Award, Scale, ArrowRight, ShieldCheck } from "lucide-react";
 
 interface CenterCardProps {
@@ -14,6 +15,7 @@ interface CenterCardProps {
 export default function CenterCard({ center }: CenterCardProps) {
   const router = useRouter();
   const { addToCompare, removeFromCompare, isInCompare } = useCompare();
+  const { formatPrice } = useCurrency();
   const inCompare = isInCompare(center.id);
 
   const handleToggleCompare = (e: React.MouseEvent) => {
@@ -146,7 +148,7 @@ export default function CenterCard({ center }: CenterCardProps) {
           <div>
             <span className="text-[11px] text-stone-400 block font-normal">From</span>
             <span className="font-serif text-base font-bold text-stone-900">
-              {center.pricing.currency} {center.pricing.minPricePerNight.toLocaleString()}
+              {formatPrice(center.pricing.minPricePerNight)}
             </span>
             <span className="text-[11px] text-stone-500 ml-1">/ night</span>
           </div>

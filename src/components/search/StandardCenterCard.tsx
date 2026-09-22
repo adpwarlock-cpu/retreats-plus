@@ -5,6 +5,7 @@ import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { RetreatCenter } from "@/types/retreat";
 import { useCompare } from "@/components/compare/CompareContext";
+import { useCurrency } from "@/context/CurrencyContext";
 import {
   Star,
   MapPin,
@@ -23,6 +24,7 @@ interface StandardCenterCardProps {
 export default function StandardCenterCard({ center }: StandardCenterCardProps) {
   const router = useRouter();
   const { addToCompare, removeFromCompare, isInCompare } = useCompare();
+  const { formatPrice } = useCurrency();
   const inCompare = isInCompare(center.id);
 
   const handleToggleCompare = (e: React.MouseEvent) => {
@@ -189,7 +191,7 @@ export default function StandardCenterCard({ center }: StandardCenterCardProps) 
           </span>
           <div className="flex items-baseline md:justify-end gap-1 mt-0.5">
             <span className="font-serif text-2xl font-bold text-stone-900">
-              {center.pricing.currency} {center.pricing.minPricePerNight.toLocaleString()}
+              {formatPrice(center.pricing.minPricePerNight)}
             </span>
             <span className="text-xs text-stone-500">/ night</span>
           </div>

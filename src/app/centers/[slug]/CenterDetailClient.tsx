@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { RetreatCenter } from "@/types/retreat";
 import { useCompare } from "@/components/compare/CompareContext";
+import { useCurrency } from "@/context/CurrencyContext";
 import CenterCard from "@/components/search/CenterCard";
 import {
   MapPin,
@@ -34,6 +35,7 @@ interface CenterDetailClientProps {
 
 export default function CenterDetailClient({ center, similarCenters = [] }: CenterDetailClientProps) {
   const { addToCompare, removeFromCompare, isInCompare } = useCompare();
+  const { formatPrice } = useCurrency();
   const inCompare = isInCompare(center.id);
 
   const [selectedImage, setSelectedImage] = useState(center.heroImage);
@@ -488,7 +490,7 @@ export default function CenterDetailClient({ center, similarCenters = [] }: Cent
                 <span className="text-xs text-stone-400 block font-normal">Starting from</span>
                 <div className="flex items-baseline gap-1 mt-1">
                   <span className="font-serif text-3xl font-bold text-stone-900">
-                    {center.pricing.currency} {center.pricing.minPricePerNight.toLocaleString()}
+                    {formatPrice(center.pricing.minPricePerNight)}
                   </span>
                   <span className="text-xs text-stone-500">/ night</span>
                 </div>
@@ -517,7 +519,7 @@ export default function CenterDetailClient({ center, similarCenters = [] }: Cent
                         <div className="flex items-center justify-between font-bold text-stone-900">
                           <span>{pkg.name}</span>
                           <span>
-                            {center.pricing.currency} {pkg.price.toLocaleString()}
+                            {formatPrice(pkg.price)}
                           </span>
                         </div>
                         <p className="text-[10px] text-stone-500 mt-1 line-clamp-2">
