@@ -13979,13 +13979,13 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "lat": 20.2961,
       "lng": 85.8245
     },
-    "heroImage": "https://thehealthville.com/wp-content/uploads/2025/05/Cottage.jpeg",
+    "heroImage": "https://thehealthville.com/wp-content/uploads/2025/05/bedroom.jpg",
     "gallery": [
-      "https://thehealthville.com/wp-content/uploads/2025/05/Cottage.jpeg",
-      "https://thehealthville.com/wp-content/uploads/2023/10/slide-2-1220x686-1.jpg",
-      "https://thehealthville.com/wp-content/uploads/2023/09/yoga.jpg",
-      "https://thehealthville.com/wp-content/uploads/2025/05/Cottage-1536x600.jpeg",
-      "https://thehealthville.com/wp-content/uploads/2025/05/Cottage-1220x477.jpeg"
+      "https://thehealthville.com/wp-content/uploads/2025/05/bedroom.jpg",
+      "https://thehealthville.com/wp-content/uploads/2025/05/2.-Living-Room.jpg",
+      "https://thehealthville.com/wp-content/uploads/2025/05/private-pool.jpg",
+      "https://thehealthville.com/wp-content/uploads/2025/05/massage-room.jpg",
+      "https://thehealthville.com/wp-content/uploads/2025/05/front-garden.jpg"
     ],
     "badgeTier": "verified",
     "rating": 4.88,
