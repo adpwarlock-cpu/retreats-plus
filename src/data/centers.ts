@@ -2489,10 +2489,10 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
     "heroImage": "https://static.prod.r53.tablethotels.com/media/hotels/slideshow_images_staged/large/1088044.jpg",
     "gallery": [
       "https://static.prod.r53.tablethotels.com/media/hotels/slideshow_images_staged/large/1088044.jpg",
-      "https://cdn.kiwicollection.com/media/room_images/PR009346/xxl/009346-songsaa-royal-villa1-song-saa-private-island.jpg",
-      "https://cdn.kiwicollection.com/media/room_images/PR009346/xxl/009346-songsaa-two-bed-overwater-villa1-song-saa-private-island.jpg",
+      "https://static.prod.r53.tablethotels.com/media/hotels/slideshow_images_staged/large/1088046.jpg",
+      "https://static.prod.r53.tablethotels.com/media/hotels/slideshow_images_staged/large/1088048.jpg",
       "https://cdn.kiwicollection.com/media/room_images/PR009346/xxl/009346-songsaa-two-bed-overwater-villa2-song-saa-private-island.jpg",
-      "https://cdn.kiwicollection.com/media/room_images/PR009346/xxl/009346-songsaa-two-bed-overwater-villa8-song-saa-private-island.jpg"
+      "https://static.prod.r53.tablethotels.com/media/hotels/slideshow_images_staged/large/1088045.jpg"
     ],
     "badgeTier": "featured",
     "rating": 4.96,
@@ -2639,10 +2639,10 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
     "heroImage": "https://navuturesorts.com/wp-content/uploads/2025/09/navutu-dreams-swimming-pool-and-grounds-2.jpg",
     "gallery": [
       "https://navuturesorts.com/wp-content/uploads/2025/09/navutu-dreams-swimming-pool-and-grounds-2.jpg",
+      "https://navuturesorts.com/wp-content/uploads/2026/09/navutu-dreams-b2b-wellness-spa.jpg",
+      "https://navuturesorts.com/wp-content/uploads/2026/09/navutu-dreams-b2b-wellness-yoga.jpg",
       "https://navuturesorts.com/wp-content/uploads/2025/07/navutu-dreams-the-grand-suite-2.webp",
-      "https://navuturesorts.com/wp-content/uploads/2025/07/the-grand-tour-family-1.webp",
-      "https://navuturesorts.com/wp-content/uploads/2025/07/the-grand-tour-1.webp",
-      "https://navuturesorts.com/wp-content/uploads/2025/07/navutu-dreams-explorer-double-room-2.webp"
+      "https://navuturesorts.com/wp-content/uploads/2026/09/navutu-dreams-niam-niam-restaurant.jpg"
     ],
     "badgeTier": "claimed",
     "rating": 4.87,
@@ -2788,10 +2788,10 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
     "heroImage": "https://cliniquelaprairie.com/wp-content/uploads/2025/03/CLP-M05-scaled.jpg",
     "gallery": [
       "https://cliniquelaprairie.com/wp-content/uploads/2025/03/CLP-M05-scaled.jpg",
+      "https://cliniquelaprairie.com/wp-content/uploads/2026/07/Clinique-La-Prairie-Montreux.jpg",
+      "https://cliniquelaprairie.com/wp-content/uploads/2026/07/Clinique-La-Prairies-New-Skin-Science-Aesthetic-Center.jpg",
       "https://cliniquelaprairie.com/wp-content/uploads/2026/06/Royal-Suite-Clinique-La-Prairie-Montreux.jpg",
-      "https://cliniquelaprairie.com/wp-content/uploads/2026/06/Imperial-Suite-Clinique-La-Prairie-Montreux.jpg",
-      "https://cliniquelaprairie.com/wp-content/uploads/2026/06/Lake-Suite-Clinique-La-Prairie-Montreux-3.jpg",
-      "https://cliniquelaprairie.com/wp-content/uploads/2026/06/Niehans-Suite-Clinique-La-Prairie-Montreux.jpg"
+      "https://cliniquelaprairie.com/wp-content/uploads/2025/07/SPA-POOL-2022-7-1.png"
     ],
     "badgeTier": "featured",
     "rating": 4.96,
@@ -3087,13 +3087,13 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "lat": 30.1254,
       "lng": 78.3182
     },
-    "heroImage": "https://cdn.kiwicollection.com/media/property/PR003650/ll/Ananda%20-%20in%20the%20Himalayas-003650-%20A%20destination%20spa.jpg?cb=1470264485,",
+    "heroImage": "https://cdn.kiwicollection.com/media/property/PR003650/xxl/Ananda%20-%20in%20the%20Himalayas-003650-%20A%20destination%20spa.jpg",
     "gallery": [
-      "https://cdn.kiwicollection.com/media/property/PR003650/ll/Ananda%20-%20in%20the%20Himalayas-003650-%20A%20destination%20spa.jpg?cb=1470264485,",
-      "https://cdn.kiwicollection.com/media/property/PR003650/xxl/Ananda%20-%20in%20the%20Himalayas-003650-%20A%20destination%20spa.jpg?cb=1470264485,",
-      "https://cdn.kiwicollection.com/media/property/PR003650/ll/003650-05-08d916bb-bdc9-4c60-a746-5a5c1eb7dba9.jpg?cb=1418156434,",
-      "https://cdn.kiwicollection.com/media/property/PR003650/xxl/003650-05-08d916bb-bdc9-4c60-a746-5a5c1eb7dba9.jpg?cb=1418156434,",
-      "https://cdn.kiwicollection.com/media/property/PR003650/ll/003650-16-f6451025-23ae-466d-a73b-79081c7d3ccf.jpg?cb=1418156440,"
+      "https://cdn.kiwicollection.com/media/property/PR003650/xxl/Ananda%20-%20in%20the%20Himalayas-003650-%20A%20destination%20spa.jpg",
+      "https://scdn.aro.ie/Sites/50/anandaspa/uploads/images/press48/pressimage42/overview.JPG",
+      "https://cdn.kiwicollection.com/media/property/PR003650/xxl/003650-05-08d916bb-bdc9-4c60-a746-5a5c1eb7dba9.jpg",
+      "https://cdn.kiwicollection.com/media/property/PR003650/xxl/003650-16-f6451025-23ae-466d-a73b-79081c7d3ccf.jpg",
+      "https://scdn.aro.ie/Sites/50/anandaspa/uploads/images/PanelImages/panelimagessmall19/Wellness_Yoga_5.jpg"
     ],
     "badgeTier": "verified",
     "rating": 4.97,
@@ -4394,7 +4394,7 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://www.aman.com/sites/default/files/styles/listing_teaser_small/public/2025-02/amankora_bhutan_-_gangtey_5.webp?itok=yFK2pvCb",
       "https://www.aman.com/sites/default/files/styles/listing_teaser_small/public/2025-02/amankora_bhutan_-_thimphu.webp?itok=tRFwQa3X",
       "https://www.aman.com/sites/default/files/styles/listing_teaser_small/public/2025-02/amankora_bhutan_-_punakha.webp?itok=7F8iIijL",
-      "https://www.aman.com/sites/default/files/styles/listing_teaser_small/public/2025-02/amankora_bhutan_-_paro_0.webp?itok=TbHiTKXW"
+      "https://www.aman.com/sites/default/files/styles/listing_teaser_small/public/2025-02/amankora_bhutan_-_dining.webp"
     ],
     "badgeTier": "verified",
     "rating": 4.97,
@@ -6402,13 +6402,13 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "lat": 6.4256,
       "lng": 79.9834
     },
-    "heroImage": "https://www.barberynresorts.com/wp-content/uploads/2020/05/B.-Reef-Water-Wall-1.jpg",
+    "heroImage": "https://www.barberynresorts.com/wp-content/uploads/2024/07/Barberyn-Reef_Scenary_00.jpg",
     "gallery": [
-      "https://www.barberynresorts.com/wp-content/uploads/2020/05/B.-Reef-Water-Wall-1.jpg",
-      "https://barberynresorts.com/wp-content/uploads/2020/03/barberyn-reef_beach-front-room_0000-1024x580.jpg",
-      "https://www.barberynresorts.com/wp-content/uploads/2020/03/barberyn-reef_beach-front-room_0000-1024x580.jpg.webp",
-      "https://www.barberynresorts.com/wp-content/uploads/2020/03/barberyn-reef_beach-front-room_0000-1024x580.jpg",
-      "https://www.barberynresorts.com/wp-content/uploads/2020/05/B.R_Garden-Room-1024x768.jpg.webp"
+      "https://www.barberynresorts.com/wp-content/uploads/2024/07/Barberyn-Reef_Scenary_00.jpg",
+      "https://www.barberynresorts.com/wp-content/uploads/2024/07/barberyn-reef_Surrounds-8.jpg",
+      "https://www.barberynresorts.com/wp-content/uploads/2024/07/Barberyn-Reef-Ayurveda_01.jpg",
+      "https://www.barberynresorts.com/wp-content/uploads/2024/07/barberyn-reef_Rooms-1.jpg",
+      "https://www.barberynresorts.com/wp-content/uploads/2024/07/Barberyn-Reef_Scenary_Swimming-Pool.jpg"
     ],
     "badgeTier": "verified",
     "rating": 4.9,
@@ -6993,13 +6993,13 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "lat": 12.3567,
       "lng": 109.289
     },
-    "heroImage": "https://cdn.kiwicollection.com/media/property/PR002952/ll/002952-01-The-Rock-Retreat-Reimagined-Exterior-1-at%20Six%20Senses%20Ninh%20Van%20Bay.jpg?cb=1721853937,",
+    "heroImage": "https://cdn.kiwicollection.com/media/property/PR002952/xxl/002952-01-The-Rock-Retreat-Reimagined-Exterior-1-at%20Six%20Senses%20Ninh%20Van%20Bay.jpg",
     "gallery": [
-      "https://cdn.kiwicollection.com/media/property/PR002952/ll/002952-01-The-Rock-Retreat-Reimagined-Exterior-1-at%20Six%20Senses%20Ninh%20Van%20Bay.jpg?cb=1721853937,",
-      "https://cdn.kiwicollection.com/media/property/PR002952/ll/002952-02-The-Rock-Retreat-Reimagined-Exterior-2-at%20Six%20Senses%20Ninh%20Van%20Bay.jpg?cb=1721853637,",
-      "https://cdn.kiwicollection.com/media/property/PR002952/ll/002952-03-The-Rock-Retreat-Sun-Deck-at%20Six%20Senses%20Ninh%20Van%20Bay.jpg?cb=1721853642,",
-      "https://cdn.kiwicollection.com/media/property/PR002952/ll/002952-04-The-Rock-Retreat-Bedroom-at%20Six%20Senses%20Ninh%20Van%20Bay.jpg?cb=1721853646,",
-      "https://cdn.kiwicollection.com/media/property/PR002952/xxl/002952-03-The-Rock-Retreat-Sun-Deck-at%20Six%20Senses%20Ninh%20Van%20Bay.jpg?cb=1721853642,"
+      "https://cdn.kiwicollection.com/media/property/PR002952/xxl/002952-01-The-Rock-Retreat-Reimagined-Exterior-1-at%20Six%20Senses%20Ninh%20Van%20Bay.jpg",
+      "https://cdn.kiwicollection.com/media/property/PR002952/xxl/002952-02-The-Rock-Retreat-Reimagined-Exterior-2-at%20Six%20Senses%20Ninh%20Van%20Bay.jpg",
+      "https://media.sixsenses.com/B60H3R33/at/9vfnq3b79kcjrbmgqsx4f2k/Bamboo_Massage_for_Vietnamese_Journey_Ritual.jpg",
+      "https://cdn.kiwicollection.com/media/property/PR002952/xxl/002952-04-The-Rock-Retreat-Bedroom-at%20Six%20Senses%20Ninh%20Van%20Bay.jpg",
+      "https://media.sixsenses.com/B60H3R33/at/k48t64hg6sgv73sf4tgvpkw/Yoga_On_The_Rocks__380-ORIGINAL_.jpg"
     ],
     "badgeTier": "featured",
     "rating": 4.95,
@@ -7289,13 +7289,13 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "lat": 27.4728,
       "lng": 89.6393
     },
-    "heroImage": "https://cdn.kiwicollection.com/media/property/PR241016/ll/241016-03-Thimphu_Suites_and_Villa_Exterior_9230-Six%20Senses%20Bhutan.jpg?cb=1671490009,",
+    "heroImage": "https://cdn.kiwicollection.com/media/property/PR241016/xxl/241016-03-Thimphu_Suites_and_Villa_Exterior_9230-Six%20Senses%20Bhutan.jpg",
     "gallery": [
-      "https://cdn.kiwicollection.com/media/property/PR241016/ll/241016-03-Thimphu_Suites_and_Villa_Exterior_9230-Six%20Senses%20Bhutan.jpg?cb=1671490009,",
-      "https://cdn.kiwicollection.com/media/property/PR241016/ll/241016-02-Thimphu_Prayer_Pavilion_with_Reflecting_Pond2_8743-Six%20Senses%20Bhutan.jpg?cb=1671490005,",
-      "https://cdn.kiwicollection.com/media/property/PR241016/ll/241016-04-Thimphu_Main_Building_Living_Room_with_View2_9235-Six%20Senses%20Bhutan.jpg?cb=1671490013,",
-      "https://cdn.kiwicollection.com/media/property/PR241016/ll/241016-01-Thimphu_Suite_Balcony_8092-Six%20Senses%20Bhutan.jpg?cb=1671490001,",
-      "https://cdn.kiwicollection.com/media/property/PR241016/xxl/241016-02-Thimphu_Prayer_Pavilion_with_Reflecting_Pond2_8743-Six%20Senses%20Bhutan.jpg?cb=1671490005,"
+      "https://cdn.kiwicollection.com/media/property/PR241016/xxl/241016-03-Thimphu_Suites_and_Villa_Exterior_9230-Six%20Senses%20Bhutan.jpg",
+      "https://cdn.kiwicollection.com/media/property/PR241016/xxl/241016-02-Thimphu_Prayer_Pavilion_with_Reflecting_Pond2_8743-Six%20Senses%20Bhutan.jpg",
+      "https://cdn.kiwicollection.com/media/property/PR241016/xxl/241016-10-Thimphu_Hot_Stone_Bath_at_Spa_9242-Six%20Senses%20Bhutan.jpg",
+      "https://cdn.kiwicollection.com/media/property/PR241016/xxl/241016-01-Thimphu_Suite_Balcony_8092-Six%20Senses%20Bhutan.jpg",
+      "https://cdn.kiwicollection.com/media/property/PR241016/xxl/241016-12-Thimphu_Restaurant_Namkha2_9241-Six%20Senses%20Bhutan.jpg"
     ],
     "badgeTier": "featured",
     "rating": 4.98,
@@ -7735,13 +7735,13 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "lat": 26.1567,
       "lng": 56.289
     },
-    "heroImage": "https://cdn.kiwicollection.com/media/property/PR005418/xl/005418-18-Salt_Water_Pool.jpg?cb=1519165068",
+    "heroImage": "https://cdn.kiwicollection.com/media/property/PR005418/xxl/005418-18-Salt_Water_Pool.jpg",
     "gallery": [
-      "https://cdn.kiwicollection.com/media/property/PR005418/xl/005418-18-Salt_Water_Pool.jpg?cb=1519165068",
-      "https://cdn.kiwicollection.com/media/property/PR005418/ll/005418-23-The_Private_Reserve_exterior4.jpg?cb=1499381299,",
-      "https://cdn.kiwicollection.com/media/property/PR005418/ll/005418-15-Pool_Villa_Suite_Beachfront_exterior.jpg?cb=1499381259,",
-      "https://cdn.kiwicollection.com/media/property/PR005418/ll/005418-31-The_Retreat_second_floor_balcony.jpg?cb=1499381276,",
-      "https://cdn.kiwicollection.com/media/property/PR005418/xxl/005418-18-Salt_Water_Pool.jpg?cb=1519165068,"
+      "https://cdn.kiwicollection.com/media/property/PR005418/xxl/005418-18-Salt_Water_Pool.jpg",
+      "https://cdn.kiwicollection.com/media/property/PR005418/xxl/005418-23-The_Private_Reserve_exterior4.jpg",
+      "https://cdn.kiwicollection.com/media/property/PR005418/xxl/005418-15-Pool_Villa_Suite_Beachfront_exterior.jpg",
+      "https://cdn.kiwicollection.com/media/property/PR005418/xxl/005418-31-The_Retreat_second_floor_balcony.jpg",
+      "https://media.sixsenses.com/B60H3R33/at/5vcmn248wb59g7hhvcjvw/Paragliding.jpg"
     ],
     "badgeTier": "featured",
     "rating": 4.96,
@@ -8056,10 +8056,10 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
     "heroImage": "https://ayurvedichealingvillage.com/wp-content/uploads/2025/01/Villa.jpg",
     "gallery": [
       "https://ayurvedichealingvillage.com/wp-content/uploads/2025/01/Villa.jpg",
+      "https://ayurvedichealingvillage.com/wp-content/uploads/2023/07/he-resort-also-features-an-outdoor-pool.jpg",
       "https://ayurvedichealingvillage.com/wp-content/uploads/2025/01/Therapy.jpg",
-      "https://ayurvedichealingvillage.com/wp-content/uploads/2024/11/r-1.jpg",
-      "https://ayurvedichealingvillage.com/wp-content/uploads/2024/11/r-2.jpg",
-      "https://ayurvedichealingvillage.com/wp-content/uploads/2025/01/Classic-.png"
+      "https://ayurvedichealingvillage.com/wp-content/uploads/2025/01/Classic-.png",
+      "https://ayurvedichealingvillage.com/wp-content/uploads/2024/11/yoga-meditation.webp"
     ],
     "badgeTier": "verified",
     "rating": 4.89,
@@ -8702,8 +8702,8 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "https://www.thechateau.com.my/wp-content/uploads/2024/04/Spa-Photo-TCR-WEB-300X300.jpg",
       "https://www.thechateau.com.my/wp-content/uploads/2023/08/TCR-Homepage-800x800.jpg",
       "https://www.thechateau.com.my/wp-content/uploads/2019/03/Pool-side-view-768x1024.jpg",
-      "https://www.thechateau.com.my/wp-content/uploads/2025/04/Living-Hall_1170x658-1110x611.jpg",
-      "https://www.thechateau.com.my/wp-content/uploads/2018/01/The-Chateau-Deluxe-Room-1170-rev-720x658.jpg"
+      "https://www.thechateau.com.my/wp-content/uploads/2018/01/The-Chateau-Deluxe-Room-1170-rev-720x658.jpg",
+      "https://www.thechateau.com.my/wp-content/uploads/2019/03/Lassiette-rev-01.jpg"
     ],
     "badgeTier": "verified",
     "rating": 4.86,
@@ -9345,9 +9345,9 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
     "heroImage": "https://gangteylodge.com/app/uploads/2022/11/Gangtey-lodge.jpg",
     "gallery": [
       "https://gangteylodge.com/app/uploads/2022/11/Gangtey-lodge.jpg",
-      "https://gangteylodge.com/app/uploads/2022/12/Gangtey-Lodge-bedroom-bath-view-1-scaled.jpg",
-      "https://gangteylodge.com/app/uploads/2023/05/About_hero-gangtey-village-above-clouds-gangtey-lodge-e1675777172249.webp",
       "https://gangteylodge.com/app/uploads/2023/05/banner-slide2-scaled-1-1200x765.webp",
+      "https://gangteylodge.com/app/uploads/2023/05/About_hero-gangtey-village-above-clouds-gangtey-lodge-e1675777172249.webp",
+      "https://gangteylodge.com/app/uploads/2022/12/Gangtey-Lodge-bedroom-bath-view-1-scaled.jpg",
       "https://gangteylodge.com/app/uploads/2023/02/banner-slide4-scaled-1-1.webp"
     ],
     "badgeTier": "verified",
@@ -12099,13 +12099,13 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "lat": 15.5167,
       "lng": 73.9167
     },
-    "heroImage": "https://www.devaaya.com/img/gallery/1.jpg",
+    "heroImage": "http://www.devaaya.com/img/gallery/1.jpg",
     "gallery": [
-      "https://www.devaaya.com/img/gallery/1.jpg",
-      "https://www.devaaya.com/img/rooms-maharaja-suite-01.jpg",
-      "https://www.devaaya.com/img/gallery/2.jpg",
-      "https://www.devaaya.com/img/gallery/3.jpg",
-      "https://www.devaaya.com/img/rooms-villa-01.jpg"
+      "http://www.devaaya.com/img/gallery/1.jpg",
+      "http://www.devaaya.com/img/gallery/2.jpg",
+      "http://www.devaaya.com/img/gallery/3.jpg",
+      "http://www.devaaya.com/img/rooms-maharaja-suite-01.jpg",
+      "http://www.devaaya.com/img/gallery/4.jpg"
     ],
     "badgeTier": "verified",
     "rating": 4.86,
