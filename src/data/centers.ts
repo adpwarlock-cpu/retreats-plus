@@ -2486,13 +2486,13 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "lat": 10.6125,
       "lng": 103.2842
     },
-    "heroImage": "https://cdn.kiwicollection.com/media/room_images/PR009346/xl/009346-songsaa-onebed-jungle-villa3-song-saa-private-island.jpg",
+    "heroImage": "https://static.prod.r53.tablethotels.com/media/hotels/slideshow_images_staged/large/1088044.jpg",
     "gallery": [
-      "https://cdn.kiwicollection.com/media/room_images/PR009346/xl/009346-songsaa-onebed-jungle-villa3-song-saa-private-island.jpg",
-      "https://cdn.kiwicollection.com/media/room_images/PR009346/xl/009346-songsaa-onebed-jungle-villa1-song-saa-private-island.jpg",
-      "https://cdn.kiwicollection.com/media/room_images/PR009346/xl/009346-songsaa-onebed-jungle-villa7-song-saa-private-island.jpg",
-      "https://cdn.kiwicollection.com/media/room_images/PR009346/xxl/009346-songsaa-onebed-jungle-villa3-song-saa-private-island.jpg",
-      "https://cdn.kiwicollection.com/media/room_images/PR009346/xxl/009346-songsaa-onebed-jungle-villa1-song-saa-private-island.jpg"
+      "https://static.prod.r53.tablethotels.com/media/hotels/slideshow_images_staged/large/1088044.jpg",
+      "https://cdn.kiwicollection.com/media/room_images/PR009346/xxl/009346-songsaa-royal-villa1-song-saa-private-island.jpg",
+      "https://cdn.kiwicollection.com/media/room_images/PR009346/xxl/009346-songsaa-two-bed-overwater-villa1-song-saa-private-island.jpg",
+      "https://cdn.kiwicollection.com/media/room_images/PR009346/xxl/009346-songsaa-two-bed-overwater-villa2-song-saa-private-island.jpg",
+      "https://cdn.kiwicollection.com/media/room_images/PR009346/xxl/009346-songsaa-two-bed-overwater-villa8-song-saa-private-island.jpg"
     ],
     "badgeTier": "featured",
     "rating": 4.96,
@@ -10319,13 +10319,13 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "lat": 10.4167,
       "lng": 76.0833
     },
-    "heroImage": "https://www.sitaramretreat.com/wp-content/uploads/2021/07/DJI_0387-01.jpg",
+    "heroImage": "https://sitaramretreat.com/wp-content/uploads/2021/07/BEACH-FRONT-GARDEN.jpg",
     "gallery": [
-      "https://www.sitaramretreat.com/wp-content/uploads/2021/07/DJI_0387-01.jpg",
-      "https://www.sitaramretreat.com/wp-content/uploads/2023/10/SBR-Home-Page-Banner-1-1.jpg",
-      "https://www.sitaramretreat.com/wp-content/uploads/2023/10/SBR-Home-Page-Banner-6.jpg",
-      "https://www.sitaramretreat.com/wp-content/uploads/2023/10/SBR-Home-Page-Banner-4.jpg",
-      "https://www.sitaramretreat.com/wp-content/uploads/2023/10/SBR-Home-Page-Banner-2-1.jpg"
+      "https://sitaramretreat.com/wp-content/uploads/2021/07/BEACH-FRONT-GARDEN.jpg",
+      "https://sitaramretreat.com/wp-content/uploads/2023/10/Treetop-Studio-Room-Exterior-Wide-web.jpg",
+      "https://sitaramretreat.com/wp-content/uploads/2023/11/Yoga-Shala-Exterior-copy.png",
+      "https://sitaramretreat.com/wp-content/uploads/2021/06/stone-cottage.png",
+      "https://sitaramretreat.com/wp-content/uploads/2023/11/Group-Yoga.jpg"
     ],
     "badgeTier": "verified",
     "rating": 4.93,
@@ -13893,13 +13893,13 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "lat": 20.2961,
       "lng": 85.8245
     },
-    "heroImage": "https://thehealthville.com/wp-content/uploads/2025/05/bedroom.jpg",
+    "heroImage": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnr_Pz1M_ytT6jPJMu18ZENPTvOgTN9Q-PqJ6V0ZmzdaXS8wi1icLdzO2SfK2BuydbbWJO07doFmumVjKYXHtXg-vlNTGSOy7MvoSRvIGAYcsPpKWI5ceA6QvhpIu-5enHiSBXM=s1600",
     "gallery": [
-      "https://thehealthville.com/wp-content/uploads/2025/05/bedroom.jpg",
-      "https://thehealthville.com/wp-content/uploads/2025/05/2.-Living-Room.jpg",
-      "https://thehealthville.com/wp-content/uploads/2025/05/private-pool.jpg",
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnr_Pz1M_ytT6jPJMu18ZENPTvOgTN9Q-PqJ6V0ZmzdaXS8wi1icLdzO2SfK2BuydbbWJO07doFmumVjKYXHtXg-vlNTGSOy7MvoSRvIGAYcsPpKWI5ceA6QvhpIu-5enHiSBXM=s1600",
+      "https://thehealthville.com/wp-content/uploads/2023/10/10.jpg",
       "https://thehealthville.com/wp-content/uploads/2025/05/massage-room.jpg",
-      "https://thehealthville.com/wp-content/uploads/2025/05/front-garden.jpg"
+      "https://thehealthville.com/wp-content/uploads/2025/05/bedroom.jpg",
+      "https://thehealthville.com/wp-content/uploads/2023/10/5.jpg"
     ],
     "badgeTier": "verified",
     "rating": 4.88,
