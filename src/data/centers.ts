@@ -2191,10 +2191,10 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
     "heroImage": "https://tiawellnessresort.com/wp-content/uploads/2026/01/POOL-VILLAS.jpg",
     "gallery": [
       "https://tiawellnessresort.com/wp-content/uploads/2026/01/POOL-VILLAS.jpg",
-      "https://tiawellnessresort.com/wp-content/uploads/2026/01/3-Bedrooms-Pool-Villa-Ocean-Front-3-4-1024x683.webp",
-      "https://tiawellnessresort.com/wp-content/uploads/2026/01/3-Bedrooms-Pool-Villa-Ocean-Front-2-4-1024x683.webp",
+      "https://tiawellnessresort.com/wp-content/uploads/2026/09/khong-gian-san-vuon-trong-lanh-cung-ho-boi-an-tuong-tai-tia.jpg",
       "https://tiawellnessresort.com/wp-content/uploads/2026/03/TIA-WELLNESS-CENTRE-22.webp",
-      "https://tiawellnessresort.com/wp-content/uploads/2026/01/3-Bedrooms-Pool-Villa-Ocean-Front-4-4-1024x683.webp"
+      "https://tiawellnessresort.com/wp-content/uploads/2026/09/can-phong-ngap-nang-tu-nhien-tai-tia.png",
+      "https://tiawellnessresort.com/wp-content/uploads/2026/09/enjoy-nourishing-plant-based-dining-at-TIA-wellness-resort.webp"
     ],
     "badgeTier": "verified",
     "rating": 4.92,
