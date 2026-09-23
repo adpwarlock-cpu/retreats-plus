@@ -261,6 +261,46 @@ function ListCenterContent() {
               </div>
             </div>
 
+            {/* Master Photo Requirement */}
+            <div className="space-y-4 pt-4 border-t border-stone-100">
+              <div className="flex items-center justify-between">
+                <h3 className="font-serif text-lg font-bold text-stone-900">
+                  3. Photography Standard (5 Authentic Photos)
+                </h3>
+                <span className="text-[10px] uppercase tracking-wider font-bold text-primary-800 bg-primary-50 px-2.5 py-0.5 rounded-full border border-primary-200">
+                  Quality Standard
+                </span>
+              </div>
+              <p className="text-xs text-stone-600 leading-relaxed">
+                To maintain our editorial standard and provide guests with full transparency, every listing must feature exactly five authentic photographs matching these categories:
+              </p>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-stone-700">
+                <div className="p-3 bg-sand-50 rounded-xl border border-stone-200/80">
+                  <span className="font-bold text-stone-900 block mb-0.5">1. Drone / Aerial Property Shot</span>
+                  <span className="text-[11px] text-stone-500">Overall aerial or panoramic view of the entire estate</span>
+                </div>
+                <div className="p-3 bg-sand-50 rounded-xl border border-stone-200/80">
+                  <span className="font-bold text-stone-900 block mb-0.5">2. Property Grounds & Exterior</span>
+                  <span className="text-[11px] text-stone-500">Estate architecture, landscaping, and outdoor sanctuary</span>
+                </div>
+                <div className="p-3 bg-sand-50 rounded-xl border border-stone-200/80">
+                  <span className="font-bold text-stone-900 block mb-0.5">3. Facility & Clinical Pavilion</span>
+                  <span className="text-[11px] text-stone-500">Ayurvedic clinic, treatment suites, or yoga/meditation shala</span>
+                </div>
+                <div className="p-3 bg-sand-50 rounded-xl border border-stone-200/80">
+                  <span className="font-bold text-stone-900 block mb-0.5">4. Rooms & Suites</span>
+                  <span className="text-[11px] text-stone-500">Authentic bedroom, suite, or villa interior where guests stay</span>
+                </div>
+                <div className="p-3 bg-sand-50 rounded-xl border border-stone-200/80 sm:col-span-2">
+                  <span className="font-bold text-stone-900 block mb-0.5">5. Amenity or Activities</span>
+                  <span className="text-[11px] text-stone-500">Swimming pool, farm-to-table dining, hydrotherapy, or mindful outdoor activities</span>
+                </div>
+              </div>
+              <div className="p-3 bg-amber-50/70 border border-amber-200/60 rounded-xl text-[11px] text-amber-900 leading-relaxed">
+                <strong>Strict Quality Control:</strong> No logos, no text graphics, no award badges, and no generic stock photos. Only genuine property photography of your sanctuary is accepted.
+              </div>
+            </div>
+
             <button
               type="submit"
               className="w-full py-4 bg-primary-800 hover:bg-primary-900 text-white rounded-2xl font-bold text-xs shadow-md transition-all flex items-center justify-center gap-2"

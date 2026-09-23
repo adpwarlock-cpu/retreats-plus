@@ -52,8 +52,20 @@ export interface RetreatCenter {
   tagline: string;
   description: string;
   location: LocationInfo;
+  /** Primary display photograph; must always match gallery[0] (drone/aerial or exterior) */
   heroImage: string;
-  gallery: string[];
+  /**
+   * Master Image Standard: Exactly 5 authentic photographs per retreat center profile:
+   * [0] Drone shot of entire property (or panoramic aerial/estate exterior) - ALSO heroImage
+   * [1] Property (estate grounds / landscape / exterior architecture)
+   * [2] Facility (wellness clinic / therapy pavilion / yoga/meditation shala)
+   * [3] Rooms (suite / bedroom / villa interior)
+   * [4] Amenity / Activities (swimming pool / organic dining / outdoor wellness activities)
+   * 
+   * Zero tolerance: No logos, no text graphics, no generic stock photos.
+   * If a specific category photo is unavailable, use another genuine photo of the SAME center.
+   */
+  gallery: [string, string, string, string, string] | string[];
   badgeTier: BadgeTier;
   rating: number;
   reviewCount: number;
