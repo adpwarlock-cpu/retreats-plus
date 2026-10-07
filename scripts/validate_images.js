@@ -23,7 +23,7 @@ const content = fs.readFileSync(centersFilePath, 'utf8');
 
 const jsCode = content
   .replace(/import\s+[^;]+;/g, '')
-  .replace(/export\s+const\s+WELLNESS_CENTERS\s*:\s*RetreatCenter\[\]\s*=\s*/, 'const WELLNESS_CENTERS = ')
+  .replace(/export\s+const\s+(\w+)\s*:\s*RetreatCenter\[\]\s*=\s*/g, 'const $1 = ')
   .replace(/\s+as\s+const/g, '') + '\nmodule.exports = WELLNESS_CENTERS;';
 
 const centers = eval(jsCode);
