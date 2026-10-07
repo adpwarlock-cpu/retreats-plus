@@ -3,7 +3,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { RetreatCenter } from "@/types/retreat";
 import { useCompare } from "@/components/compare/CompareContext";
 import { useCurrency } from "@/context/CurrencyContext";
@@ -33,6 +33,11 @@ export default function AdvertisedCenterCard({ center, rank }: AdvertisedCenterC
   const inCompare = isInCompare(center.id);
   const [activeImage, setActiveImage] = useState(center.heroImage);
 
+  // Sync activeImage if center changes
+  useEffect(() => {
+    setActiveImage(center.heroImage);
+  }, [center.id, center.heroImage]);
+
   const handleToggleCompare = (e: React.MouseEvent) => {
     e.preventDefault();
     e.stopPropagation();
@@ -51,8 +56,10 @@ export default function AdvertisedCenterCard({ center, rank }: AdvertisedCenterC
     router.push(`/centers/${center.slug}`);
   };
 
-  // Thumbnail list from hero + gallery
-  const thumbnails = [center.heroImage, ...(center.gallery || [])].slice(0, 4);
+  // Distinct thumbnail list directly from gallery (guaranteeing zero duplicate preview cards)
+  const thumbnails = Array.from(
+    new Set([center.heroImage, ...(center.gallery || [])].filter(Boolean))
+  );
 
   return (
     <article
@@ -121,16 +128,21 @@ export default function AdvertisedCenterCard({ center, rank }: AdvertisedCenterC
 
           {/* Mini Gallery Strip */}
           {thumbnails.length > 1 && (
-            <div className="grid grid-cols-4 gap-1.5 mt-2">
+            <div className="grid grid-cols-5 gap-1 sm:gap-1.5 mt-2">
               {thumbnails.map((img, i) => (
                 <button
                   key={i}
-                  onClick={() => setActiveImage(img)}
+                  type="button"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    setActiveImage(img);
+                  }}
                   className={`relative aspect-video rounded-md overflow-hidden border transition-all ${
                     activeImage === img
                       ? "border-amber-500 ring-2 ring-amber-400/50"
                       : "border-stone-200 opacity-70 hover:opacity-100"
                   }`}
+                  aria-label={`View photo ${i + 1} of ${center.name}`}
                 >
                   <Image
                     src={img}
