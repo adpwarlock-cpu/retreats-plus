@@ -7,11 +7,13 @@ export function filterCenters(centers: RetreatCenter[], filters: FilterState): R
       const q = filters.query.toLowerCase();
       const matchName = center.name.toLowerCase().includes(q);
       const matchCity = center.location.city.toLowerCase().includes(q);
+      const matchRegion = (center.location.region || "").toLowerCase().includes(q);
       const matchCountry = center.location.country.toLowerCase().includes(q);
       const matchTagline = center.tagline.toLowerCase().includes(q);
+      const matchDescription = (center.description || "").toLowerCase().includes(q);
       const matchGoal = center.primaryGoals.some((g) => g.toLowerCase().includes(q));
       const matchModality = center.modalities.some((m) => m.toLowerCase().includes(q));
-      if (!matchName && !matchCity && !matchCountry && !matchTagline && !matchGoal && !matchModality) {
+      if (!matchName && !matchCity && !matchRegion && !matchCountry && !matchTagline && !matchDescription && !matchGoal && !matchModality) {
         return false;
       }
     }

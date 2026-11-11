@@ -76,6 +76,15 @@ const wellnessCities = [
     highlights: "Carnoustie, Kalari Rasayana, Sitaram, Mekosha",
   },
   {
+    city: "Maharashtra & Sahyadri",
+    country: "India",
+    tag: "Integrative Naturopathy & Forest Sanctuaries",
+    retreatCount: "4 Sanctuaries",
+    image: "https://atmantan.com/wp-content/uploads/2021/11/1DX25562-1-scaled-e1638869860430.jpg",
+    query: "Maharashtra",
+    highlights: "Atmantan, Dharana at Shillim, Fazlani, Viveda",
+  },
+  {
     city: "Himalayas & Rishikesh",
     country: "India",
     tag: "Sacred Mountain Healing & Meditation",
