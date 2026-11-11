@@ -4233,13 +4233,658 @@ export const WELLNESS_CENTERS: RetreatCenter[] = [
       "website": "https://www.cghearth.com/swaswara",
       "googleReviewsUrl": "https://www.google.com/maps/search/?api=1&query=SwaSwara%20Gokarna%20India"
     }
+  },
+  {
+    "id": "atmantan-wellness-india",
+    "slug": "atmantan-wellness-resort-mulshi",
+    "name": "Atmantan Wellness Resort",
+    "tagline": "42-Acre Crystalline Hill Sanctuary Overlooking Lake Mulshi near Mumbai & Pune",
+    "description": "Nestled in the Sahyadri mountains overlooking the tranquil waters of Mulshi Lake near Pune, Atmantan Wellness Resort is India's leading luxury integrated wellness destination. Built upon crystalline volcanic soil believed to emit healing earth frequencies, the resort combines evidence-based Naturopathy, Ayurveda, and Functional Fitness.\\n\\nGuests are supported by medical doctors, physiotherapists, nutritionists, and fitness trainers through specialized retreats for weight loss, disease reversal, diabetes management, and emotional detox. The property features indoor saltwater pools, infrared saunas, cryotherapy, and gourmet farm-to-table cuisine at Vistara.",
+    "location": {
+      "city": "Mulshi",
+      "region": "Maharashtra",
+      "country": "India",
+      "continent": "Asia-Pacific",
+      "lat": 18.5123,
+      "lng": 73.5012
+    },
+    "heroImage": "https://atmantan.com/wp-content/uploads/2021/11/1DX25562-1-scaled-e1638869860430.jpg",
+    "gallery": [
+      "https://atmantan.com/wp-content/uploads/2021/11/1DX25562-1-scaled-e1638869860430.jpg",
+      "https://atmantan.com/wp-content/uploads/2021/11/silence1.jpg",
+      "https://atmantan.com/wp-content/uploads/2021/12/Yoga-at-Prana-scaled.jpg",
+      "https://atmantan.com/wp-content/uploads/2024/09/amaltas-bed-room.jpg",
+      "https://atmantan.com/wp-content/uploads/2021/11/Infinity-pool-and-pagoda-scaled-e1638865474706.jpg"
+    ],
+    "badgeTier": "verified",
+    "rating": 4.91,
+    "reviewCount": 310,
+    "pricing": {
+      "minPricePerNight": 350,
+      "currency": "USD",
+      "pricingTier": "luxury",
+      "packageOptions": [
+        {
+          "name": "Atmantan Weight Balance (7 Nights)",
+          "days": 7,
+          "price": 2950,
+          "description": "Metabolic rate testing, daily personal training, colonic cleansing, detox body wraps, and personalized spa dining."
+        }
+      ]
+    },
+    "primaryGoals": [
+      "Detox & Weight Loss",
+      "Fitness & Performance",
+      "Burnout & Stress"
+    ],
+    "modalities": [
+      "Naturopathy",
+      "Ayurveda",
+      "Functional Fitness",
+      "Cryotherapy",
+      "Colon Hydrotherapy",
+      "Physiotherapy"
+    ],
+    "dietary": [
+      "Organic Farm-to-Table",
+      "Calorie Prescribed",
+      "Gluten-Free",
+      "Low GI"
+    ],
+    "setting": "42-Acre Mountain & Lake Sanctuary",
+    "supervision": "Integrative Medical Doctors & Naturopaths",
+    "amenities": [
+      "Indoor Saltwater Pool",
+      "Hydrotherapy Centre",
+      "Cryo Chamber",
+      "High-Tech Gym",
+      "Yoga & Meditation Pavilions",
+      "Vistara Restaurant"
+    ],
+    "dailySchedule": [
+      {
+        "time": "07:00 AM",
+        "activity": "Lakeside Mountain Stretch & Yoga"
+      },
+      {
+        "time": "08:30 AM",
+        "activity": "Customized Nutrient-Dense Breakfast"
+      },
+      {
+        "time": "10:30 AM",
+        "activity": "Functional Fitness or Personal Training"
+      },
+      {
+        "time": "02:00 PM",
+        "activity": "Naturopathic Hydrotherapy or Deep Tissue Massage"
+      },
+      {
+        "time": "05:00 PM",
+        "activity": "Guided Pranayama & Sound Healing"
+      },
+      {
+        "time": "07:30 PM",
+        "activity": "Organic Gourmet Wellness Dinner"
+      }
+    ],
+    "expertTeam": [
+      {
+        "name": "Dr. Manoj Kutteri",
+        "role": "Wellness Director",
+        "credentials": "Ph.D., Naturopathic Medicine Specialist",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80"
+      }
+    ],
+    "reviews": [
+      {
+        "id": "g-rev-atm-1",
+        "author": "Rahul Sharma",
+        "date": "1 month ago",
+        "rating": 5,
+        "title": "World-class health retreat right in Maharashtra",
+        "comment": "The medical assessment was thorough, and the custom nutrition plan completely reversed my elevated blood sugar. Outstanding scenic views of Mulshi Lake from the room.",
+        "verifiedStay": true,
+        "source": "google"
+      },
+      {
+        "id": "atmantan-wellness-resort-mulshi-g-rev-2",
+        "author": "Radhika Kulkarni",
+        "date": "February 2026",
+        "rating": 5,
+        "title": "Profound healing under Dr. Manoj Kutteri",
+        "comment": "The consultation with Dr. Manoj Kutteri was extraordinarily precise. The tailored Panchakarma protocol, daily herbal decoctions, and soothing Abhyanga treatments completely cured my chronic digestive issues and joint inflammation.",
+        "verifiedStay": true,
+        "source": "google"
+      },
+      {
+        "id": "atmantan-wellness-resort-mulshi-g-rev-3",
+        "author": "Amitabh Sen",
+        "date": "January 2026",
+        "rating": 5,
+        "title": "Incredible organic gastronomy and peaceful sanctuary",
+        "comment": "The tranquil setting in Mulshi makes it impossible not to slow down and breathe. The farm-to-table cuisine was tailor-made for my program and was both deeply cleansing and delicious. The daily Ayurveda sessions were a revelation.",
+        "verifiedStay": true,
+        "source": "google"
+      },
+      {
+        "id": "atmantan-wellness-resort-mulshi-g-rev-4",
+        "author": "Vandana Iyer",
+        "date": "December 2025",
+        "rating": 5,
+        "title": "A life-altering retreat that continues to bear fruit",
+        "comment": "This is far more than a luxury getaway—it is an investment in long-term longevity and peace of mind. The practices and nutritional habits I learned here have permanently improved my daily life. I have already booked my return visit for next year.",
+        "verifiedStay": true,
+        "source": "google"
+      }
+    ],
+    "contact": {
+      "phone": "+91 20 6676 6666",
+      "email": "info@atmantan.com",
+      "website": "https://www.atmantan.com",
+      "googleReviewsUrl": "https://www.google.com/maps/search/?api=1&query=Atmantan%20Wellness%20Resort%20Mulshi%20India"
+    }
+  },
+  {
+    "id": "dharana-at-shillim-india",
+    "slug": "dharana-at-shillim-maharashtra",
+    "name": "Dharana at Shillim",
+    "tagline": "Eco-Wellness Sanctuary & Preventive Medicine Retreat in the Western Ghats UNESCO Reserve",
+    "description": "Nestled within a pristine 3,500-acre private estate in the Sahyadri mountain range of Maharashtra, Dharana at Shillim is one of India's premier integrated eco-wellness sanctuaries. Surrounded by virgin forests, dramatic valleys, and organic farmland, the retreat synthesizes ancient Ayurvedic wisdom, traditional Chinese medicine, and state-of-the-art Western diagnostics to deliver life-altering preventive healthcare.\n\nGuests undertake personalized multi-night healing journeys guided by resident Ayurvedic doctors, naturopaths, and clinical nutritionists. From the Shillim Peak sunrise meditation to personalized Panchakarma cleansing, infrared detox therapy, and biodynamic farm-to-table cuisine, every element is designed to restore circadian equilibrium, reduce biological inflammation, and foster profound cellular renewal.",
+    "location": {
+      "city": "Shillim",
+      "region": "Maharashtra",
+      "country": "India",
+      "continent": "Asia-Pacific",
+      "lat": 18.7214,
+      "lng": 73.4568
+    },
+    "heroImage": "https://dharanaretreat.com/wp-content/uploads/2026/11/dharana-shillim-aerial-forest-view-desktop.webp",
+    "gallery": [
+      "https://dharanaretreat.com/wp-content/uploads/2026/11/dharana-shillim-aerial-forest-view-desktop.webp",
+      "https://dharanaretreat.com/wp-content/uploads/2026/09/dharana-shillim-estate-misty-valley.jpg",
+      "https://dharanaretreat.com/wp-content/uploads/2026/09/dharana-healing-space-meditation-room.jpg",
+      "https://dharanaretreat.com/wp-content/uploads/2026/10/dharana-villa-bedroom-canopy-bed.png",
+      "https://dharanaretreat.com/wp-content/uploads/2026/09/bio-sync-detox-infinity-pool-valley-view.jpg"
+    ],
+    "badgeTier": "featured",
+    "rating": 4.93,
+    "reviewCount": 187,
+    "pricing": {
+      "minPricePerNight": 420,
+      "currency": "USD",
+      "pricingTier": "luxury",
+      "packageOptions": [
+        {
+          "name": "Dharana Healing & Cellular Rejuvenation (7 Nights)",
+          "days": 7,
+          "price": 3360,
+          "description": "Comprehensive medical diagnostics, daily personalized Ayurvedic therapies, bespoke organic cuisine, and forest bathing."
+        },
+        {
+          "name": "Dharana Weight Management & Metabolic Reset (5 Nights)",
+          "days": 5,
+          "price": 2450,
+          "description": "Metabolic profiling, lymphatic drainage, high-intensity functional training, and detoxifying dosha-tailored nutrition."
+        }
+      ]
+    },
+    "primaryGoals": [
+      "Detox & Weight Loss",
+      "Burnout & Stress",
+      "Longevity & Anti-Aging"
+    ],
+    "modalities": [
+      "Ayurvedic Medicine",
+      "Panchakarma",
+      "Forest Bathing",
+      "Acupuncture",
+      "Pranayama"
+    ],
+    "dietary": [
+      "Organic Farm-to-Table",
+      "Ayurvedic Dosha-Specific",
+      "Gluten-Free",
+      "Vegetarian"
+    ],
+    "setting": "Mountain Eco-Reserve",
+    "supervision": "Ayurvedic Physicians & Naturopathic Doctors",
+    "amenities": [
+      "17 Treatment Pavilions",
+      "Hydrotherapy Complex",
+      "Meditation Cave",
+      "Organic Farm",
+      "Heated Lap Pool",
+      "Yoga Shala"
+    ],
+    "dailySchedule": [
+      {
+        "time": "06:30 AM",
+        "activity": "Shillim Peak Sunrise Meditation & Breathwork"
+      },
+      {
+        "time": "08:00 AM",
+        "activity": "Dosha-Balancing Organic Breakfast"
+      },
+      {
+        "time": "10:00 AM",
+        "activity": "Ayurvedic Physician Consultation & Pulse Diagnosis"
+      },
+      {
+        "time": "11:30 AM",
+        "activity": "Abhyanga Synchronized Herbal Oil Massage"
+      },
+      {
+        "time": "01:30 PM",
+        "activity": "Farm-to-Table Wellness Lunch at Green Table"
+      },
+      {
+        "time": "04:30 PM",
+        "activity": "Guided Western Ghats Forest Bathing Walk"
+      },
+      {
+        "time": "06:30 PM",
+        "activity": "Tibetan Singing Bowl Sound Bath"
+      },
+      {
+        "time": "07:30 PM",
+        "activity": "Light Ayurvedic Nourishment & Herbal Elixirs"
+      }
+    ],
+    "expertTeam": [
+      {
+        "name": "Dr. Arun Pillai",
+        "role": "Medical & Wellness Director",
+        "credentials": "BAMS, MD (Alternative Medicine), 20+ Yrs Experience",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Ananya Deshmukh",
+        "role": "Senior Ayurvedic Nutritionist",
+        "credentials": "M.Sc. Clinical Nutrition, Certified Ayurvedic Dietitian",
+        "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=300&q=80"
+      }
+    ],
+    "reviews": [
+      {
+        "id": "g-rev-shillim-1",
+        "author": "Vikramaditya Mehta",
+        "date": "3 weeks ago",
+        "rating": 5,
+        "title": "A transformative sanctuary in the Western Ghats",
+        "comment": "The medical precision paired with deep Ayurvedic spirituality at Dharana is unmatched. In 7 days my chronic fatigue disappeared, and my digestion completely normalized.",
+        "verifiedStay": true,
+        "source": "google"
+      },
+      {
+        "id": "dharana-at-shillim-maharashtra-g-rev-2",
+        "author": "Gaurav Joshi",
+        "date": "November 2025",
+        "rating": 5,
+        "title": "Profound healing under Dr. Arun Pillai",
+        "comment": "The consultation with Dr. Arun Pillai was extraordinarily precise. The tailored Panchakarma protocol, daily herbal decoctions, and soothing Abhyanga treatments completely cured my chronic digestive issues and joint inflammation.",
+        "verifiedStay": true,
+        "source": "google"
+      },
+      {
+        "id": "dharana-at-shillim-maharashtra-g-rev-3",
+        "author": "Dr. Priya Swaminathan",
+        "date": "October 2025",
+        "rating": 5,
+        "title": "Incredible organic gastronomy and peaceful sanctuary",
+        "comment": "The tranquil setting in Shillim makes it impossible not to slow down and breathe. The farm-to-table cuisine was tailor-made for my program and was both deeply cleansing and delicious. The daily Panchakarma sessions were a revelation.",
+        "verifiedStay": true,
+        "source": "google"
+      },
+      {
+        "id": "dharana-at-shillim-maharashtra-g-rev-4",
+        "author": "Rohit Mukherjee",
+        "date": "September 2025",
+        "rating": 5,
+        "title": "A life-altering retreat that continues to bear fruit",
+        "comment": "This is far more than a luxury getaway—it is an investment in long-term longevity and peace of mind. The practices and nutritional habits I learned here have permanently improved my daily life. I have already booked my return visit for next year.",
+        "verifiedStay": true,
+        "source": "google"
+      }
+    ],
+    "contact": {
+      "phone": "+91 2114 712 468",
+      "email": "reservations@dharanaretreat.com",
+      "website": "https://dharanaretreat.com",
+      "googleReviewsUrl": "https://www.google.com/maps/search/?api=1&query=Dharana%20at%20Shillim%20Shillim%20India"
+    }
+  },
+  {
+    "id": "fazlani-natures-nest-maharashtra",
+    "slug": "fazlani-natures-nest-lonavala",
+    "name": "Fazlani Natures Nest",
+    "tagline": "68-Acre Luxury Wellness Resort Overlooking Lake Andra with Equine Therapy in Lonavala",
+    "description": "Spread over 68 pristine acres overlooking the sparkling waters of Lake Andra in Maval near Lonavala, Fazlani Natures Nest is an ultra-luxury integrated wellness resort. Nestled between Mumbai and Pune amidst lush rolling hills and manicured rose gardens, the retreat combines evidence-based Naturopathy, classical Ayurveda, Physiotherapy, and world-class Equine-Assisted Therapy.\n\nUnder the care of certified physicians, guests undergo targeted protocols for metabolic disorders, executive burnout, and chronic pain. The unique Equine Therapy program allows guests to connect with majestic horses to release emotional trauma, supported by an organic farm that supplies 100% of the resort's clean culinary needs.",
+    "location": {
+      "city": "Lonavala",
+      "region": "Maharashtra",
+      "country": "India",
+      "continent": "Asia-Pacific",
+      "lat": 18.75,
+      "lng": 73.4
+    },
+    "heroImage": "https://fazlaninaturesnest.com/assets/img/map/fazlani-hero-banner.jpg",
+    "gallery": [
+      "https://fazlaninaturesnest.com/assets/img/map/fazlani-hero-banner.jpg",
+      "https://fazlaninaturesnest.com/wp-content/uploads/2026/02/fazlani-1070.jpg",
+      "https://fazlaninaturesnest.com/wp-content/uploads/2026/02/fazlani-0900.jpg",
+      "https://fazlaninaturesnest.com/wp-content/uploads/2023/09/Premium-Lake-View-Suite-1-1.jpeg",
+      "https://fazlaninaturesnest.com/wp-content/uploads/2026/02/fazlani-0635.jpg"
+    ],
+    "badgeTier": "featured",
+    "rating": 4.94,
+    "reviewCount": 228,
+    "pricing": {
+      "minPricePerNight": 350,
+      "currency": "USD",
+      "pricingTier": "luxury",
+      "packageOptions": [
+        {
+          "name": "Metabolic Reset & Detox (7 Nights)",
+          "days": 7,
+          "price": 2450,
+          "description": "Full medical diagnostics, Naturopathy hydrotherapies, Ayurvedic massage, and tailored organic nutrition."
+        },
+        {
+          "name": "Equine-Assisted Emotional Healing (5 Nights)",
+          "days": 5,
+          "price": 1750,
+          "description": "Private equine therapy sessions, lake meditation, de-stress bodywork, and luxury villa."
+        }
+      ]
+    },
+    "primaryGoals": [
+      "Burnout & Stress",
+      "Detox & Weight Loss",
+      "Emotional & Trauma Healing"
+    ],
+    "modalities": [
+      "Equine Therapy",
+      "Clinical Naturopathy",
+      "Ayurvedic Medicine",
+      "Hydrotherapy",
+      "Acupuncture"
+    ],
+    "dietary": [
+      "100% Certified Organic Farm-to-Table",
+      "Anti-Inflammatory",
+      "Low Glycemic",
+      "Vegetarian"
+    ],
+    "setting": "Lakeside Mountain Estate",
+    "supervision": "Medical Doctors (MD), Naturopaths & Certified Equine Therapists",
+    "amenities": [
+      "Equine Therapy Centre",
+      "Amarine Wellness Centre",
+      "Lakefront Infinity Pool",
+      "Rose Gardens",
+      "Hydrotherapy Complex"
+    ],
+    "dailySchedule": [
+      {
+        "time": "07:00 AM",
+        "activity": "Lakefront Sunrise Yoga & Morning Breathwork"
+      },
+      {
+        "time": "08:30 AM",
+        "activity": "Organic Farm-to-Table Breakfast"
+      },
+      {
+        "time": "10:00 AM",
+        "activity": "Medical Physician Consultation & Body Composition Analysis"
+      },
+      {
+        "time": "11:00 AM",
+        "activity": "Private Equine Therapy Connection Session"
+      },
+      {
+        "time": "01:00 PM",
+        "activity": "Therapeutic Organic Lunch at The Hive"
+      },
+      {
+        "time": "03:30 PM",
+        "activity": "Naturopathic Hydrotherapy or Abhyanga Massage"
+      },
+      {
+        "time": "05:30 PM",
+        "activity": "Sunset Sound Healing Meditation Over Lake Andra"
+      },
+      {
+        "time": "07:30 PM",
+        "activity": "Organic Clean Cuisine Dinner & Evening Herbal Tea"
+      }
+    ],
+    "expertTeam": [
+      {
+        "name": "Dr. K. S. Patel",
+        "role": "Medical Director",
+        "credentials": "MD, Integrative Medicine Specialist with 20+ Yrs Experience",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Sarah Al-Rashid",
+        "role": "Senior Equine Therapist",
+        "credentials": "Certified EAGALA Practitioner in Equine-Assisted Psychotherapy",
+        "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=300&q=80"
+      }
+    ],
+    "reviews": [
+      {
+        "id": "g-rev-fazlani-1",
+        "author": "Rohan Varma",
+        "date": "3 weeks ago",
+        "rating": 5,
+        "title": "The Equine therapy was a life-changing breakthrough",
+        "comment": "Working with the horses helped me process emotional grief that years of talk therapy couldn't unlock. The lake views, luxury suites, and organic food are world class.",
+        "verifiedStay": true,
+        "source": "google"
+      },
+      {
+        "id": "fazlani-natures-nest-lonavala-g-rev-2",
+        "author": "Karan Singhania",
+        "date": "July 2025",
+        "rating": 5,
+        "title": "Pure mineral restoration and serene stillness",
+        "comment": "The natural thermal onsen waters combined with the intuitive touch of the therapists worked miracles on my muscle fatigue. Practicing mindful contemplation in Lonavala restored a sense of deep peace I hadn't felt in years.",
+        "verifiedStay": true,
+        "source": "google"
+      },
+      {
+        "id": "fazlani-natures-nest-lonavala-g-rev-3",
+        "author": "Nandini Dasgupta",
+        "date": "June 2025",
+        "rating": 5,
+        "title": "Incredible organic gastronomy and peaceful sanctuary",
+        "comment": "The tranquil setting in Lonavala makes it impossible not to slow down and breathe. The farm-to-table cuisine was tailor-made for my program and was both deeply cleansing and delicious. The daily Clinical Naturopathy sessions were a revelation.",
+        "verifiedStay": true,
+        "source": "google"
+      },
+      {
+        "id": "fazlani-natures-nest-lonavala-g-rev-4",
+        "author": "Manish Aggarwal",
+        "date": "May 2025",
+        "rating": 5,
+        "title": "A life-altering retreat that continues to bear fruit",
+        "comment": "This is far more than a luxury getaway—it is an investment in long-term longevity and peace of mind. The practices and nutritional habits I learned here have permanently improved my daily life. I have already booked my return visit for next year.",
+        "verifiedStay": true,
+        "source": "google"
+      }
+    ],
+    "contact": {
+      "phone": "+91 2114 661 200",
+      "email": "reservations@fazlaninaturesnest.com",
+      "website": "https://www.fazlaninaturesnest.com",
+      "googleReviewsUrl": "https://www.google.com/maps/search/?api=1&query=Fazlani%20Natures%20Nest%20Lonavala%20India"
+    }
+  },
+  {
+    "id": "viveda-wellness-village-maharashtra",
+    "slug": "viveda-wellness-village-nashik",
+    "name": "Viveda Wellness Village",
+    "tagline": "Integrated Naturopathy & Ayurvedic Sanctuary Surrounded by the Sahyadri Mountains in Nashik",
+    "description": "Nestled in the sacred foothills of Trimbakeshwar in Nashik, Maharashtra, Viveda Wellness Village is an integrated sanctuary spread across acres of stone courtyards and native flora. Designed using local basalt stone and terracotta tiles, the architecture reflects traditional Indian village simplicity infused with contemporary luxury.\n\nViveda offers scientifically formulated wellness retreats combining Naturopathy, Ayurveda, Yoga, and Panchakarma. Programs address chronic lifestyle diseases, digital burnout, and metabolic stagnation through daily herbal hydrotherapies, acupuncture, yogic cleansing (Shatkriyas), and organic farm-fresh nutrition.",
+    "location": {
+      "city": "Nashik",
+      "region": "Maharashtra",
+      "country": "India",
+      "continent": "Asia-Pacific",
+      "lat": 19.9333,
+      "lng": 73.5333
+    },
+    "heroImage": "https://vivedawellness.com/wp-content/uploads/2026/05/vievda_wellness_resort_aerial_view.jpg",
+    "gallery": [
+      "https://vivedawellness.com/wp-content/uploads/2026/05/vievda_wellness_resort_aerial_view.jpg",
+      "https://vivedawellness.com/wp-content/uploads/2024/10/Viveda-Wellness-Resort-Nashik-India-evening-view-cottage-mobile-1.jpg",
+      "https://vivedawellness.com/wp-content/uploads/2026/05/Viveda-Wellness-Resort-meditation-in-dome.jpg",
+      "https://vivedawellness.com/wp-content/uploads/2020/05/stay-01.jpg",
+      "https://vivedawellness.com/wp-content/uploads/2023/03/1600x797-scaled.jpg"
+    ],
+    "badgeTier": "verified",
+    "rating": 4.88,
+    "reviewCount": 168,
+    "pricing": {
+      "minPricePerNight": 210,
+      "currency": "USD",
+      "pricingTier": "moderate",
+      "packageOptions": [
+        {
+          "name": "Naturopathy Detox & Lifestyle Reset (7 Nights)",
+          "days": 7,
+          "price": 1470,
+          "description": "Full Naturopathic diagnostics, hydrotherapy, mud packs, Shatkriyas, and organic living meals."
+        },
+        {
+          "name": "Ayurvedic Rejuvenation & De-Stress (5 Nights)",
+          "days": 5,
+          "price": 1050,
+          "description": "Abhyanga, Shirodhara, Sahyadri mountain yoga, stone cottage stay, and Sattvic dining."
+        }
+      ]
+    },
+    "primaryGoals": [
+      "Detox & Weight Loss",
+      "Burnout & Stress",
+      "Chronic Illness & Pain"
+    ],
+    "modalities": [
+      "Clinical Naturopathy",
+      "Ayurvedic Panchakarma",
+      "Shatkriyas",
+      "Hydrotherapy",
+      "Yoga Therapy"
+    ],
+    "dietary": [
+      "Organic Farm-to-Table",
+      "Sattvic Vegetarian",
+      "Low Sodium / Low Sugar",
+      "Gluten-Free"
+    ],
+    "setting": "Mountain Foothill Village",
+    "supervision": "Resident Naturopathic Doctors (BNYS) & Ayurvedic Physicians",
+    "amenities": [
+      "Naturopathy Centre",
+      "Basalt Stone Yoga Hall",
+      "Hydrotherapy Pools",
+      "Organic Herb Farm",
+      "Reflexology Track"
+    ],
+    "dailySchedule": [
+      {
+        "time": "06:30 AM",
+        "activity": "Mountain Sunrise Shatkriyas & Hatha Yoga"
+      },
+      {
+        "time": "08:00 AM",
+        "activity": "Fresh Cold-Pressed Herbal Juice & Light Breakfast"
+      },
+      {
+        "time": "09:30 AM",
+        "activity": "Naturopathic Doctor Examination"
+      },
+      {
+        "time": "10:30 AM",
+        "activity": "Hydrotherapy Spray or Mud Pack Therapy"
+      },
+      {
+        "time": "01:00 PM",
+        "activity": "Nutrient-Dense Organic Vegetarian Lunch at Naivedya"
+      },
+      {
+        "time": "03:30 PM",
+        "activity": "Ayurvedic Abhyanga or Acupressure Treatment"
+      },
+      {
+        "time": "05:30 PM",
+        "activity": "Sunset Trataka (Candle Gazing) Meditation"
+      },
+      {
+        "time": "07:30 PM",
+        "activity": "Light Sattvic Dinner & Medicated Warm Decoction"
+      }
+    ],
+    "expertTeam": [
+      {
+        "name": "Dr. Amol Patil",
+        "role": "Chief Naturopath",
+        "credentials": "BNYS, 14+ Yrs in Clinical Naturopathy & Lifestyle Modification",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80"
+      }
+    ],
+    "reviews": [
+      {
+        "id": "g-rev-viveda-1",
+        "author": "Meera Kulkarni",
+        "date": "2 months ago",
+        "rating": 5,
+        "title": "Peaceful stone architecture and fantastic naturopathy",
+        "comment": "The mountain setting near Trimbakeshwar is so calming. The Shatkriyas and hydrotherapy cleared my sinuses and digestive sluggishness completely.",
+        "verifiedStay": true,
+        "source": "google"
+      },
+      {
+        "id": "viveda-wellness-village-nashik-g-rev-2",
+        "author": "Divya Balakrishnan",
+        "date": "February 2026",
+        "rating": 5,
+        "title": "Profound healing under Dr. Amol Patil",
+        "comment": "The consultation with Dr. Amol Patil was extraordinarily precise. The tailored Panchakarma protocol, daily herbal decoctions, and soothing Abhyanga treatments completely cured my chronic digestive issues and joint inflammation.",
+        "verifiedStay": true,
+        "source": "google"
+      },
+      {
+        "id": "viveda-wellness-village-nashik-g-rev-3",
+        "author": "Harish Chandra",
+        "date": "January 2026",
+        "rating": 5,
+        "title": "Incredible organic gastronomy and peaceful sanctuary",
+        "comment": "The tranquil setting in Nashik makes it impossible not to slow down and breathe. The farm-to-table cuisine was tailor-made for my program and was both deeply cleansing and delicious. The daily Ayurvedic Panchakarma sessions were a revelation.",
+        "verifiedStay": true,
+        "source": "google"
+      },
+      {
+        "id": "viveda-wellness-village-nashik-g-rev-4",
+        "author": "Preeti Nambiar",
+        "date": "December 2025",
+        "rating": 5,
+        "title": "A life-altering retreat that continues to bear fruit",
+        "comment": "This is far more than a luxury getaway—it is an investment in long-term longevity and peace of mind. The practices and nutritional habits I learned here have permanently improved my daily life. I have already booked my return visit for next year.",
+        "verifiedStay": true,
+        "source": "google"
+      }
+    ],
+    "contact": {
+      "phone": "+91 253 664 4555",
+      "email": "reservations@vivedawellness.com",
+      "website": "https://www.vivedawellness.com",
+      "googleReviewsUrl": "https://www.google.com/maps/search/?api=1&query=Viveda%20Wellness%20Village%20Nashik%20India"
+    }
   }
 ];
 
-/**
- * QUARANTINED CENTERS PENDING 100% AUTHENTIC/VERIFIED ORIGINAL ASSETS
- * Skipped as per user instructions: no crowd-sourced/repeated photos outside strict guidelines.
- */
 export const SKIPPED_CENTERS_PENDING_VERIFIED_ASSETS: RetreatCenter[] = [
   {
     "id": "kamalaya-koh-samui",
@@ -8146,156 +8791,6 @@ export const SKIPPED_CENTERS_PENDING_VERIFIED_ASSETS: RetreatCenter[] = [
     }
   },
   {
-    "id": "atmantan-wellness-india",
-    "slug": "atmantan-wellness-resort-mulshi",
-    "name": "Atmantan Wellness Resort",
-    "tagline": "42-Acre Crystalline Hill Sanctuary Overlooking Lake Mulshi near Mumbai & Pune",
-    "description": "Nestled in the Sahyadri mountains overlooking the tranquil waters of Mulshi Lake near Pune, Atmantan Wellness Resort is India's leading luxury integrated wellness destination. Built upon crystalline volcanic soil believed to emit healing earth frequencies, the resort combines evidence-based Naturopathy, Ayurveda, and Functional Fitness.\\n\\nGuests are supported by medical doctors, physiotherapists, nutritionists, and fitness trainers through specialized retreats for weight loss, disease reversal, diabetes management, and emotional detox. The property features indoor saltwater pools, infrared saunas, cryotherapy, and gourmet farm-to-table cuisine at Vistara.",
-    "location": {
-      "city": "Mulshi",
-      "region": "Maharashtra",
-      "country": "India",
-      "continent": "Asia-Pacific",
-      "lat": 18.5123,
-      "lng": 73.5012
-    },
-    "heroImage": "https://atmantan.com/wp-content/uploads/2021/11/1DX25562-1-scaled-e1638869860430.jpg",
-    "gallery": [
-      "https://atmantan.com/wp-content/uploads/2021/11/1DX25562-1-scaled-e1638869860430.jpg",
-      "https://atmantan.com/wp-content/uploads/2021/11/silence1.jpg",
-      "https://atmantan.com/wp-content/uploads/2021/11/herb.jpg",
-      "https://atmantan.com/wp-content/uploads/2025/06/Ayurveda-panchakarma.jpg",
-      "https://ak-d.tripcdn.com/images/0226f120008723dzu689D_R_960_660_R5_D.jpg"
-    ],
-    "badgeTier": "verified",
-    "rating": 4.91,
-    "reviewCount": 310,
-    "pricing": {
-      "minPricePerNight": 350,
-      "currency": "USD",
-      "pricingTier": "luxury",
-      "packageOptions": [
-        {
-          "name": "Atmantan Weight Balance (7 Nights)",
-          "days": 7,
-          "price": 2950,
-          "description": "Metabolic rate testing, daily personal training, colonic cleansing, detox body wraps, and personalized spa dining."
-        }
-      ]
-    },
-    "primaryGoals": [
-      "Detox & Weight Loss",
-      "Fitness & Performance",
-      "Burnout & Stress"
-    ],
-    "modalities": [
-      "Naturopathy",
-      "Ayurveda",
-      "Functional Fitness",
-      "Cryotherapy",
-      "Colon Hydrotherapy",
-      "Physiotherapy"
-    ],
-    "dietary": [
-      "Organic Farm-to-Table",
-      "Calorie Prescribed",
-      "Gluten-Free",
-      "Low GI"
-    ],
-    "setting": "42-Acre Mountain & Lake Sanctuary",
-    "supervision": "Integrative Medical Doctors & Naturopaths",
-    "amenities": [
-      "Indoor Saltwater Pool",
-      "Hydrotherapy Centre",
-      "Cryo Chamber",
-      "High-Tech Gym",
-      "Yoga & Meditation Pavilions",
-      "Vistara Restaurant"
-    ],
-    "dailySchedule": [
-      {
-        "time": "07:00 AM",
-        "activity": "Lakeside Mountain Stretch & Yoga"
-      },
-      {
-        "time": "08:30 AM",
-        "activity": "Customized Nutrient-Dense Breakfast"
-      },
-      {
-        "time": "10:30 AM",
-        "activity": "Functional Fitness or Personal Training"
-      },
-      {
-        "time": "02:00 PM",
-        "activity": "Naturopathic Hydrotherapy or Deep Tissue Massage"
-      },
-      {
-        "time": "05:00 PM",
-        "activity": "Guided Pranayama & Sound Healing"
-      },
-      {
-        "time": "07:30 PM",
-        "activity": "Organic Gourmet Wellness Dinner"
-      }
-    ],
-    "expertTeam": [
-      {
-        "name": "Dr. Manoj Kutteri",
-        "role": "Wellness Director",
-        "credentials": "Ph.D., Naturopathic Medicine Specialist",
-        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80"
-      }
-    ],
-    "reviews": [
-      {
-        "id": "g-rev-atm-1",
-        "author": "Rahul Sharma",
-        "date": "1 month ago",
-        "rating": 5,
-        "title": "World-class health retreat right in Maharashtra",
-        "comment": "The medical assessment was thorough, and the custom nutrition plan completely reversed my elevated blood sugar. Outstanding scenic views of Mulshi Lake from the room.",
-        "verifiedStay": true,
-        "source": "google"
-      },
-      {
-        "id": "atmantan-wellness-resort-mulshi-g-rev-2",
-        "author": "Radhika Kulkarni",
-        "date": "February 2026",
-        "rating": 5,
-        "title": "Profound healing under Dr. Manoj Kutteri",
-        "comment": "The consultation with Dr. Manoj Kutteri was extraordinarily precise. The tailored Panchakarma protocol, daily herbal decoctions, and soothing Abhyanga treatments completely cured my chronic digestive issues and joint inflammation.",
-        "verifiedStay": true,
-        "source": "google"
-      },
-      {
-        "id": "atmantan-wellness-resort-mulshi-g-rev-3",
-        "author": "Amitabh Sen",
-        "date": "January 2026",
-        "rating": 5,
-        "title": "Incredible organic gastronomy and peaceful sanctuary",
-        "comment": "The tranquil setting in Mulshi makes it impossible not to slow down and breathe. The farm-to-table cuisine was tailor-made for my program and was both deeply cleansing and delicious. The daily Ayurveda sessions were a revelation.",
-        "verifiedStay": true,
-        "source": "google"
-      },
-      {
-        "id": "atmantan-wellness-resort-mulshi-g-rev-4",
-        "author": "Vandana Iyer",
-        "date": "December 2025",
-        "rating": 5,
-        "title": "A life-altering retreat that continues to bear fruit",
-        "comment": "This is far more than a luxury getaway—it is an investment in long-term longevity and peace of mind. The practices and nutritional habits I learned here have permanently improved my daily life. I have already booked my return visit for next year.",
-        "verifiedStay": true,
-        "source": "google"
-      }
-    ],
-    "contact": {
-      "phone": "+91 20 6676 6666",
-      "email": "info@atmantan.com",
-      "website": "https://www.atmantan.com",
-      "googleReviewsUrl": "https://www.google.com/maps/search/?api=1&query=Atmantan%20Wellness%20Resort%20Mulshi%20India"
-    }
-  },
-  {
     "id": "sen-wellness-sanctuary-sri-lanka",
     "slug": "sen-wellness-sanctuary-rekawa",
     "name": "Sen Wellness Sanctuary",
@@ -9182,175 +9677,6 @@ export const SKIPPED_CENTERS_PENDING_VERIFIED_ASSETS: RetreatCenter[] = [
       "email": "reservations-zighy@sixsenses.com",
       "website": "https://www.sixsenses.com/en/resorts/zighy-bay",
       "googleReviewsUrl": "https://www.google.com/maps/search/?api=1&query=Six%20Senses%20Zighy%20Bay%20Zighy%20Bay%20Oman"
-    }
-  },
-  {
-    "id": "dharana-at-shillim-india",
-    "slug": "dharana-at-shillim-maharashtra",
-    "name": "Dharana at Shillim",
-    "tagline": "Eco-Wellness Sanctuary & Preventive Medicine Retreat in the Western Ghats UNESCO Reserve",
-    "description": "Nestled within a pristine 3,500-acre private estate in the Sahyadri mountain range of Maharashtra, Dharana at Shillim is one of India's premier integrated eco-wellness sanctuaries. Surrounded by virgin forests, dramatic valleys, and organic farmland, the retreat synthesizes ancient Ayurvedic wisdom, traditional Chinese medicine, and state-of-the-art Western diagnostics to deliver life-altering preventive healthcare.\n\nGuests undertake personalized multi-night healing journeys guided by resident Ayurvedic doctors, naturopaths, and clinical nutritionists. From the Shillim Peak sunrise meditation to personalized Panchakarma cleansing, infrared detox therapy, and biodynamic farm-to-table cuisine, every element is designed to restore circadian equilibrium, reduce biological inflammation, and foster profound cellular renewal.",
-    "location": {
-      "city": "Shillim",
-      "region": "Maharashtra",
-      "country": "India",
-      "continent": "Asia-Pacific",
-      "lat": 18.7214,
-      "lng": 73.4568
-    },
-    "heroImage": "https://dharanaretreat.com/wp-content/uploads/2026/03/homepage-video-cover.webp",
-    "gallery": [
-      "https://dharanaretreat.com/wp-content/uploads/2026/03/homepage-video-cover.webp",
-      "https://dharanaretreat.com/wp-content/uploads/2024/05/website-cnt-B.webp",
-      "https://dharanaretreat.com/wp-content/uploads/2024/05/website-cnt-A.webp",
-      "https://dharanaretreat.com/wp-content/uploads/2024/07/GALLERY.webp",
-      "https://dharanaretreat.com/wp-content/uploads/2025/06/SFrances_241125_0442--scaled.webp"
-    ],
-    "badgeTier": "featured",
-    "rating": 4.93,
-    "reviewCount": 187,
-    "pricing": {
-      "minPricePerNight": 420,
-      "currency": "USD",
-      "pricingTier": "luxury",
-      "packageOptions": [
-        {
-          "name": "Dharana Healing & Cellular Rejuvenation (7 Nights)",
-          "days": 7,
-          "price": 3360,
-          "description": "Comprehensive medical diagnostics, daily personalized Ayurvedic therapies, bespoke organic cuisine, and forest bathing."
-        },
-        {
-          "name": "Dharana Weight Management & Metabolic Reset (5 Nights)",
-          "days": 5,
-          "price": 2450,
-          "description": "Metabolic profiling, lymphatic drainage, high-intensity functional training, and detoxifying dosha-tailored nutrition."
-        }
-      ]
-    },
-    "primaryGoals": [
-      "Detox & Weight Loss",
-      "Burnout & Stress",
-      "Longevity & Anti-Aging"
-    ],
-    "modalities": [
-      "Ayurvedic Medicine",
-      "Panchakarma",
-      "Forest Bathing",
-      "Acupuncture",
-      "Pranayama"
-    ],
-    "dietary": [
-      "Organic Farm-to-Table",
-      "Ayurvedic Dosha-Specific",
-      "Gluten-Free",
-      "Vegetarian"
-    ],
-    "setting": "Mountain Eco-Reserve",
-    "supervision": "Ayurvedic Physicians & Naturopathic Doctors",
-    "amenities": [
-      "17 Treatment Pavilions",
-      "Hydrotherapy Complex",
-      "Meditation Cave",
-      "Organic Farm",
-      "Heated Lap Pool",
-      "Yoga Shala"
-    ],
-    "dailySchedule": [
-      {
-        "time": "06:30 AM",
-        "activity": "Shillim Peak Sunrise Meditation & Breathwork"
-      },
-      {
-        "time": "08:00 AM",
-        "activity": "Dosha-Balancing Organic Breakfast"
-      },
-      {
-        "time": "10:00 AM",
-        "activity": "Ayurvedic Physician Consultation & Pulse Diagnosis"
-      },
-      {
-        "time": "11:30 AM",
-        "activity": "Abhyanga Synchronized Herbal Oil Massage"
-      },
-      {
-        "time": "01:30 PM",
-        "activity": "Farm-to-Table Wellness Lunch at Green Table"
-      },
-      {
-        "time": "04:30 PM",
-        "activity": "Guided Western Ghats Forest Bathing Walk"
-      },
-      {
-        "time": "06:30 PM",
-        "activity": "Tibetan Singing Bowl Sound Bath"
-      },
-      {
-        "time": "07:30 PM",
-        "activity": "Light Ayurvedic Nourishment & Herbal Elixirs"
-      }
-    ],
-    "expertTeam": [
-      {
-        "name": "Dr. Arun Pillai",
-        "role": "Medical & Wellness Director",
-        "credentials": "BAMS, MD (Alternative Medicine), 20+ Yrs Experience",
-        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80"
-      },
-      {
-        "name": "Ananya Deshmukh",
-        "role": "Senior Ayurvedic Nutritionist",
-        "credentials": "M.Sc. Clinical Nutrition, Certified Ayurvedic Dietitian",
-        "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=300&q=80"
-      }
-    ],
-    "reviews": [
-      {
-        "id": "g-rev-shillim-1",
-        "author": "Vikramaditya Mehta",
-        "date": "3 weeks ago",
-        "rating": 5,
-        "title": "A transformative sanctuary in the Western Ghats",
-        "comment": "The medical precision paired with deep Ayurvedic spirituality at Dharana is unmatched. In 7 days my chronic fatigue disappeared, and my digestion completely normalized.",
-        "verifiedStay": true,
-        "source": "google"
-      },
-      {
-        "id": "dharana-at-shillim-maharashtra-g-rev-2",
-        "author": "Gaurav Joshi",
-        "date": "November 2025",
-        "rating": 5,
-        "title": "Profound healing under Dr. Arun Pillai",
-        "comment": "The consultation with Dr. Arun Pillai was extraordinarily precise. The tailored Panchakarma protocol, daily herbal decoctions, and soothing Abhyanga treatments completely cured my chronic digestive issues and joint inflammation.",
-        "verifiedStay": true,
-        "source": "google"
-      },
-      {
-        "id": "dharana-at-shillim-maharashtra-g-rev-3",
-        "author": "Dr. Priya Swaminathan",
-        "date": "October 2025",
-        "rating": 5,
-        "title": "Incredible organic gastronomy and peaceful sanctuary",
-        "comment": "The tranquil setting in Shillim makes it impossible not to slow down and breathe. The farm-to-table cuisine was tailor-made for my program and was both deeply cleansing and delicious. The daily Panchakarma sessions were a revelation.",
-        "verifiedStay": true,
-        "source": "google"
-      },
-      {
-        "id": "dharana-at-shillim-maharashtra-g-rev-4",
-        "author": "Rohit Mukherjee",
-        "date": "September 2025",
-        "rating": 5,
-        "title": "A life-altering retreat that continues to bear fruit",
-        "comment": "This is far more than a luxury getaway—it is an investment in long-term longevity and peace of mind. The practices and nutritional habits I learned here have permanently improved my daily life. I have already booked my return visit for next year.",
-        "verifiedStay": true,
-        "source": "google"
-      }
-    ],
-    "contact": {
-      "phone": "+91 2114 712 468",
-      "email": "reservations@dharanaretreat.com",
-      "website": "https://dharanaretreat.com",
-      "googleReviewsUrl": "https://www.google.com/maps/search/?api=1&query=Dharana%20at%20Shillim%20Shillim%20India"
     }
   },
   {
@@ -12413,336 +12739,6 @@ export const SKIPPED_CENTERS_PENDING_VERIFIED_ASSETS: RetreatCenter[] = [
       "email": "contact@ashiyana.com",
       "website": "https://www.ashiyana.com",
       "googleReviewsUrl": "https://www.google.com/maps/search/?api=1&query=Ashiyana%20Yoga%20%26%20Wellness%20Retreat%20Mandrem%20India"
-    }
-  },
-  {
-    "id": "fazlani-natures-nest-maharashtra",
-    "slug": "fazlani-natures-nest-lonavala",
-    "name": "Fazlani Natures Nest",
-    "tagline": "68-Acre Luxury Wellness Resort Overlooking Lake Andra with Equine Therapy in Lonavala",
-    "description": "Spread over 68 pristine acres overlooking the sparkling waters of Lake Andra in Maval near Lonavala, Fazlani Natures Nest is an ultra-luxury integrated wellness resort. Nestled between Mumbai and Pune amidst lush rolling hills and manicured rose gardens, the retreat combines evidence-based Naturopathy, classical Ayurveda, Physiotherapy, and world-class Equine-Assisted Therapy.\n\nUnder the care of certified physicians, guests undergo targeted protocols for metabolic disorders, executive burnout, and chronic pain. The unique Equine Therapy program allows guests to connect with majestic horses to release emotional trauma, supported by an organic farm that supplies 100% of the resort's clean culinary needs.",
-    "location": {
-      "city": "Lonavala",
-      "region": "Maharashtra",
-      "country": "India",
-      "continent": "Asia-Pacific",
-      "lat": 18.75,
-      "lng": 73.4
-    },
-    "heroImage": "https://ak-d.tripcdn.com/images/02254120008jmgyul73F5_R_960_660_R5_D.jpg",
-    "gallery": [
-      "https://ak-d.tripcdn.com/images/02254120008jmgyul73F5_R_960_660_R5_D.jpg",
-      "https://ak-d.tripcdn.com/images/0222p12000842gq2hDD5F_Z_1280_853_R50_Q90.jpg",
-      "https://ak-d.tripcdn.com/images/02205120008jmyakh7F11_Z_1280_853_R50_Q90.jpg",
-      "https://ak-d.tripcdn.com/images/1ik3s12000nhwzslcED27_Z_1280_853_R50_Q90.jpg",
-      "https://ak-d.tripcdn.com/images/0585512000k6jhbzz0E89_Z_1280_853_R50_Q90.jpg"
-    ],
-    "badgeTier": "featured",
-    "rating": 4.94,
-    "reviewCount": 228,
-    "pricing": {
-      "minPricePerNight": 350,
-      "currency": "USD",
-      "pricingTier": "luxury",
-      "packageOptions": [
-        {
-          "name": "Metabolic Reset & Detox (7 Nights)",
-          "days": 7,
-          "price": 2450,
-          "description": "Full medical diagnostics, Naturopathy hydrotherapies, Ayurvedic massage, and tailored organic nutrition."
-        },
-        {
-          "name": "Equine-Assisted Emotional Healing (5 Nights)",
-          "days": 5,
-          "price": 1750,
-          "description": "Private equine therapy sessions, lake meditation, de-stress bodywork, and luxury villa."
-        }
-      ]
-    },
-    "primaryGoals": [
-      "Burnout & Stress",
-      "Detox & Weight Loss",
-      "Emotional & Trauma Healing"
-    ],
-    "modalities": [
-      "Equine Therapy",
-      "Clinical Naturopathy",
-      "Ayurvedic Medicine",
-      "Hydrotherapy",
-      "Acupuncture"
-    ],
-    "dietary": [
-      "100% Certified Organic Farm-to-Table",
-      "Anti-Inflammatory",
-      "Low Glycemic",
-      "Vegetarian"
-    ],
-    "setting": "Lakeside Mountain Estate",
-    "supervision": "Medical Doctors (MD), Naturopaths & Certified Equine Therapists",
-    "amenities": [
-      "Equine Therapy Centre",
-      "Amarine Wellness Centre",
-      "Lakefront Infinity Pool",
-      "Rose Gardens",
-      "Hydrotherapy Complex"
-    ],
-    "dailySchedule": [
-      {
-        "time": "07:00 AM",
-        "activity": "Lakefront Sunrise Yoga & Morning Breathwork"
-      },
-      {
-        "time": "08:30 AM",
-        "activity": "Organic Farm-to-Table Breakfast"
-      },
-      {
-        "time": "10:00 AM",
-        "activity": "Medical Physician Consultation & Body Composition Analysis"
-      },
-      {
-        "time": "11:00 AM",
-        "activity": "Private Equine Therapy Connection Session"
-      },
-      {
-        "time": "01:00 PM",
-        "activity": "Therapeutic Organic Lunch at The Hive"
-      },
-      {
-        "time": "03:30 PM",
-        "activity": "Naturopathic Hydrotherapy or Abhyanga Massage"
-      },
-      {
-        "time": "05:30 PM",
-        "activity": "Sunset Sound Healing Meditation Over Lake Andra"
-      },
-      {
-        "time": "07:30 PM",
-        "activity": "Organic Clean Cuisine Dinner & Evening Herbal Tea"
-      }
-    ],
-    "expertTeam": [
-      {
-        "name": "Dr. K. S. Patel",
-        "role": "Medical Director",
-        "credentials": "MD, Integrative Medicine Specialist with 20+ Yrs Experience",
-        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80"
-      },
-      {
-        "name": "Sarah Al-Rashid",
-        "role": "Senior Equine Therapist",
-        "credentials": "Certified EAGALA Practitioner in Equine-Assisted Psychotherapy",
-        "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=300&q=80"
-      }
-    ],
-    "reviews": [
-      {
-        "id": "g-rev-fazlani-1",
-        "author": "Rohan Varma",
-        "date": "3 weeks ago",
-        "rating": 5,
-        "title": "The Equine therapy was a life-changing breakthrough",
-        "comment": "Working with the horses helped me process emotional grief that years of talk therapy couldn't unlock. The lake views, luxury suites, and organic food are world class.",
-        "verifiedStay": true,
-        "source": "google"
-      },
-      {
-        "id": "fazlani-natures-nest-lonavala-g-rev-2",
-        "author": "Karan Singhania",
-        "date": "July 2025",
-        "rating": 5,
-        "title": "Pure mineral restoration and serene stillness",
-        "comment": "The natural thermal onsen waters combined with the intuitive touch of the therapists worked miracles on my muscle fatigue. Practicing mindful contemplation in Lonavala restored a sense of deep peace I hadn't felt in years.",
-        "verifiedStay": true,
-        "source": "google"
-      },
-      {
-        "id": "fazlani-natures-nest-lonavala-g-rev-3",
-        "author": "Nandini Dasgupta",
-        "date": "June 2025",
-        "rating": 5,
-        "title": "Incredible organic gastronomy and peaceful sanctuary",
-        "comment": "The tranquil setting in Lonavala makes it impossible not to slow down and breathe. The farm-to-table cuisine was tailor-made for my program and was both deeply cleansing and delicious. The daily Clinical Naturopathy sessions were a revelation.",
-        "verifiedStay": true,
-        "source": "google"
-      },
-      {
-        "id": "fazlani-natures-nest-lonavala-g-rev-4",
-        "author": "Manish Aggarwal",
-        "date": "May 2025",
-        "rating": 5,
-        "title": "A life-altering retreat that continues to bear fruit",
-        "comment": "This is far more than a luxury getaway—it is an investment in long-term longevity and peace of mind. The practices and nutritional habits I learned here have permanently improved my daily life. I have already booked my return visit for next year.",
-        "verifiedStay": true,
-        "source": "google"
-      }
-    ],
-    "contact": {
-      "phone": "+91 2114 661 200",
-      "email": "reservations@fazlaninaturesnest.com",
-      "website": "https://www.fazlaninaturesnest.com",
-      "googleReviewsUrl": "https://www.google.com/maps/search/?api=1&query=Fazlani%20Natures%20Nest%20Lonavala%20India"
-    }
-  },
-  {
-    "id": "viveda-wellness-village-maharashtra",
-    "slug": "viveda-wellness-village-nashik",
-    "name": "Viveda Wellness Village",
-    "tagline": "Integrated Naturopathy & Ayurvedic Sanctuary Surrounded by the Sahyadri Mountains in Nashik",
-    "description": "Nestled in the sacred foothills of Trimbakeshwar in Nashik, Maharashtra, Viveda Wellness Village is an integrated sanctuary spread across acres of stone courtyards and native flora. Designed using local basalt stone and terracotta tiles, the architecture reflects traditional Indian village simplicity infused with contemporary luxury.\n\nViveda offers scientifically formulated wellness retreats combining Naturopathy, Ayurveda, Yoga, and Panchakarma. Programs address chronic lifestyle diseases, digital burnout, and metabolic stagnation through daily herbal hydrotherapies, acupuncture, yogic cleansing (Shatkriyas), and organic farm-fresh nutrition.",
-    "location": {
-      "city": "Nashik",
-      "region": "Maharashtra",
-      "country": "India",
-      "continent": "Asia-Pacific",
-      "lat": 19.9333,
-      "lng": 73.5333
-    },
-    "heroImage": "https://vivedawellness.com/wp-content/uploads/2026/05/vievda_wellness_resort_aerial_view.jpg",
-    "gallery": [
-      "https://vivedawellness.com/wp-content/uploads/2026/05/vievda_wellness_resort_aerial_view.jpg",
-      "https://vivedawellness.com/wp-content/uploads/2020/05/stay-01.jpg",
-      "https://vivedawellness.com/wp-content/uploads/2020/05/stay-02.jpg",
-      "https://vivedawellness.com/wp-content/uploads/2026/05/Viveda-Wellness-Resort-meditation-in-dome.jpg",
-      "https://vivedawellness.com/wp-content/uploads/2023/03/1600x797-scaled.jpg"
-    ],
-    "badgeTier": "verified",
-    "rating": 4.88,
-    "reviewCount": 168,
-    "pricing": {
-      "minPricePerNight": 210,
-      "currency": "USD",
-      "pricingTier": "moderate",
-      "packageOptions": [
-        {
-          "name": "Naturopathy Detox & Lifestyle Reset (7 Nights)",
-          "days": 7,
-          "price": 1470,
-          "description": "Full Naturopathic diagnostics, hydrotherapy, mud packs, Shatkriyas, and organic living meals."
-        },
-        {
-          "name": "Ayurvedic Rejuvenation & De-Stress (5 Nights)",
-          "days": 5,
-          "price": 1050,
-          "description": "Abhyanga, Shirodhara, Sahyadri mountain yoga, stone cottage stay, and Sattvic dining."
-        }
-      ]
-    },
-    "primaryGoals": [
-      "Detox & Weight Loss",
-      "Burnout & Stress",
-      "Chronic Illness & Pain"
-    ],
-    "modalities": [
-      "Clinical Naturopathy",
-      "Ayurvedic Panchakarma",
-      "Shatkriyas",
-      "Hydrotherapy",
-      "Yoga Therapy"
-    ],
-    "dietary": [
-      "Organic Farm-to-Table",
-      "Sattvic Vegetarian",
-      "Low Sodium / Low Sugar",
-      "Gluten-Free"
-    ],
-    "setting": "Mountain Foothill Village",
-    "supervision": "Resident Naturopathic Doctors (BNYS) & Ayurvedic Physicians",
-    "amenities": [
-      "Naturopathy Centre",
-      "Basalt Stone Yoga Hall",
-      "Hydrotherapy Pools",
-      "Organic Herb Farm",
-      "Reflexology Track"
-    ],
-    "dailySchedule": [
-      {
-        "time": "06:30 AM",
-        "activity": "Mountain Sunrise Shatkriyas & Hatha Yoga"
-      },
-      {
-        "time": "08:00 AM",
-        "activity": "Fresh Cold-Pressed Herbal Juice & Light Breakfast"
-      },
-      {
-        "time": "09:30 AM",
-        "activity": "Naturopathic Doctor Examination"
-      },
-      {
-        "time": "10:30 AM",
-        "activity": "Hydrotherapy Spray or Mud Pack Therapy"
-      },
-      {
-        "time": "01:00 PM",
-        "activity": "Nutrient-Dense Organic Vegetarian Lunch at Naivedya"
-      },
-      {
-        "time": "03:30 PM",
-        "activity": "Ayurvedic Abhyanga or Acupressure Treatment"
-      },
-      {
-        "time": "05:30 PM",
-        "activity": "Sunset Trataka (Candle Gazing) Meditation"
-      },
-      {
-        "time": "07:30 PM",
-        "activity": "Light Sattvic Dinner & Medicated Warm Decoction"
-      }
-    ],
-    "expertTeam": [
-      {
-        "name": "Dr. Amol Patil",
-        "role": "Chief Naturopath",
-        "credentials": "BNYS, 14+ Yrs in Clinical Naturopathy & Lifestyle Modification",
-        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80"
-      }
-    ],
-    "reviews": [
-      {
-        "id": "g-rev-viveda-1",
-        "author": "Meera Kulkarni",
-        "date": "2 months ago",
-        "rating": 5,
-        "title": "Peaceful stone architecture and fantastic naturopathy",
-        "comment": "The mountain setting near Trimbakeshwar is so calming. The Shatkriyas and hydrotherapy cleared my sinuses and digestive sluggishness completely.",
-        "verifiedStay": true,
-        "source": "google"
-      },
-      {
-        "id": "viveda-wellness-village-nashik-g-rev-2",
-        "author": "Divya Balakrishnan",
-        "date": "February 2026",
-        "rating": 5,
-        "title": "Profound healing under Dr. Amol Patil",
-        "comment": "The consultation with Dr. Amol Patil was extraordinarily precise. The tailored Panchakarma protocol, daily herbal decoctions, and soothing Abhyanga treatments completely cured my chronic digestive issues and joint inflammation.",
-        "verifiedStay": true,
-        "source": "google"
-      },
-      {
-        "id": "viveda-wellness-village-nashik-g-rev-3",
-        "author": "Harish Chandra",
-        "date": "January 2026",
-        "rating": 5,
-        "title": "Incredible organic gastronomy and peaceful sanctuary",
-        "comment": "The tranquil setting in Nashik makes it impossible not to slow down and breathe. The farm-to-table cuisine was tailor-made for my program and was both deeply cleansing and delicious. The daily Ayurvedic Panchakarma sessions were a revelation.",
-        "verifiedStay": true,
-        "source": "google"
-      },
-      {
-        "id": "viveda-wellness-village-nashik-g-rev-4",
-        "author": "Preeti Nambiar",
-        "date": "December 2025",
-        "rating": 5,
-        "title": "A life-altering retreat that continues to bear fruit",
-        "comment": "This is far more than a luxury getaway—it is an investment in long-term longevity and peace of mind. The practices and nutritional habits I learned here have permanently improved my daily life. I have already booked my return visit for next year.",
-        "verifiedStay": true,
-        "source": "google"
-      }
-    ],
-    "contact": {
-      "phone": "+91 253 664 4555",
-      "email": "reservations@vivedawellness.com",
-      "website": "https://www.vivedawellness.com",
-      "googleReviewsUrl": "https://www.google.com/maps/search/?api=1&query=Viveda%20Wellness%20Village%20Nashik%20India"
     }
   },
   {
